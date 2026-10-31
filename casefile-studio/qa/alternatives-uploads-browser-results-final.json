@@ -1,0 +1,24 @@
+{
+  "version": "0.3.4",
+  "project_id": "e9577d8da0194dd1",
+  "title": "Alternatives + upload feedback \u2014 SYNTHETIC DEMO",
+  "checks": [
+    "Size/count limits are visible beside narration, music and source upload controls",
+    "Real throttled XHR upload reports an intermediate byte-based percentage and transferred sizes, not a timer",
+    "100% transfer is followed by a distinct processing state; completion waits for server metadata processing",
+    "A missing S03 main automatically resolves to guide-permitted S01, with zero final sign-offs and no primary-file demand",
+    "Per-placement Automatic/Main/Alternative selector obeys the user and shows the alternative\u2019s own label",
+    "Review checkboxes have plain-language purposes and explicitly state that they are not required for inspection",
+    "Client rejects an oversized selection before sending any upload request, with a clear size-limit error",
+    "Client rejects a 31-file batch before upload; limits are per file and per batch, not hidden",
+    "Inspection timeline displays the permitted replacement with its own label, not a gap or the missing source\u2019s event label",
+    "Mobile: upload/help/choice layout has no horizontal overflow and backup remains reachable"
+  ],
+  "count": 10,
+  "browser_errors": [],
+  "intermediate_actual_upload_percent": 2,
+  "source_downloads": 0,
+  "paid_provider_calls": 0,
+  "actual_user_guide": "Latest 44-placement guide not yet supplied; exact two missing sources are not claimed resolved.",
+  "temporary_fixture": true
+}

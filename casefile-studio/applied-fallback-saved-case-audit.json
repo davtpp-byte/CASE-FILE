@@ -1,0 +1,28 @@
+{
+  "app_version": "0.4.1",
+  "existing_project_files_unchanged": true,
+  "audit": [
+    {
+      "project_id": "cb6bdd6c3ff5465f",
+      "title": "The Last Timeline \u2014 updated 44-placement guide",
+      "possible_corrections_in_saved_copy": []
+    },
+    {
+      "project_id": "7fa005880e97474f",
+      "title": "The Last Timeline",
+      "possible_corrections_in_saved_copy": []
+    },
+    {
+      "project_id": "64b1908800c744e1",
+      "title": "Alternatives + upload feedback \u2014 SYNTHETIC DEMO",
+      "possible_corrections_in_saved_copy": []
+    },
+    {
+      "project_id": "4e3f6d4bcdad4f69",
+      "title": "Inspection workflow demo \u2014 SYNTHETIC MEDIA",
+      "possible_corrections_in_saved_copy": []
+    }
+  ],
+  "latest_user_uploaded_media_session_available": false,
+  "note": "No latest 19-file session or current rendered output exists in this filesystem copy; do not claim it was remapped or recovered."
+}

@@ -1,0 +1,15 @@
+{
+  "version": "0.4.1",
+  "checks": [
+    "A manually assigned replacement is automatically reclassified through the API using this future guide, without user remapping",
+    "One preview action displays the permitted alternate with its own label while all approval flags remain false",
+    "An actual synthetic inspection MP4 renders and plays inline with the resolved source",
+    "Header Download MP4 saves the existing attachment with matching bytes and never queues another render",
+    "A direct outside-frame download URL is exposed and supports byte ranges for browser fallback",
+    "Mobile keeps the completed-file download visible without horizontal overflow"
+  ],
+  "count": 6,
+  "browser_errors": [],
+  "actual_user_project_modified": false,
+  "fixtures": "Separate future-guide synthetic photo and continuous tone; no actual case narration/footage."
+}

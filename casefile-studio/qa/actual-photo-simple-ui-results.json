@@ -1,0 +1,13 @@
+{
+  "version": "0.4.0",
+  "checks": [
+    "Prepared real-guide case opens in the simplified screen; modes and final-review checkboxes are hidden by default",
+    "One click rebuilds/reuses the inspection plan and displays the actual guide-linked S01 photograph in Edit, not a placeholder",
+    "Project setup autosaves to browser IndexedDB without media bytes or provider credentials"
+  ],
+  "browser_errors": [],
+  "actual_image_displayed": true,
+  "actual_narration_received": false,
+  "actual_case_movie_rendered": false,
+  "publication_approved": false
+}
