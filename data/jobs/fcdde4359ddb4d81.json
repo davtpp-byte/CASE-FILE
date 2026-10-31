@@ -1,0 +1,24 @@
+{
+  "id": "fcdde4359ddb4d81",
+  "project_id": "b39f1061bd2440d8",
+  "kind": "render",
+  "status": "done",
+  "progress": 100,
+  "message": "Complete",
+  "cancel_requested": false,
+  "created_at": "2026-10-23T01:34:04.412271+00:00",
+  "updated_at": "2026-10-23T01:34:25.693917+00:00",
+  "result": {
+    "id": "4eb1d12945fc4ae2",
+    "title": "The Blackwater tapes",
+    "created_at": "2026-10-23T01:34:25.693497+00:00",
+    "draft": true,
+    "url": "/exports/4eb1d12945fc4ae2/documentary.mp4",
+    "captions_url": "/exports/4eb1d12945fc4ae2/captions.srt",
+    "sources_url": "/exports/4eb1d12945fc4ae2/sources.md",
+    "duration": 88.58333333333333,
+    "resolution": "720p",
+    "audio": false,
+    "size": 6118490
+  }
+}

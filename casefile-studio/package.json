@@ -1,0 +1,19 @@
+{
+  "name": "casefile-studio",
+  "version": "0.4.2",
+  "private": true,
+  "description": "A source-led documentary editing workspace with a real FFmpeg renderer",
+  "scripts": {
+    "build": "esbuild web/src/main.jsx --bundle --minify --sourcemap --outfile=web/assets/app.js --loader:.woff2=file --asset-names=[name] --external:/assets/*",
+    "start": "python -m uvicorn app:app --host 0.0.0.0 --port 8000"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "prettier": "^3.9.10"
+  }
+}
