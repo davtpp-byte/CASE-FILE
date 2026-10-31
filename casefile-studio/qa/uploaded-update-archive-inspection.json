@@ -1,0 +1,20 @@
+{
+  "uploaded_filename": "Casefile-Studio-v0.3.2-Update (1) copy.zip.md",
+  "bytes": 815089,
+  "sha256": "2a883bb8f02ac99eb93b743f6211892e6711cb2eba70a598adeb403c1a050502",
+  "valid_zip": true,
+  "executed": false,
+  "extracted": false,
+  "imported": false,
+  "manifest": {
+    "version": "0.3.2",
+    "type": "code-only",
+    "data_included": false,
+    "payload_file_count": 46
+  },
+  "entry_count": 49,
+  "data_entries": [],
+  "project_backup_candidates": [],
+  "media_entries": [],
+  "project_records": []
+}

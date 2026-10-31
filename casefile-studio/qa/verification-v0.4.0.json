@@ -1,0 +1,61 @@
+{
+  "version": "0.4.0",
+  "backend_tests": {
+    "passed": 215,
+    "new_first_draft_tests": 7,
+    "warnings": "One existing TestClient deprecation warning"
+  },
+  "browser_checks": {
+    "legacy": 29,
+    "actual_timing_exports": 8,
+    "simplified_workflow": 8,
+    "real_public_photo_preview": 3,
+    "total_passed": 48,
+    "uncaught_errors": []
+  },
+  "runtime": {
+    "process_id": "casefile-studio-e175f330",
+    "pid": 7558,
+    "port": 8000
+  },
+  "actual_photo": {
+    "project_id": "cb6bdd6c3ff5465f",
+    "title": "The Last Timeline \u2014 updated 44-placement guide",
+    "actual_reference_image_source": "https://www.tampa.gov/sites/default/files/news-article/attachments/2024/jevario_buie.jpg",
+    "purpose": "Internal visual source preview only; not cleared for documentary reuse",
+    "original_jpeg_preserved": true,
+    "privacy_crop": "Background child excluded; pillarboxed real photo, no generated imagery",
+    "asset_id": "7cb285e050074a7b",
+    "assets_in_prepared_case": 1,
+    "first_real_visual_time": 15.249999999999998,
+    "visual_seconds": 67.08333333333333,
+    "narration_audio_received": false,
+    "actual_case_video_rendered": false,
+    "rights_approvals_inferred": false,
+    "documents_and_timing_hashes_unchanged": true
+  },
+  "browser_user_journey": {
+    "version": "0.4.0",
+    "checks": [
+      "First screen has one clear preview action and quick file inputs, not 44 approval controls or a mode maze",
+      "Script, guide and paired timing exports import through the simple controls; no source means no empty successful preview",
+      "Selecting one matched photo automatically links, rebuilds and opens its real image in Edit without a separate Build click",
+      "Adding recording and video auto-refreshes the visual preview, keeps source sound muted and leaves every sign-off false",
+      "One Make-video action rebuilds if needed, renders, plays inline and downloads a real MP4 without publication checkboxes or a render-options detour",
+      "With every API unavailable after reload, the automatically cached browser setup can still be downloaded; it never pretends to include media bytes",
+      "Mobile exposes the same simple action with no horizontal overflow",
+      "Finish-session cleanup is simple but still requires saved-download confirmation; only the QA session is cleared"
+    ],
+    "count": 8,
+    "browser_errors": [],
+    "qa_session_cleared": true,
+    "actual_case_rendered": false,
+    "media_sources": "Synthetic technical video/image/tone for this test; separate real-photo UI proof recorded separately."
+  },
+  "existing_four_other_project_files_byte_identical": true,
+  "prepared_case_change": "Added one actual public reference photo for internal inspection; original script/guide/timing hashes preserved; no narration or exports received/created. No source/factual approvals inferred.",
+  "prior_19_media_session": "Not available in saved workspace. Do not claim it was restored. User originals remain on Mac.",
+  "browser_backup_scope": "Automatic per-browser/site project setup only, not media bytes or a guarantee that the Arena preview server never stops.",
+  "no_hosting_migration": true,
+  "next_user_action": "Open new Casefile Studio preview, choose The Last Timeline \u2014 updated 44-placement guide, click Preview my draft. Actual S01 photo is already present. Add only the matching narration MP3 next; no repeat 19-file upload requested."
+}

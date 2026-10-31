@@ -1,0 +1,12 @@
+{
+  "source_of_actual_state": "Seven user screenshots; 44 cues, 18 used sources, 16 linked files, 21 media items, 0 reviewed placements and all-gap timeline.",
+  "workspace_state_mismatch": "Only older 43-cue project with zero media available here. Do not restart, reseed or overwrite the actual working project.",
+  "confirmed_planner_behavior": "source_ready requires recorded/reconfirmed reuse basis and reviewed per-cue ranges/Care; linked-but-unreviewed sources remain gaps.",
+  "source_preview_already_supported": "Expand a linked source row in Episode setup; original file player/image is displayed before rights controls.",
+  "confirmed_caption_preflight_bug": "Generic preflight counted imported-caption scenes as estimated based solely on timing != transcribed.",
+  "prepared_fix": "editorial.py now mirrors renderer caption fallback behavior; seven standalone unittest regressions pass. NOT deployed to the user working runtime.",
+  "data_mutations": false,
+  "server_restarted": false,
+  "rights_or_source_approvals_changed": false,
+  "next_needed": "Working app Review & export > Project .json; upload casefile-project.json for exact diagnosis. Preserve current page/source originals. No need to re-upload all media for initial metadata diagnosis."
+}

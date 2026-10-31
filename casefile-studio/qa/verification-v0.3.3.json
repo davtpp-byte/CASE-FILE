@@ -1,0 +1,64 @@
+{
+  "version": "0.3.3",
+  "backend_tests": {
+    "passed": 155,
+    "legacy_and_native": 127,
+    "caption_warning_regressions": 7,
+    "inspection_cleanup_render_regressions": 21,
+    "warnings": "One existing TestClient deprecation warning"
+  },
+  "browser_checks": {
+    "legacy": 29,
+    "actual_capcut_file_imports": 8,
+    "inspection_workflow": 10,
+    "total_passed": 47,
+    "errors": []
+  },
+  "runtime": {
+    "process_id": "casefile-studio-e6b0985c",
+    "port": 8000,
+    "version": "0.3.3"
+  },
+  "proof": {
+    "project_id": "4e3f6d4bcdad4f69",
+    "title": "Inspection workflow demo \u2014 SYNTHETIC MEDIA",
+    "version": "0.3.3",
+    "checks": [
+      "Synthetic timing files, duration-matched technical audio and two source files import through browser; unique source IDs auto-link without approving anything",
+      "A real uploaded video plays in source inspection with zero rights/placement sign-offs",
+      "Inspection build places actual linked media on the narration clock, preserves short-window gaps and keeps every approval false",
+      "View timeline seeks to the first real visual, not the initial gap; playback, source label and unreviewed disclosure are visible",
+      "Save backup downloads the live browser project even with every API request blocked; no video render is needed",
+      "The browser starts a real inspection render; the encoded MP4 plays and pauses inline before download despite final-only blockers",
+      "Downloaded MP4 matches server bytes; range playback, frozen exact SRT and inspection-only export metadata pass",
+      "Final export is rejected and no factual, rights, picture, cue or transcript approval was fabricated",
+      "Temporary-session deletion remains disabled until the user explicitly confirms their downloads are saved",
+      "390 px mobile: backup remains reachable and setup/timeline have no horizontal overflow"
+    ],
+    "count": 10,
+    "browser_errors": [],
+    "proof_video": "/home/user/Casefile-Studio-Inspection-Proof.mp4",
+    "source_downloads": 0,
+    "paid_provider_calls": 0,
+    "actual_case_media": "None; generated technical tone, moving test pattern and labeled color image only."
+  },
+  "audio_test": {
+    "proof_sha256": "170ab15857a73a6a2e96a841918373a0d213fa9190cc20f2b313e9b9d889672f",
+    "bytes": 683228,
+    "narration_310hz_peak": 303.0587463378906,
+    "source_990hz_peak": 0.14734399318695068,
+    "source_over_narration_peak": 0.00048618954234923084,
+    "source_audio_muted_verified": true,
+    "original_project_hashes_unchanged": true
+  },
+  "original_project_files_byte_identical": true,
+  "actual_case_status": "Older saved case remains untouched: 43 cues, 390 captions, 2353 timed units, no source/audio media. Screenshot 44-cue/21-media state was not recovered. User has original files on Mac and wants online, free-target, temporary-session workflow. Await latest 44-placement guide.",
+  "session_cleanup": "Implemented, saved-output confirmation required; no database or hosting deployment performed.",
+  "hosting_scope": "Deferred at user request; do not push Mac-local setup. No paid provider calls or source downloads.",
+  "connectors_checked": {
+    "github": "unsupported",
+    "netlify": "unsupported",
+    "supabase": "disconnected"
+  },
+  "next_real_acceptance_test": "Latest 44-placement guide, existing script/timing exports, then actual master narration plus one video and one photo; do not ask for all 21 media yet."
+}

@@ -1,0 +1,100 @@
+{
+  "version": "0.3.5",
+  "backend_tests": {
+    "passed": 194,
+    "new_updated_guide_regressions": 10,
+    "warning": "One existing TestClient deprecation warning"
+  },
+  "browser_checks_current_version": {
+    "legacy": 29,
+    "actual_timing_exports": 8,
+    "actual_updated_guide_ui": 7,
+    "passed": 44,
+    "errors": []
+  },
+  "original_four_project_files_byte_unchanged": true,
+  "source_guide_sha256": "28d5e71e641d619f77a4dd5d8a442f63889fae75eea99228f11dbaa0809e72de",
+  "prepared_case": {
+    "project_id": "cb6bdd6c3ff5465f",
+    "title": "The Last Timeline \u2014 updated 44-placement guide",
+    "guide_filename": "The_Last_Timeline_Real_Footage_Guide (1).md",
+    "guide_sha256": "28d5e71e641d619f77a4dd5d8a442f63889fae75eea99228f11dbaa0809e72de",
+    "script_unchanged_from_saved_case": true,
+    "captions_unchanged_from_saved_case": true,
+    "cues": 44,
+    "references": 26,
+    "timing_units": 2353,
+    "caption_blocks": 390,
+    "scenes": 57,
+    "narration_clock": 903.533333,
+    "plan_clock": 903.5416666666666,
+    "assets_received": 0,
+    "exports": 0,
+    "actual_recording_received": false
+  },
+  "verified_rules": {
+    "C17": "S10 to S01 portrait, not funeral footage",
+    "C36": "S18 to S17, 5\u20139 seconds, neutral September 2026 courtroom label",
+    "C37": "S18 to S17, 20\u201324 seconds, no false Sinardi identification",
+    "C34": "S16 only; no 2026 substitution for 2024 hearing",
+    "C16": "S26 follow-up is separate from S25 windows; recorded but not automatically spliced",
+    "C40": "S20 optional manual choice; not required or automatic"
+  },
+  "availability_simulation": {
+    "metadata_only": true,
+    "real_files_received": 0,
+    "assumed_missing": [
+      "S10",
+      "S18"
+    ],
+    "remaining_primary_records": 16,
+    "placements_with_file_choices": 44,
+    "inspection_eligible": 42,
+    "final_approved": 0,
+    "human_stop_times_still_required": [
+      "C03",
+      "C21"
+    ],
+    "alternatives": {
+      "C17": {
+        "source": "S01",
+        "instead_of": "S10",
+        "label": "Portrait \u2014 not funeral footage",
+        "source_window": null,
+        "narration_start": 282.346666
+      },
+      "C36": {
+        "source": "S17",
+        "instead_of": "S18",
+        "label": "Courtroom coverage | September 2026.",
+        "source_window": {
+          "in": 5.0,
+          "out": 9.0
+        },
+        "narration_start": 685.766666
+      },
+      "C37": {
+        "source": "S17",
+        "instead_of": "S18",
+        "label": "Courtroom coverage | September 2026.",
+        "source_window": {
+          "in": 20.0,
+          "out": 24.0
+        },
+        "narration_start": 696.166666
+      }
+    },
+    "s16_no_2026_substitution_guard": true
+  },
+  "runtime": {
+    "process_id": "casefile-studio-92def199",
+    "pid": 24920,
+    "port": 8000
+  },
+  "actual_case_video_rendered": false,
+  "actual_original_audio_or_media_received": false,
+  "rights_or_factual_approvals_inferred": false,
+  "source_downloads": 0,
+  "paid_provider_calls": 0,
+  "next_step": "Select prepared 44-placement case. Add exact original narration plus S01 portrait and full S17 source report for a small real-file inspection; no need to re-download S10/S18 for these alternatives. Confirm missing source IDs if different. Do not claim all 16 actual source files are present."
+}

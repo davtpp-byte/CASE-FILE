@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "verified_at": "2026-10-23T03:09:18.639065+00:00",
+  "automated_tests": {
+    "passed": 45,
+    "warnings": 1,
+    "note": "Starlette/httpx TestClient deprecation warning; no paid requests."
+  },
+  "browser_checks": {
+    "passed": 18,
+    "runtime_errors": 0,
+    "desktop_and_mobile": true
+  },
+  "long_form_technical_render": {
+    "passed": true,
+    "test": "Synthetic long-form media pipeline",
+    "video_seconds": 1200.0,
+    "scene_count": 60,
+    "video_frames": 28800,
+    "frame_rate": "24/1",
+    "resolution": "854x480",
+    "has_audio": true,
+    "output_bytes": 74011075,
+    "elapsed_seconds": 207.94,
+    "scenes_with_video": 12,
+    "scenes_with_zoom": 8,
+    "audio_tail_verified": true,
+    "caption_end_verified": true,
+    "scope": "Synthetic 20-minute technical render, not paid-provider validation, production load testing, or a professionally edited case documentary. Performance depends on media complexity and hardware."
+  },
+  "sample_export": {
+    "id": "7b3bc362bb194c1e",
+    "duration_seconds": 88.58333333333333,
+    "resolution": "720p",
+    "audio": false,
+    "bytes": 6118490,
+    "new_companion_files": [
+      "preflight.md",
+      "preflight.json",
+      "chapters.txt",
+      "publication-notes.md"
+    ],
+    "byte_range_streaming": true
+  },
+  "not_validated": [
+    "Live paid AI provider behavior, pricing, and account/model access",
+    "An actual 20\u201340 minute case documentary and its factual/creative/audio quality",
+    "Production security, private evidence storage, multi-user isolation, and load guarantees"
+  ],
+  "preflight_scope": "Structural checks and recorded producer attestations; not independent fact checking or rights/legal clearance."
+}

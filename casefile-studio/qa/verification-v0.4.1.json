@@ -1,0 +1,63 @@
+{
+  "version": "0.4.1",
+  "applied_to_shared_app": true,
+  "runtime": {
+    "process_id": "casefile-studio-60e34582",
+    "pid": 6794,
+    "port": 8000
+  },
+  "backend_tests": {
+    "passed": 231,
+    "warnings": "One existing TestClient deprecation warning"
+  },
+  "browser_tests": {
+    "legacy": 29,
+    "actual_capcut_imports": 8,
+    "shared_alternative_and_completed_download": 6,
+    "total_passed": 43,
+    "errors": []
+  },
+  "future_project_guarantees_tested": [
+    "Different guide/source IDs S12, not just S01/S17",
+    "Different video alternative source range 4\u20135 seconds, not this case ranges",
+    "Automatic correction after manual primary-dropdown assignment",
+    "Automatic named alternative link during inspection build",
+    "Narration anchor preservation and invalidation of source-specific review",
+    "Completed MP4 attachment download does not start rendering or delete the file",
+    "Download ownership/path guards and byte ranges"
+  ],
+  "existing_five_project_files_byte_identical": true,
+  "saved_copy_audit": {
+    "app_version": "0.4.1",
+    "existing_project_files_unchanged": true,
+    "audit": [
+      {
+        "project_id": "cb6bdd6c3ff5465f",
+        "title": "The Last Timeline \u2014 updated 44-placement guide",
+        "possible_corrections_in_saved_copy": []
+      },
+      {
+        "project_id": "7fa005880e97474f",
+        "title": "The Last Timeline",
+        "possible_corrections_in_saved_copy": []
+      },
+      {
+        "project_id": "64b1908800c744e1",
+        "title": "Alternatives + upload feedback \u2014 SYNTHETIC DEMO",
+        "possible_corrections_in_saved_copy": []
+      },
+      {
+        "project_id": "4e3f6d4bcdad4f69",
+        "title": "Inspection workflow demo \u2014 SYNTHETIC MEDIA",
+        "possible_corrections_in_saved_copy": []
+      }
+    ],
+    "latest_user_uploaded_media_session_available": false,
+    "note": "No latest 19-file session or current rendered output exists in this filesystem copy; do not claim it was remapped or recovered."
+  },
+  "scope_limits": "Named/uniquely applicable permitted alternatives and explicit source ranges. No arbitrary source rotation, licensing inference or precise spatial crop claim for vague prose. No claim that the latest 19-media live project or its rendered file was restored.",
+  "source_downloads_this_turn": 0,
+  "paid_provider_calls": 0,
+  "deployment_accounts_or_hosting_changed": false,
+  "next_use": "Open updated Casefile Studio preview. Preview my draft applies the shared resolver; Make video renders; Download MP4 saves an existing completed export."
+}

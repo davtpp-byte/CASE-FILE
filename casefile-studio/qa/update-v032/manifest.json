@@ -1,0 +1,191 @@
+{
+  "version": "0.3.2",
+  "type": "code-only",
+  "data_included": false,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "7989e83624a231805b37a811205fd8e305f66fbcc714cf6e749a8dc8485a0820"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3a80e5f353679bbf9ba0465a4ceea355e6e798e3d8f58757a3e824f96269e2b1"
+    },
+    {
+      "path": "CAPCUT-TIMING.md",
+      "sha256": "78b4b12253d1841d9bdf5aed686f8473636b2207d77d707b43168d1fa954c0a2"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "aee55726f76b021d67b95929c1fee2c1911c01986fda6428ebfa406710e654c5"
+    },
+    {
+      "path": "EPISODE-WORKFLOW.md",
+      "sha256": "79c19aaf64f59cb3ef47ed992eb4225683341f643894f932e935f0e9e31e202d"
+    },
+    {
+      "path": "README.md",
+      "sha256": "c331378d19069d7c4ae4f4bc9944cfef18726910c5642a995c978d776602194e"
+    },
+    {
+      "path": "TIMESTAMP-INPUTS.md",
+      "sha256": "1c27433af99738a59040cc181888e51660342e8021d40ce0da4d6ded7741dd95"
+    },
+    {
+      "path": "ai.py",
+      "sha256": "7f3d034b6fbb96446a616f773782fdb801e25847412b15cba0004abf4038fb8a"
+    },
+    {
+      "path": "app.py",
+      "sha256": "9e9b95b41ca53d29faa9d8a2690f38eae35c6d4c2ae14fca5f12a39fcc9508f1"
+    },
+    {
+      "path": "editorial.py",
+      "sha256": "c1a37ac2efc548438ea3b295a022e06016a1059a1cef24ca27d303a6c9bfd412"
+    },
+    {
+      "path": "episode.py",
+      "sha256": "53d2deff49144435814fdb46f357aa2799503d7a1331bdd75c364d44f28deddb"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b443abb02763a66c8e630d301d80a1ecb2ed380f71af85c3802fcb926c75f3ee"
+    },
+    {
+      "path": "package.json",
+      "sha256": "edd15e2ea386bee8351a222d29d8bad116c8ea9c1b43a3d83cdf6c2f449efa1d"
+    },
+    {
+      "path": "production.py",
+      "sha256": "4ec145cee108aed312ad0821abcfcf9f299ee5582987da1a449f645193b1917c"
+    },
+    {
+      "path": "renderer.py",
+      "sha256": "2043718f1422e2b20a2f82db61857ccc3fa2e33a689d3af80cd99a3b5757a5cb"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "e8eeffa366c3c8dc26275993eaff2368f92fe0880767869db9194eaad3dfe401"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "5e5e5cc40bd01216f287caf88d7301cbc03848ac660a48ed47da473aa5574f5b"
+    },
+    {
+      "path": "run.sh",
+      "sha256": "f79d4c7d5bc5630e7f06e8a099a2d4f69537f7638760417c88674f8d9a87891a"
+    },
+    {
+      "path": "storage.py",
+      "sha256": "7e452f2e176a328b63c0c958e51b8759e815ff693f3de35fcebee4946cae12e0"
+    },
+    {
+      "path": "tests/browser_episode.py",
+      "sha256": "e4ece307630098ed965209e7369303584d94d0da56dbcc6135f83626d9567e59"
+    },
+    {
+      "path": "tests/browser_production.py",
+      "sha256": "0e0d2ba4f3438cd55295c99092c73615719341c2af5f7db021d0e9586c99de42"
+    },
+    {
+      "path": "tests/browser_smoke.py",
+      "sha256": "be4eec3ca70d9d2ee3ec82060391f79c4b321741588f26082e292abef9f6c1b3"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "9cf40b8f4ae760cf05d686bc2bbbeac504997227e485f9d6ea9892b980545c97"
+    },
+    {
+      "path": "tests/fixtures/synthetic-guide.md",
+      "sha256": "b1d74088afe3f5dadf9b230256e577e3449d25390a738e42113aed8e3f916b9b"
+    },
+    {
+      "path": "tests/fixtures/synthetic-script.md",
+      "sha256": "a7c99d4a9ddb662aa11d58af4b84ee7d5c03de8fd5dd124349b8178befa5c661"
+    },
+    {
+      "path": "tests/long_render_check.py",
+      "sha256": "e987c299675fdadd790e6ba5528b77c62a6d508070fdcf7c5eeeefe1526412b5"
+    },
+    {
+      "path": "tests/test_capcut.py",
+      "sha256": "19d25bd780b8b6867e9dccd7c9c7da79adcaa6dfa168270d3f189a132ce797a3"
+    },
+    {
+      "path": "tests/test_episode.py",
+      "sha256": "3c57d38452b452f81bb46922e327367a0307223a6a9295ab1c5ba7f142130a9d"
+    },
+    {
+      "path": "tests/test_production.py",
+      "sha256": "bbf720580de1ecb5d6e594aadc7bc956c262993f309da5cd361d9b163915f939"
+    },
+    {
+      "path": "tests/test_recordings.py",
+      "sha256": "5da9e1e02b74855fa123617748e95278b22afc8b7c8995cddb2b7c4f00a86248"
+    },
+    {
+      "path": "tests/test_studio.py",
+      "sha256": "6bf19a869152fede794c797af161475d419062229bdec8685431d0d6b5bc7f55"
+    },
+    {
+      "path": "timing_io.py",
+      "sha256": "c632b8bf352aa45ab1c50df182939e205cdfc4d0c530f87f5208d9504a65a496"
+    },
+    {
+      "path": "web/assets/FONT-LICENSE.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "web/assets/app.css",
+      "sha256": "0a089439926402726a237d94e30f466043fc5437c72b84601b4011c3d36acb21"
+    },
+    {
+      "path": "web/assets/app.css.map",
+      "sha256": "8712358cba7d13b52a0f20397408425a684a5dfa7f8ce4a52852f1b45f72741d"
+    },
+    {
+      "path": "web/assets/app.js",
+      "sha256": "a82229557b53ce2a05dd02faa05c51310a38dbb68b189c880714742104e3b813"
+    },
+    {
+      "path": "web/assets/app.js.map",
+      "sha256": "129ada89e5881089647269892171c00638c32f7e9d42961b7d2645c2f5acbf1d"
+    },
+    {
+      "path": "web/assets/dm-sans.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "web/assets/favicon.svg",
+      "sha256": "f5d3645f02411e46a4d71264118b3ce37ee6ec9685d19e949b0914ca93982696"
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "0ed3575739f2047a37b8028b5d0cabb2a80a6c35f34ede030f3eec600816efb2"
+    },
+    {
+      "path": "web/src/EpisodeSetup.jsx",
+      "sha256": "47e08a00918078c1d38b44d7b99dbee3e61e901b99e8792c9777e985b7cda273"
+    },
+    {
+      "path": "web/src/ProductionTools.jsx",
+      "sha256": "0c21c469ebcdeb2db707e18c2e3f3b226e2db1d6acdfc5658a4bc9aef2010d59"
+    },
+    {
+      "path": "web/src/episode.css",
+      "sha256": "18b2cccf35277c5913e9a077aeb7163812fb25c0a66cb293786357cb47837827"
+    },
+    {
+      "path": "web/src/main.jsx",
+      "sha256": "101c3c97997b85b754f90aca35e32ff0938098571acfa8617b169b38a8dd2204"
+    },
+    {
+      "path": "web/src/production.css",
+      "sha256": "e2329cc811cbd06729026072e5b2e4be228f5a037774eaa2428d8a7dcd749356"
+    },
+    {
+      "path": "web/src/styles.css",
+      "sha256": "bc647c6e52bbef8effb23dccb669164e0e1fceaa6d138c54654a75665cc5cdc1"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.3.2",
+  "checks": [
+    "The current build is visibly labeled v0.3.2",
+    "A dedicated timestamp panel contains the clearly labeled file picker, not the narration card",
+    "The panel is directly after the four input cards and before the metrics shown in the user screenshot",
+    "The top SRT / JSON shortcut scrolls to the timestamp panel",
+    "Attached filenames and imported results stay visible per project",
+    "Source upload copy explicitly explains that links are not files and full originals are usable",
+    "The panel is usable at the narrow embedded-preview width from the screenshot",
+    "Mobile 390 px: the upload button remains visible and no horizontal overflow occurs"
+  ],
+  "count": 8,
+  "browser_errors": [],
+  "preview_host_accepted": true
+}

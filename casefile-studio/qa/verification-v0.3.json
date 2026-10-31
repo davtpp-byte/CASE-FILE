@@ -1,0 +1,91 @@
+{
+  "version": "0.3.0",
+  "verified_at": "2026-10-30T06:49:22.067605+00:00",
+  "automated_tests": {
+    "passed": 92,
+    "warnings": 1,
+    "note": "Starlette/httpx TestClient deprecation warning. No paid provider calls."
+  },
+  "browser_checks": {
+    "passed": 29,
+    "runtime_errors": 0,
+    "desktop_and_mobile": true,
+    "groups": [
+      {
+        "name": "Original editor",
+        "checks": 10
+      },
+      {
+        "name": "Legacy guided production",
+        "checks": 8
+      },
+      {
+        "name": "Episode Setup",
+        "checks": 11
+      }
+    ]
+  },
+  "supplied_case": {
+    "word_count": 2366,
+    "cue_count": 43,
+    "matched_cues": 43,
+    "source_count": 24,
+    "used_source_count": 15,
+    "duration": 979.0344827586207,
+    "has_voice": false,
+    "has_music": false,
+    "linked_source_count": 0,
+    "ready_cues": 0,
+    "errors": [],
+    "project_id": "7fa005880e97474f",
+    "title": "The Last Timeline",
+    "scene_count": 57,
+    "plan_current": true,
+    "note": "Script-only estimated plan. No narration, music, or actual source media supplied; no downloads or provider calls."
+  },
+  "guide_render_test": {
+    "fixture": "Separate synthetic technical episode; not the user case",
+    "video_seconds": 6.041666666666667,
+    "resolution": "854x480",
+    "has_audio": true,
+    "source_audio_muted": true,
+    "source_clips_looped": false,
+    "narration_tail_frequency_verified": true,
+    "music_mixed_in_browser_export": true,
+    "frozen_episode_plan": true,
+    "source_labels": true,
+    "full_master_audio": true
+  },
+  "historical_v0.2_long_form_technical_render": {
+    "passed": true,
+    "test": "Synthetic long-form media pipeline",
+    "video_seconds": 1200.0,
+    "scene_count": 60,
+    "video_frames": 28800,
+    "frame_rate": "24/1",
+    "resolution": "854x480",
+    "has_audio": true,
+    "output_bytes": 74011075,
+    "elapsed_seconds": 207.94,
+    "scenes_with_video": 12,
+    "scenes_with_zoom": 8,
+    "audio_tail_verified": true,
+    "caption_end_verified": true,
+    "scope": "Synthetic 20-minute technical render, not paid-provider validation, production load testing, or a professionally edited case documentary. Performance depends on media complexity and hardware."
+  },
+  "long_form_note": "The historical 20-minute benchmark was not rerun as a v0.3 guide-driven documentary. New v0.3 guide rendering was validated with short synthetic media; no actual case video was rendered.",
+  "unchanged_fictional_sample": {
+    "project_id": "b39f1061bd2440d8",
+    "data_byte_identical_to_v0.2": true,
+    "latest_export_id": "7b3bc362bb194c1e"
+  },
+  "provider_calls": 0,
+  "source_downloads": 0,
+  "not_validated": [
+    "An actual complete case documentary, its factual correctness, or perceptual/editorial/audio quality",
+    "Live paid AI provider behavior, account/model availability, and pricing",
+    "Semantic video identity/context, automatic privacy redaction, rights/legal clearance, or third-party acquisition",
+    "Production authentication/private evidence storage, multi-user isolation, and load guarantees"
+  ],
+  "preflight_scope": "Structural checks and recorded producer attestations, not independent factual verification or rights/legal clearance."
+}

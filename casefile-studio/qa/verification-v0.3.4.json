@@ -1,0 +1,38 @@
+{
+  "version": "0.3.4",
+  "backend": {
+    "passed": 184,
+    "prior_tests": 155,
+    "new_guide_alternative_tests": 29,
+    "includes_real_alternative_inspection_mp4": true,
+    "warning": "One existing TestClient deprecation warning"
+  },
+  "browser": {
+    "legacy": 29,
+    "actual_capcut_input_checks": 8,
+    "inspection_pipeline": 10,
+    "alternatives_and_upload_feedback": 10,
+    "total_distinct_passed": 57,
+    "errors": [],
+    "genuine_throttled_upload_intermediate_percent": 2
+  },
+  "runtime": {
+    "process_id": "casefile-studio-86e57663",
+    "pid": 17649,
+    "port": 8000
+  },
+  "existing_three_project_files_byte_unchanged": true,
+  "new_retained_demo": "64b1908800c744e1",
+  "new_demo_title": "Alternatives + upload feedback \u2014 SYNTHETIC DEMO",
+  "upload_limits": {
+    "bytes_per_file": 536870912,
+    "files_per_batch": 30,
+    "client_rejection_verified": true,
+    "transfer_and_processing_separate": true,
+    "percentages_from_actual_bytes": true
+  },
+  "alternative_rules": "Named guide alternatives auto-fallback, main/alt explicit override, textual visual rules manual-only, unrelated/global/negated substitutions not auto-permitted; no rights inferred. Separate source clock, labels and reviews.",
+  "actual_case_pending": "Latest 44-placement guide not supplied; accessible original has 43. Specific two missing sources are not claimed resolved. User can supply updated guide or exact alternative paragraphs. Original media remains on Mac; no bulk re-upload requested.",
+  "user_preferences": "Online, free-target, temporary files/jobs until saved download and explicit cleanup. No Mac installation or hosting migration. No paid provider calls/source downloads.",
+  "unreleased_scripts_note": "qa/implement-guide-alternatives.py and qa/update-alternatives-uploads-ui.py already applied; do not rerun."
+}

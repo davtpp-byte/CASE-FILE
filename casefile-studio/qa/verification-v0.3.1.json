@@ -1,0 +1,72 @@
+{
+  "version": "0.3.1",
+  "backend_tests": {
+    "passed": 125,
+    "legacy_regressions": 92,
+    "new_native_timing_tests": 33,
+    "warning": "Existing httpx TestClient deprecation warning; no failure"
+  },
+  "browser_tests": {
+    "legacy_passed": 29,
+    "capcut_upload_checks": 8,
+    "capcut_saved_project_checks": 6,
+    "total": 43,
+    "browser_errors": []
+  },
+  "technical_render_checks": {
+    "fixture": "Synthetic technical tone/flat image only; not the actual case",
+    "captions_on_and_off": "passed",
+    "decoded_audio_identical": "passed",
+    "caption_hold_on_empty_narration_scene": "passed",
+    "full_video_duration": "6.041667s at 24 fps"
+  },
+  "actual_inputs": {
+    "version": "0.3.1",
+    "project_id": "7fa005880e97474f",
+    "actual_script_and_guide_unchanged": true,
+    "sample_project_byte_unchanged": true,
+    "files_imported": [
+      {
+        "kind": "capcut",
+        "filename": "draft_info.json",
+        "hash": "d9bdfdd92e535832cf5aad9858c5ea5d839e37c456c83791e3d62c0068d37de3"
+      },
+      {
+        "kind": "srt",
+        "filename": "captions_continuous.srt.md",
+        "hash": "9a3cc6bb81f1f911b534031b7836022c18e391d978904a28c111133bb5767e86"
+      }
+    ],
+    "caption_count": 390,
+    "timed_units": 2353,
+    "duration_from_capcut": 903.533333,
+    "frame_quantized_plan_duration": 903.5416666666666,
+    "scene_count": 56,
+    "all_scenes_missing_visuals": true,
+    "assets_received": 0,
+    "exports_created": 0,
+    "audio_reference_only": "Just after 3_30 p.m..mp3",
+    "substitution_candidates": [
+      "C02",
+      "C06",
+      "C08",
+      "C27",
+      "C31",
+      "C41",
+      "C42",
+      "C43"
+    ],
+    "all_cue_proposals_match_independent_audit": true,
+    "srt_content_exact": true,
+    "private_metadata_values_checked_and_excluded": 5,
+    "producer_approvals": false,
+    "render_without_recording": "blocked as expected",
+    "caption_end_holds_retained": 211,
+    "output_fps": 24
+  },
+  "no_actual_case_render": true,
+  "no_actual_audio_or_footage_received": true,
+  "source_downloads": 0,
+  "paid_provider_calls": 0,
+  "private_capcut_metadata_excluded": true
+}

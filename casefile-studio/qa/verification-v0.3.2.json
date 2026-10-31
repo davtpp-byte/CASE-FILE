@@ -1,0 +1,57 @@
+{
+  "version": "0.3.2",
+  "backend_tests": {
+    "passed": 127,
+    "native_timing_regressions": 35,
+    "legacy_regressions": 92,
+    "warnings": "One existing TestClient deprecation warning"
+  },
+  "browser_tests": {
+    "legacy_checks": 29,
+    "capcut_import_checks": 8,
+    "timestamp_discovery_checks": 8,
+    "total_passed": 45,
+    "browser_errors": []
+  },
+  "changes": [
+    "Dedicated full-width Narration timestamps (SRT / JSON) panel",
+    "Top shortcut and active per-project attachment list",
+    "Explicit no-automatic-download/full-originals/optional-naming source guidance",
+    "Visible build version and cache-versioned assets"
+  ],
+  "data_integrity": {
+    "initial_all_19_files_unchanged_check": "passed before subsequent live imports",
+    "subsequent_changed_files": [
+      "data/projects/7fa005880e97474f.json"
+    ],
+    "explanation": "A later timing re-import via the live app updated the case project. It was preserved, not rolled back. Code edits did not write data/.",
+    "unchanged_other_files": 18,
+    "extra_test_artifacts": false,
+    "active_timing_source_files": [
+      "draft_info.json",
+      "captions_continuous.srt"
+    ]
+  },
+  "actual_source_downloads": 0,
+  "paid_provider_calls": 0,
+  "optional_code_update": {
+    "version": "0.3.2",
+    "path": "/home/user/Casefile-Studio-v0.3.2-Update.zip",
+    "bytes": 815089,
+    "sha256": "2a883bb8f02ac99eb93b743f6211892e6711cb2eba70a598adeb403c1a050502",
+    "type": "code-only update",
+    "existing_data_files_preserved": 19,
+    "updater_dry_run": "passed",
+    "updater_apply": "passed",
+    "upgraded_install_fresh_process_startup": "passed",
+    "archive_integrity": "passed",
+    "no_data_or_raw_capcut_project_included": true,
+    "final_ui_update": "Attachment display lists the two active source files rather than historical concatenated filenames."
+  },
+  "runtime": {
+    "process_id": "casefile-studio-eb625ee9",
+    "port": 8000,
+    "api_version": "0.3.2"
+  },
+  "screenshot_note": "The differently titled 44-cue project shown in the screenshot is not in this accessible workspace; do not claim that specific project was modified/verified. Imports are per selected project."
+}

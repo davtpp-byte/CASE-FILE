@@ -1,0 +1,29 @@
+{
+  "version": "0.3.6",
+  "backend_tests": {
+    "passed": 208,
+    "previous": 194,
+    "new_reusability_tests": 14,
+    "warning": "One existing TestClient deprecation warning"
+  },
+  "scope": "Shared app features, not per-case mappings. Generic guide rules and IDs; no S02/chapter-3 literal guard remains in executable logic.",
+  "verified_future_cases": [
+    "Different named alternative S12, not S01/S17",
+    "Different source/chapter combinations",
+    "Identical IDs with different rules in separate projects",
+    "Whole-episode restrictions including hook",
+    "Multiple explicitly restricted chapters",
+    "Source exclusions read from own notes",
+    "The Last Timeline actual source exclusion still enforced"
+  ],
+  "existing_five_project_files_byte_identical": true,
+  "api_static_preview_checks": "passed; version 0.3.6; proxy host accepted",
+  "runtime": {
+    "process_id": "casefile-studio-bfcacbd7",
+    "pid": 28700,
+    "port": 8000
+  },
+  "no_project_reimport_or_rebuild": true,
+  "actual_case_media_received": false,
+  "future_guide_limit": "Supported structured guides and clear permitted alternatives; ambiguous instructions still need user choice/review. No automatic factual/license/visual verification."
+}
