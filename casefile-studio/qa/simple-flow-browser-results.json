@@ -1,0 +1,18 @@
+{
+  "version": "0.4.0",
+  "checks": [
+    "First screen has one clear preview action and quick file inputs, not 44 approval controls or a mode maze",
+    "Script, guide and paired timing exports import through the simple controls; no source means no empty successful preview",
+    "Selecting one matched photo automatically links, rebuilds and opens its real image in Edit without a separate Build click",
+    "Adding recording and video auto-refreshes the visual preview, keeps source sound muted and leaves every sign-off false",
+    "One Make-video action rebuilds if needed, renders, plays inline and downloads a real MP4 without publication checkboxes or a render-options detour",
+    "With every API unavailable after reload, the automatically cached browser setup can still be downloaded; it never pretends to include media bytes",
+    "Mobile exposes the same simple action with no horizontal overflow",
+    "Finish-session cleanup is simple but still requires saved-download confirmation; only the QA session is cleared"
+  ],
+  "count": 8,
+  "browser_errors": [],
+  "qa_session_cleared": true,
+  "actual_case_rendered": false,
+  "media_sources": "Synthetic technical video/image/tone for this test; separate real-photo UI proof recorded separately."
+}

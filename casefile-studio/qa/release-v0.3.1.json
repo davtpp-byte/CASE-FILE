@@ -1,0 +1,15 @@
+{
+  "path": "/home/user/Casefile-Studio-v0.3.1.zip",
+  "version": "0.3.1",
+  "files": 80,
+  "bytes": 14118047,
+  "sha256": "9a7d910766ac631baba8446097314fcadfaf7a0a6ab3b99505671705696f13ab",
+  "integrity": "passed",
+  "run_sh_executable": true,
+  "cold_start": "unpacked fresh-process TestClient startup/routes/static/sample range 206 passed",
+  "actual_case": "Sanitized CapCut + SRT timings, 56 all-gap scenes; no actual media or exports",
+  "raw_capcut_export_and_private_platform_metadata": "not included",
+  "source_module_included": "timing_io.py",
+  "tests": "125 backend; 43 browser checks",
+  "prior_v03_archive_unchanged": true
+}

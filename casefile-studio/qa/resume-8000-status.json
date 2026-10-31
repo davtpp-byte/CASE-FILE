@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-30T15:56:44.679979+00:00",
+  "process_id": "casefile-studio-f3a6c9f5",
+  "port": 8000,
+  "version": "0.3.2",
+  "http_checks": {
+    "/": 200,
+    "/assets/app.js?v=0.3.2": 200,
+    "/assets/app.css?v=0.3.2": 200,
+    "/api/bootstrap": 200
+  },
+  "preview_host_accepted": true,
+  "ffmpeg_ready": true,
+  "project_files_unchanged": true
+}

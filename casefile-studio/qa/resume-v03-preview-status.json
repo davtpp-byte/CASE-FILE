@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-30T08:00:27.758441+00:00",
+  "port": 8000,
+  "bind": "0.0.0.0",
+  "status": "running",
+  "render_engine_available": true,
+  "projects": [
+    "The Last Timeline",
+    "The Blackwater tapes"
+  ],
+  "episode_cue_matches": 43,
+  "episode_plan_current": true,
+  "http_checks": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/assets/app.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/app.css",
+      "status": 200
+    },
+    {
+      "path": "/assets/dm-sans.ttf",
+      "status": 200
+    },
+    {
+      "path": "/api/bootstrap",
+      "status": 200
+    },
+    {
+      "path": "/api/projects/7fa005880e97474f/episode",
+      "status": 200
+    },
+    {
+      "path": "/api/projects/b39f1061bd2440d8",
+      "status": 200
+    },
+    {
+      "path": "/media/b39f1061bd2440d8/demo-0.jpg",
+      "status": 200
+    },
+    {
+      "path": "/exports/7b3bc362bb194c1e/documentary.mp4",
+      "status": 206
+    },
+    {
+      "path": "/",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "path": "/home/user/Casefile-Studio-v0.3.zip",
+  "version": "0.3.0",
+  "files": 72,
+  "bytes": 13658005,
+  "sha256": "c6d0b420b0529b91e061b3b85f395c50a1c19bd58052f29154fbc3825d322e2c",
+  "integrity": "passed",
+  "run_sh_executable": true,
+  "supplied_case_project_id": "7fa005880e97474f",
+  "supplied_case_media": "None supplied; estimated plan only",
+  "sample_data_unchanged": true,
+  "unpacked_cold_start": "passed",
+  "last_ui_check": "The Last Timeline opens in Episode Setup; jump navigation works; 43 cues; no browser errors; render disabled without voice"
+}

@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-30T11:38:59.179717+00:00",
+  "process_id": "casefile-studio-0b655dc4",
+  "port": 8000,
+  "version": "0.3.2",
+  "http_checks": {
+    "/": 200,
+    "/assets/app.js?v=0.3.2": 200,
+    "/assets/app.css?v=0.3.2": 200,
+    "/api/bootstrap": 200,
+    "sample_video_range": 206
+  },
+  "preview_host_accepted": true,
+  "ffmpeg_ready": true,
+  "project_files_unchanged": true,
+  "timestamp_uploader_bundle_verified": true,
+  "caption_blocks": 390
+}
