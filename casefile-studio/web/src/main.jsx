@@ -336,8 +336,9 @@ function App() {
     [downloadGate, setDownloadGate] = useState(null),
     [saving, setSaving] = useState("saved"),
     [toast, setToast] = useState(null),
-    [command, setCommand] = useState("");
-  const [mediaId, setMediaId] = useState(null),
+  [command, setCommand] = useState("");
+  const [selectedTrack, setSelectedTrack] = useState(null),
+    [mediaId, setMediaId] = useState(null),
     [frameSize, setFrameSize] = useState({ width: 640, height: 360 });
   const pending = useRef({}),
     saveTimer = useRef(null),
@@ -823,6 +824,10 @@ function App() {
     setTime(offsets[index] || 0);
     setPlaying(false);
   }
+  function selectVisualScene(scene, index) {
+    selectScene(scene, index);
+    setSelectedTrack({ kind: "visual", sceneId: scene.id });
+  }
   function updateScene(fields) {
     if (!selected) return;
     const next = scenes.map((s) =>
@@ -838,6 +843,108 @@ function App() {
       changes.script = scriptFromScenes(next);
     queueSave(changes);
   }
+
+  function currentOffset(index) {
+    return offsets[index] || 0;
+  }
+
+  function trackLabel(kind) {
+    return { visual: "Visuals V1", narration: "Narration A1", music: "Music A2" }[kind];
+  }
+
+  function trackIcon(kind) {
+    return { visual: Film, narration: Mic, music: Music2 }[kind];
+  }
+
+  function trackFields(kind, scene) {
+    switch (kind) {
+      case "visual":
+        return { asset: scene.asset_id, inPoint: scene.trim_start || 0, duration: scene.duration };
+      case "narration":
+        return { text: scene.narration || "", start: scene.audio_start || 0, duration: scene.audio_duration || scene.duration, volume: scene.narration_volume || 1 };
+      default:
+        return { id: scene.music_id || null, start: scene.music_start || 0, duration: scene.music_duration || scene.duration, volume: scene.music_volume || (project?.music_volume || 1) };
+    }
+  }
+
+  function updateTrack(kind, fields) {
+    if (!selected) return;
+    const next = scenes.map((s) => {
+      if (s.id !== selected.id) return s;
+      const cur = trackFields(kind, s);
+      const merged = { ...cur, ...fields };
+      let out;
+      if (kind === "visual") {
+        out = { ...s, asset_id: merged.asset || null, trim_start: Math.max(0, merged.inPoint), duration: Math.max(0.5, merged.duration) };
+      } else if (kind === "narration") {
+        out = { ...s, narration: merged.text, audio_start: merged.start, audio_duration: Math.max(0.5, merged.duration), narration_volume: merged.volume };
+      } else {
+        out = { ...s, music_id: merged.id || null, music_start: merged.start, music_duration: Math.max(0.5, merged.duration), music_volume: merged.volume };
+      }
+      return out;
+    });
+    const changes = { scenes: next };
+    if (kind !== "visual") changes.script = scriptFromScenes(next);
+    queueSave(changes);
+    notify(`${trackLabel(kind)} adjusted.`);
+  }
+
+  function deleteTrack(kind) {
+    if (!selected) return;
+    if (!window.confirm(`Remove ${trackLabel(kind)} from this scene?`)) return;
+    const next = scenes.map((s) => {
+      if (s.id !== selected.id) return s;
+      if (kind === "visual") {
+        const { asset_id, trim_start, ...rest } = s;
+        return rest;
+      }
+      if (kind === "narration") {
+        const { narration, audio_start, audio_duration, narration_volume, ...rest } = s;
+        return rest;
+      }
+      const { music_id, music_start, music_duration, music_volume, ...rest } = s;
+      return rest;
+    });
+    queueSave({ scenes: next, script: scriptFromScenes(next) });
+    if (selectedTrack?.sceneId === selected.id) setSelectedTrack(null);
+    notify(`${trackLabel(kind)} removed from scene.`);
+  }
+
+  function splitTrack(kind) {
+    if (!selected || locked) return;
+    const cut = Math.round((time - currentOffset(activeIndex)) * 1000) / 1000;
+    if (cut < 0.5 || selected.duration - cut < 0.5) return;
+    const s = selected;
+    const words = (s.narration || "").split(/\s+/).filter(Boolean);
+    const wordCut = Math.round((words.length * cut) / s.duration);
+    const left = { ...s, duration: cut };
+    const right = { ...s, id: uid(), duration: s.duration - cut, trim_start: (s.trim_start || 0) + cut, audio_start: (s.audio_start || 0) + cut, show_title: false };
+    if (kind === "narration") {
+      left.narration = words.slice(0, wordCut).join(" ");
+      right.narration = words.slice(wordCut).join(" ");
+      left.audio_duration = Math.min(s.audio_duration || s.duration, cut);
+      right.audio_duration = Math.max(0.04, (s.audio_duration || s.duration) - cut);
+      right.narration_volume = s.narration_volume;
+    }
+    if (kind === "music") {
+      left.music_duration = Math.max(0.04, cut);
+      right.music_start = (s.music_start || 0) + cut;
+      right.music_duration = Math.max(0.04, (s.music_duration || s.duration) - cut);
+      right.music_volume = s.music_volume;
+    }
+    if (kind === "visual") {
+      right.captions = (s.captions || []).filter((c) => c.end > cut).map((c) => ({ ...c, start: Math.max(0, c.start - cut), end: c.end - cut }));
+      left.captions = (s.captions || []).filter((c) => c.start < cut).map((c) => ({ ...c, end: Math.min(c.end, cut) }));
+    }
+    const next = [...scenes];
+    next.splice(activeIndex, 1, left, right);
+    queueSave({ scenes: next, script: scriptFromScenes(next) });
+    setPlaying(false);
+    setSelectedId(right.id);
+    setSelectedTrack({ kind, sceneId: right.id });
+    notify(`${trackLabel(kind)} split at playhead.`);
+  }
+
   function addScene() {
     const s = {
       id: uid(),
@@ -1521,6 +1628,154 @@ function App() {
                 >
                   <Trash2 size={12} /> Remove scene
                 </button>
+                <div className="inspector-divider" />
+                <div className="section-label">
+                  <span>TRACKS</span>
+                  <span className="track-pill">
+                    {selectedTrack
+                      ? trackLabel(selectedTrack.kind) + " · scene " + (scenes.indexOf(selected) + 1)
+                      : "Click a clip on any timeline lane to select its track"}
+                  </span>
+                </div>
+                {["visual", "narration", "music"].map((kind) => {
+                  const f = trackFields(kind, selected);
+                  const isSel = selectedTrack?.kind === kind && selectedTrack?.sceneId === selected.id;
+                  const Icon = trackIcon(kind);
+                  return (
+                    <div key={kind} className="track-row">
+                      <div className="track-row-head">
+                        <Icon size={13} />
+                        <span>{trackLabel(kind)}</span>
+                        {isSel && <span className="track-active">selected</span>}
+                        <button
+                          className="icon-btn"
+                          title="Split track clip at playhead"
+                          onClick={() => splitTrack(kind)}
+                          disabled={locked || !scenes.length}
+                        >
+                          <Scissors size={12} />
+                        </button>
+                        <button
+                          className="danger-link"
+                          onClick={() => deleteTrack(kind)}
+                          disabled={locked}
+                        >
+                          <Trash2 size={11} /> Remove track
+                        </button>
+                      </div>
+                      <div className="track-row-fields">
+                        {kind === "visual" && (
+                          <>
+                            <label className="field">Source in-point (sec)
+                              <input
+                                type="number" min="0" step="0.5"
+                                value={f.inPoint}
+                                onChange={(e) =>
+                                  updateTrack(kind, { inPoint: Math.max(0, Number(e.target.value) || 0) })
+                                }
+                              />
+                            </label>
+                            <label className="field">Duration (sec)
+                              <input
+                                type="number" min="0.5" step="0.5"
+                                value={f.duration}
+                                onChange={(e) =>
+                                  updateTrack(kind, { duration: Math.max(0.5, Number(e.target.value) || 0.5) })
+                                }
+                              />
+                            </label>
+                          </>
+                        )}
+                        {kind === "narration" && (
+                          <>
+                            <label className="field">Narration text
+                              <textarea
+                                rows="2"
+                                value={f.text}
+                                onChange={(e) => updateTrack(kind, { text: e.target.value })}
+                              />
+                            </label>
+                            <label className="field">Start (sec)
+                              <input
+                                type="number" min="0" step="0.5"
+                                value={f.start}
+                                onChange={(e) =>
+                                  updateTrack(kind, { start: Math.max(0, Number(e.target.value) || 0) })
+                                }
+                              />
+                            </label>
+                            <label className="field">Duration (sec)
+                              <input
+                                type="number" min="0.5" step="0.5"
+                                value={f.duration}
+                                onChange={(e) =>
+                                  updateTrack(kind, { duration: Math.max(0.5, Number(e.target.value) || 0.5) })
+                                }
+                              />
+                            </label>
+                            <label className="field">Volume
+                              <input
+                                className="range" type="range" min="0" max="200" step="5"
+                                value={Math.round(f.volume * 100)}
+                                onChange={(e) =>
+                                  updateTrack(kind, { volume: Number(e.target.value) / 100 })
+                                }
+                              />
+                              <span>{Math.round(f.volume * 100)}%</span>
+                            </label>
+                          </>
+                        )}
+                        {kind === "music" && (
+                          <>
+                            <label className="field">Music source
+                              <select
+                                value={f.id || ""}
+                                onChange={(e) => updateTrack(kind, { id: e.target.value || null })}
+                              >
+                                <option value="">No music</option>
+                                {assets
+                                  .filter((a) => a.has_audio || a.kind === "audio")
+                                  .map((a) => (
+                                    <option key={a.id} value={a.id}>
+                                      {a.name}
+                                    </option>
+                                  ))}
+                              </select>
+                            </label>
+                            <label className="field">Start (sec)
+                              <input
+                                type="number" min="0" step="0.5"
+                                value={f.start}
+                                onChange={(e) =>
+                                  updateTrack(kind, { start: Math.max(0, Number(e.target.value) || 0) })
+                                }
+                              />
+                            </label>
+                            <label className="field">Duration (sec)
+                              <input
+                                type="number" min="0.5" step="0.5"
+                                value={f.duration}
+                                onChange={(e) =>
+                                  updateTrack(kind, { duration: Math.max(0.5, Number(e.target.value) || 0.5) })
+                                }
+                              />
+                            </label>
+                            <label className="field">Volume
+                              <input
+                                className="range" type="range" min="0" max="200" step="5"
+                                value={Math.round(f.volume * 100)}
+                                onChange={(e) =>
+                                  updateTrack(kind, { volume: Number(e.target.value) / 100 })
+                                }
+                              />
+                              <span>{Math.round(f.volume * 100)}%</span>
+                            </label>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
               </>
             ) : (
               <Empty title="No scene selected">
@@ -2058,9 +2313,9 @@ function App() {
                           tabIndex={0}
                           draggable
                           className={`scene-card ${selected?.id === s.id ? "selected" : ""}`}
-                          onClick={() => selectScene(s, i)}
+                          onClick={() => selectVisualScene(s, i)}
                           onKeyDown={(e) => {
-                            if (e.key === "Enter") selectScene(s, i);
+                            if (e.key === "Enter") selectVisualScene(s, i);
                           }}
                           onDragStart={() => (dragId.current = s.id)}
                           onDragOver={(e) => e.preventDefault()}
@@ -2397,7 +2652,7 @@ function App() {
                   <span>{tc(duration)}</span>
                 </div>
                 <div>
-                  <button
+                    <button
                     className="timeline-tool selected"
                     title="Split scene at playhead"
                     aria-label="Split scene at playhead"
@@ -2408,12 +2663,61 @@ function App() {
                       time - (offsets[activeIndex] || 0) < 0.5 ||
                       activeScene.duration -
                         (time - (offsets[activeIndex] || 0)) <
-                        0.5
+                      0.5
                     }
                   >
                     <Scissors size={13} />
                     <span>Split</span>
                   </button>
+                  {activeScene && (
+                    <span className="toolbar-sep" />
+                  )}
+                  <div className="track-tools">
+                      <button
+                        className={`timeline-tool ${selectedTrack?.kind === 'visual' ? 'selected' : ''}`}
+                        title="Edit Visuals track"
+                        aria-label="Edit Visuals track"
+                        onClick={() => setSelectedTrack({ kind: "visual", sceneId: selected.id })}
+                        disabled={locked || !selected.asset_id}
+                      >
+                        <Film size={12} />
+                        <span>V1</span>
+                      </button>
+                      <button
+                        className={`timeline-tool ${selectedTrack?.kind === 'narration' ? 'selected' : ''}`}
+                        title="Edit Narration track"
+                        aria-label="Edit Narration track"
+                        onClick={() => setSelectedTrack({ kind: "narration", sceneId: selected.id })}
+                        disabled={locked}
+                      >
+                        <Mic size={12} />
+                        <span>A1</span>
+                      </button>
+                      <button
+                        className={`timeline-tool ${selectedTrack?.kind === 'music' ? 'selected' : ''}`}
+                        title="Edit Music track"
+                        aria-label="Edit Music track"
+                        onClick={() => setSelectedTrack({ kind: "music", sceneId: selected.id })}
+                        disabled={locked}
+                      >
+                        <Music2 size={12} />
+                        <span>A2</span>
+                      </button>
+                      <button
+                        className="timeline-tool danger"
+                        title="Remove selected track from scene"
+                        aria-label="Remove track from scene"
+                        onClick={() => {
+                          if (!selectedTrack || selectedTrack.sceneId !== selected.id) return;
+                          deleteTrack(selectedTrack.kind);
+                          setSelectedTrack(null);
+                        }}
+                        disabled={locked || !selectedTrack || selectedTrack.sceneId !== selected.id}
+                      >
+                        <Trash2 size={12} />
+                        <span>Delete</span>
+                      </button>
+                    </div>
                   <span className="toolbar-sep" />
                   <IconButton
                     icon={ZoomOut}
@@ -2491,7 +2795,7 @@ function App() {
                             }}
                             onClick={(e) => {
                               e.stopPropagation();
-                              selectScene(s, i);
+                              selectVisualScene(s, i);
                             }}
                           >
                             <span>
@@ -2538,12 +2842,17 @@ function App() {
                                   peaks.length,
                               );
                             return (
-                              <div
+                              <button
                                 className="voice-region"
                                 key={s.id}
                                 style={{
+                                  pointerEvents: "auto",
                                   left: `${(offsets[i] / duration) * 100}%`,
                                   width: `${(s.duration / duration) * 100}%`,
+                                }}
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setSelectedTrack({ kind: "narration", sceneId: s.id });
                                 }}
                               >
                                 <Wave
@@ -2552,7 +2861,7 @@ function App() {
                                     Math.max(start + 1, end),
                                   )}
                                 />
-                              </div>
+                              </button>
                             );
                           })}
                           <span className="audio-lane-label">
@@ -2567,23 +2876,27 @@ function App() {
                         </span>
                       )}
                     </div>
-                    <div
-                      className={`audio-lane music-lane ${music ? "has-audio" : ""}`}
-                    >
-                      {music ? (
-                        <>
-                          <Wave values={music.waveform} color="#c4ae7e" />
-                          <span className="audio-lane-label">
-                            <Music2 size={10} />
-                            {music.name}
+                      <button
+                        className={`audio-lane music-lane ${music ? "has-audio" : ""}`}
+                        onClick={() => {
+                          if (!selected) return;
+                          setSelectedTrack({ kind: "music", sceneId: selected.id });
+                        }}
+                      >
+                        {music ? (
+                          <>
+                            <Wave values={music.waveform} color="#c4ae7e" />
+                            <span className="audio-lane-label">
+                              <Music2 size={10} />
+                              {music.name}
+                            </span>
+                          </>
+                        ) : (
+                          <span>
+                            <Plus size={11} /> Add licensed background music
                           </span>
-                        </>
-                      ) : (
-                        <span>
-                          <Plus size={11} /> Add licensed background music
-                        </span>
-                      )}
-                    </div>
+                        )}
+                      </button>
                     {duration > 0 && (
                       <div
                         className="playhead"
