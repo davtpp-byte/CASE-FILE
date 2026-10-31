@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Existing project opens with the imported pack",
+    "Export duration shown to the millisecond, without implying the recording was uploaded",
+    "Cue badges expose millisecond positions, including a phrase inside an SRT block",
+    "No audio: both approvals and real documentary rendering remain blocked",
+    "Plan status does not call an imported clock a script-only estimate",
+    "Actual saved project passes desktop and 390 px mobile layout"
+  ],
+  "count": 6,
+  "browser_errors": [],
+  "preview_host_accepted": true
+}

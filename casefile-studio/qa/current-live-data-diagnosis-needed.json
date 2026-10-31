@@ -1,0 +1,98 @@
+{
+  "read_only": true,
+  "saved_copy_diagnostic": {
+    "project_id": "cb6bdd6c3ff5465f",
+    "title": "The Last Timeline \u2014 updated 44-placement guide",
+    "asset_count": 1,
+    "actual_recording_present": false,
+    "export_count": 0,
+    "guide_parser_version": 3,
+    "guide_count": 44,
+    "analysis_errors": [],
+    "plan_current": true,
+    "primary_linked": 1,
+    "inspection_cues": 4,
+    "final_ready_cues": 0,
+    "timing_candidate_cues": [
+      "C02",
+      "C06",
+      "C08",
+      "C28",
+      "C32",
+      "C42",
+      "C43",
+      "C44"
+    ],
+    "transcript_match_percent": 94.8,
+    "slots": [
+      {
+        "id": "C02",
+        "primary": "S01",
+        "chosen": "S01",
+        "choice_mode": "auto",
+        "using_alternative": false,
+        "filename": "S01-privacy-cropped-inspection.jpg",
+        "file_exists_in_available_copy": true,
+        "inspection_ready": true,
+        "inspection_status": "Inspectable only; placement and reuse remain unapproved.",
+        "text_review_required": true,
+        "timing_source": "word boundary; text review"
+      },
+      {
+        "id": "C06",
+        "primary": "S02",
+        "chosen": "S02",
+        "choice_mode": "auto",
+        "using_alternative": false,
+        "filename": null,
+        "file_exists_in_available_copy": false,
+        "inspection_ready": false,
+        "inspection_status": "Upload and link the actual source file.",
+        "text_review_required": true,
+        "timing_source": "word boundary; text review"
+      },
+      {
+        "id": "C17",
+        "primary": "S10",
+        "chosen": "S01",
+        "choice_mode": "auto",
+        "using_alternative": true,
+        "filename": "S01-privacy-cropped-inspection.jpg",
+        "file_exists_in_available_copy": true,
+        "inspection_ready": true,
+        "inspection_status": "Inspectable only; placement and reuse remain unapproved.",
+        "text_review_required": false,
+        "timing_source": "provided word boundary"
+      },
+      {
+        "id": "C36",
+        "primary": "S18",
+        "chosen": "S18",
+        "choice_mode": "auto",
+        "using_alternative": false,
+        "filename": null,
+        "file_exists_in_available_copy": false,
+        "inspection_ready": false,
+        "inspection_status": "Upload and link the actual source file.",
+        "text_review_required": false,
+        "timing_source": "provided word boundary"
+      },
+      {
+        "id": "C37",
+        "primary": "S18",
+        "chosen": "S18",
+        "choice_mode": "auto",
+        "using_alternative": false,
+        "filename": null,
+        "file_exists_in_available_copy": false,
+        "inspection_ready": false,
+        "inspection_status": "Upload and link the actual source file.",
+        "text_review_required": false,
+        "timing_source": "provided word boundary"
+      }
+    ]
+  },
+  "mismatch_with_user_latest_state": "User reports rest of media added, alternatives missing and a completed render; available copy contains one image, no recording and no exports. Do not claim actual live source selection or rendered-file availability was verified.",
+  "next_required": "Client Save backup JSON (includes preview_origin and frontend version) or full finished export download URL. No re-uploaded media and no new approval checkboxes.",
+  "no_runtime_started_or_restarted": true
+}

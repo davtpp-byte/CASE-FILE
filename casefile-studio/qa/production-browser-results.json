@@ -1,0 +1,14 @@
+{
+  "passed": [
+    "Topic-only production pauses without a paid request or invented sources",
+    "Simulated AI draft stops for a real producer-approval action before narration",
+    "Scene edits preserve source links and invalidate the previous text approval",
+    "Preflight identifies missing voice/rights, shows source coverage, and opens the repair location",
+    "Final rendering remains disabled while editorial or voice blockers exist",
+    "Guided run reuses approved script, fills missing visuals, and creates a real draft MP4",
+    "Frozen preflight, chapter, and publication companions download with the export",
+    "Production and preflight remain usable without horizontal overflow on mobile"
+  ],
+  "browser_errors": [],
+  "provider_calls": "None; AI-origin metadata is an explicit temporary UI fixture."
+}

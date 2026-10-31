@@ -1,0 +1,23 @@
+{
+  "project_id": "4e3f6d4bcdad4f69",
+  "title": "Inspection workflow demo \u2014 SYNTHETIC MEDIA",
+  "version": "0.3.3",
+  "checks": [
+    "Synthetic timing files, duration-matched technical audio and two source files import through browser; unique source IDs auto-link without approving anything",
+    "A real uploaded video plays in source inspection with zero rights/placement sign-offs",
+    "Inspection build places actual linked media on the narration clock, preserves short-window gaps and keeps every approval false",
+    "View timeline seeks to the first real visual, not the initial gap; playback, source label and unreviewed disclosure are visible",
+    "Save backup downloads the live browser project even with every API request blocked; no video render is needed",
+    "The browser starts a real inspection render; the encoded MP4 plays and pauses inline before download despite final-only blockers",
+    "Downloaded MP4 matches server bytes; range playback, frozen exact SRT and inspection-only export metadata pass",
+    "Final export is rejected and no factual, rights, picture, cue or transcript approval was fabricated",
+    "Temporary-session deletion remains disabled until the user explicitly confirms their downloads are saved",
+    "390 px mobile: backup remains reachable and setup/timeline have no horizontal overflow"
+  ],
+  "count": 10,
+  "browser_errors": [],
+  "proof_video": "/home/user/Casefile-Studio-Inspection-Proof.mp4",
+  "source_downloads": 0,
+  "paid_provider_calls": 0,
+  "actual_case_media": "None; generated technical tone, moving test pattern and labeled color image only."
+}

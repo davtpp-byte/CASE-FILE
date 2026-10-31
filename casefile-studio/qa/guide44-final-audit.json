@@ -1,0 +1,271 @@
+{
+  "source_file": "The_Last_Timeline_Real_Footage_Guide (1).md",
+  "source_sha256": "28d5e71e641d619f77a4dd5d8a442f63889fae75eea99228f11dbaa0809e72de",
+  "parser_version": 3,
+  "cues": 44,
+  "references": 26,
+  "primary_sources": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S10",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S25"
+  ],
+  "primary_count": 18,
+  "actual_project": {
+    "project_id": "cb6bdd6c3ff5465f",
+    "title": "The Last Timeline — updated 44-placement guide",
+    "guide_filename": "The_Last_Timeline_Real_Footage_Guide (1).md",
+    "guide_sha256": "28d5e71e641d619f77a4dd5d8a442f63889fae75eea99228f11dbaa0809e72de",
+    "script_unchanged_from_saved_case": true,
+    "captions_unchanged_from_saved_case": true,
+    "cues": 44,
+    "references": 26,
+    "timing_units": 2353,
+    "caption_blocks": 390,
+    "scenes": 57,
+    "narration_clock": 903.533333,
+    "plan_clock": 903.5416666666666,
+    "assets_received": 0,
+    "exports": 0,
+    "actual_recording_received": false
+  },
+  "availability_simulation": {
+    "metadata_only": true,
+    "real_files_received": 0,
+    "assumed_missing": [
+      "S10",
+      "S18"
+    ],
+    "remaining_primary_records": 16,
+    "placements_with_file_choices": 44,
+    "inspection_eligible": 42,
+    "final_approved": 0,
+    "human_stop_times_still_required": [
+      "C03",
+      "C21"
+    ],
+    "alternatives": {
+      "C17": {
+        "source": "S01",
+        "instead_of": "S10",
+        "label": "Portrait — not funeral footage",
+        "source_window": null,
+        "narration_start": 282.346666
+      },
+      "C36": {
+        "source": "S17",
+        "instead_of": "S18",
+        "label": "Courtroom coverage | September 2026.",
+        "source_window": {
+          "in": 5.0,
+          "out": 9.0
+        },
+        "narration_start": 685.766666
+      },
+      "C37": {
+        "source": "S17",
+        "instead_of": "S18",
+        "label": "Courtroom coverage | September 2026.",
+        "source_window": {
+          "in": 20.0,
+          "out": 24.0
+        },
+        "narration_start": 696.166666
+      }
+    },
+    "s16_no_2026_substitution_guard": true
+  },
+  "relevant_rules": [
+    {
+      "id": "C16",
+      "chapter_label": "CHAPTER 4",
+      "anchor": "After a community vigil",
+      "source_id": "S25",
+      "suggested_windows": [
+        {
+          "start": 74.0,
+          "end": 84.0
+        },
+        {
+          "start": 90.0,
+          "end": 92.0
+        }
+      ],
+      "alternatives": [],
+      "additional_previews": [
+        {
+          "source_id": "S26",
+          "title": "10 Tampa Bay: family appeal after the vigil — ~0:46–0:56",
+          "reference_url": "https://www.youtube.com/watch?v=e9IADjNowCg&t=46s",
+          "suggested_windows": [
+            {
+              "start": 46.0,
+              "end": 56.0
+            }
+          ],
+          "connector": ";",
+          "role": "optional follow-up, not an automatic replacement",
+          "instructions": "Use selected wide event/signage shots from WFLA, then, if needed, the 10 Tampa Bay shot of Jevario’s family speaking after the event."
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "chapter_label": "CHAPTER 4",
+      "anchor": "they gathered on May 4 for his funeral",
+      "source_id": "S10",
+      "suggested_windows": [
+        {
+          "start": 35.0,
+          "end": 38.0
+        }
+      ],
+      "alternatives": [
+        {
+          "source_id": "S01",
+          "label": "Portrait — not funeral footage",
+          "care": "",
+          "instructions": "Jevario’s portrait only if that image is independently cleared.",
+          "suggested_windows": [],
+          "reference_url": "https://www.tampa.gov/sites/default/files/news-article/attachments/2024/jevario_buie.jpg",
+          "window_ambiguous": false,
+          "media_kind": "image",
+          "manual_only": false,
+          "optional": false
+        }
+      ],
+      "additional_previews": []
+    },
+    {
+      "id": "C34",
+      "chapter_label": "CHAPTER 9",
+      "anchor": "The next morning, Moore appeared in Hillsborough County Circuit Court",
+      "source_id": "S16",
+      "suggested_windows": [
+        {
+          "start": 0.0,
+          "end": 12.0
+        }
+      ],
+      "alternatives": [],
+      "additional_previews": []
+    },
+    {
+      "id": "C36",
+      "chapter_label": "CHAPTER 10",
+      "anchor": "At trial, Assistant State Attorney Chinwe Fossett argued",
+      "source_id": "S18",
+      "suggested_windows": [
+        {
+          "start": 50.0,
+          "end": 52.0
+        },
+        {
+          "start": 57.0,
+          "end": 63.0
+        }
+      ],
+      "alternatives": [
+        {
+          "source_id": "S17",
+          "media_kind": "video",
+          "manual_only": false,
+          "label": "Courtroom coverage | September 2026.",
+          "care": "",
+          "instructions": "Guide-listed alternative: 10 Tampa Bay verdict report — ~0:05–0:09",
+          "suggested_windows": [
+            {
+              "start": 5.0,
+              "end": 9.0
+            }
+          ],
+          "window_ambiguous": false,
+          "reference_url": "https://www.youtube.com/watch?v=ViL-3fyD5iA&t=5s",
+          "optional": false
+        }
+      ],
+      "additional_previews": []
+    },
+    {
+      "id": "C37",
+      "chapter_label": "CHAPTER 10",
+      "anchor": "Defense attorney Sinardi offered another explanation",
+      "source_id": "S18",
+      "suggested_windows": [
+        {
+          "start": 95.0,
+          "end": 112.0
+        }
+      ],
+      "alternatives": [
+        {
+          "source_id": "S17",
+          "media_kind": "video",
+          "manual_only": false,
+          "label": "Courtroom coverage | September 2026.",
+          "care": "",
+          "instructions": "Guide-listed alternative: 10 Tampa Bay courtroom view — ~0:20–0:24",
+          "suggested_windows": [
+            {
+              "start": 20.0,
+              "end": 24.0
+            }
+          ],
+          "window_ambiguous": false,
+          "reference_url": "https://www.youtube.com/watch?v=ViL-3fyD5iA&t=20s",
+          "optional": false
+        }
+      ],
+      "additional_previews": []
+    },
+    {
+      "id": "C40",
+      "chapter_label": "CHAPTER 11",
+      "anchor": "On October 16, 2026, Jahmir Moore returned to a Hillsborough County courtroom for sentencing",
+      "source_id": "S19",
+      "suggested_windows": [
+        {
+          "start": 10.0,
+          "end": 22.0
+        }
+      ],
+      "alternatives": [
+        {
+          "source_id": "S20",
+          "label": "Sentencing | October 16, 2026.",
+          "care": "",
+          "instructions": "Optional guide source: FOX 13: sentencing wide view — ~0:40–1:02",
+          "suggested_windows": [
+            {
+              "start": 40.0,
+              "end": 62.0
+            }
+          ],
+          "reference_url": "https://www.youtube.com/watch?v=zyKDsEekos4&t=40s",
+          "window_ambiguous": false,
+          "media_kind": "video",
+          "manual_only": true,
+          "optional": true
+        }
+      ],
+      "additional_previews": []
+    }
+  ],
+  "permissions_assumed": false,
+  "media_downloads": 0,
+  "actual_case_rendered": false
+}

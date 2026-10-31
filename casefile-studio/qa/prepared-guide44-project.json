@@ -1,0 +1,18 @@
+{
+  "project_id": "cb6bdd6c3ff5465f",
+  "title": "The Last Timeline \u2014 updated 44-placement guide",
+  "guide_filename": "The_Last_Timeline_Real_Footage_Guide (1).md",
+  "guide_sha256": "28d5e71e641d619f77a4dd5d8a442f63889fae75eea99228f11dbaa0809e72de",
+  "script_unchanged_from_saved_case": true,
+  "captions_unchanged_from_saved_case": true,
+  "cues": 44,
+  "references": 26,
+  "timing_units": 2353,
+  "caption_blocks": 390,
+  "scenes": 57,
+  "narration_clock": 903.533333,
+  "plan_clock": 903.5416666666666,
+  "assets_received": 0,
+  "exports": 0,
+  "actual_recording_received": false
+}

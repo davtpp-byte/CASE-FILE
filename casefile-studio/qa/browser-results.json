@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "Project creation through the browser",
+    "Script autosave, image upload, and scene assembly",
+    "Inspector timing and direct timeline trimming",
+    "Playhead splitting and persisted undo",
+    "Plain-English local direction and undo",
+    "Offline source recording and producer review",
+    "Honest disconnected AI state",
+    "Queued render, real MP4, and download",
+    "Reload persistence",
+    "Mobile layout and scene inspector"
+  ],
+  "browser_errors": []
+}

@@ -1,0 +1,18 @@
+{
+  "word_count": 2366,
+  "cue_count": 43,
+  "matched_cues": 43,
+  "source_count": 24,
+  "used_source_count": 15,
+  "duration": 979.0344827586207,
+  "has_voice": false,
+  "has_music": false,
+  "linked_source_count": 0,
+  "ready_cues": 0,
+  "errors": [],
+  "project_id": "7fa005880e97474f",
+  "title": "The Last Timeline",
+  "scene_count": 57,
+  "plan_current": true,
+  "note": "Script-only estimated plan. No narration, music, or actual source media supplied; no downloads or provider calls."
+}

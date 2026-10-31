@@ -1,0 +1,9 @@
+{
+  "user_report": "Manually added permitted alternatives do not appear in preview/edit; a render completed but saving to PC fails.",
+  "local_workspace_state": "Only saved cases are visible; prepared real-guide case has the one public inspection photo, no narration or export. User's latest uploaded-media/rendered working session is not available in this tool runtime. Port 8000 idle. Do not restart an older copy over the user's live session.",
+  "confirmed_ui_issue": "In v0.4.0 the header button labeled Download draft calls makeFirstDraft({render:true}); it starts rendering, not downloading an already completed export. The actual finished-file Download anchor is in Review & export > Export history.",
+  "manual_alternative_mapping": "File must be bound to the allowed replacement source ID, then selected for the placement (or Auto if main unavailable), then Preview my draft rebuilds. For supplied guide: C17 S10 -> S01 portrait; C36/C37 S18 -> S17 courtroom. Do not relabel a portrait as primary funeral source S10.",
+  "next_needed": "Copy Link Address from the actual finished export row's Download anchor, not the header render action; paste full URL. This can reveal actual preview origin and export ID without requiring a download or re-upload.",
+  "safe_remote_diagnosis_after_user_supplies_url": "Validate URL and request HEAD/range only first, not the whole video. Read that export's project.json snapshot to obtain real project ID, then inspect current /api/projects/{id} on that same user-provided origin. Do not assume the local workspace is the live one. Verify physical media/status and do not infer any licensing/factual approvals.",
+  "actions_this_turn": "Read-only inspection of local saved state/code. No restart, render, source remap, deletion or approval performed."
+}

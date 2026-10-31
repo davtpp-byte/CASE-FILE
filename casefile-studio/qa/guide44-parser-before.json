@@ -1,0 +1,223 @@
+{
+  "source_sha256": "28d5e71e641d619f77a4dd5d8a442f63889fae75eea99228f11dbaa0809e72de",
+  "cues": 44,
+  "references": 26,
+  "relevant": [
+    {
+      "id": "C16",
+      "number": 16,
+      "chapter": "chapter-4",
+      "chapter_label": "CHAPTER 4",
+      "anchor": "After a community vigil",
+      "show": "Use selected wide event/signage shots from WFLA, then, if needed, the 10 Tampa Bay shot of Jevario’s family speaking after the event.",
+      "label": "Community crime-victims vigil / family appeal | April 2024.",
+      "care": "The vigil honored crime victims generally, not only Jevario. Select composed shots; omit or obscure identifiable minors and other victims’ names, and avoid distressed images/audio. The gazebo at ~1:22 is one sampled frame, so confirm the surrounding moving shot before using it. Visible signs concern an earlier reward, not the later $20,000 announcement.",
+      "source_ids": [
+        "S25",
+        "S26"
+      ],
+      "source_id": "S25",
+      "reference_url": "https://www.youtube.com/watch?v=cXp03ZJ5SFg&t=74s",
+      "suggested_windows": [
+        {
+          "start": 74.0,
+          "end": 84.0
+        },
+        {
+          "start": 90.0,
+          "end": 92.0
+        },
+        {
+          "start": 46.0,
+          "end": 56.0
+        }
+      ],
+      "approximate": true,
+      "requires_stop": false,
+      "alternative_instructions": "",
+      "alternative_permitted": false,
+      "alternative_visual_allowed": false,
+      "alternatives": []
+    },
+    {
+      "id": "C17",
+      "number": 17,
+      "chapter": "chapter-4",
+      "chapter_label": "CHAPTER 4",
+      "anchor": "they gathered on May 4 for his funeral",
+      "show": "Transition to the wide church view in the original WFTS funeral report. If it cannot be cleared, use Jevario’s portrait only if that image is independently cleared.",
+      "label": "Jevario’s funeral | May 4, 2024.",
+      "care": "The WFTS page contains a short report; scrub to the approximate church view. No funeral close-ups depicting grief or distress; check privacy and licensing before reuse.",
+      "source_ids": [
+        "S10",
+        "S01"
+      ],
+      "source_id": "S10",
+      "reference_url": "https://www.tampabay28.com/news/region-hillsborough/family-of-jevario-buie-holds-funeral-to-say-goodbye-as-investigation-continues",
+      "suggested_windows": [
+        {
+          "start": 35.0,
+          "end": 38.0
+        }
+      ],
+      "approximate": true,
+      "requires_stop": false,
+      "alternative_instructions": "Jevario’s portrait only if that image is independently cleared.",
+      "alternative_permitted": true,
+      "alternative_visual_allowed": true,
+      "alternatives": []
+    },
+    {
+      "id": "C34",
+      "number": 34,
+      "chapter": "chapter-9",
+      "chapter_label": "CHAPTER 9",
+      "anchor": "The next morning, Moore appeared in Hillsborough County Circuit Court",
+      "show": "The FOX report has actual case courtroom footage at the start; use only if separately authorized.",
+      "label": "FOX 13 | December 2024 pretrial hearing.",
+      "care": "FOX says it does not support copies/reuploads. Ask court/FOX for an authorized source; do not substitute 2026 sentencing footage as this hearing.",
+      "source_ids": [
+        "S16"
+      ],
+      "source_id": "S16",
+      "reference_url": "https://www.youtube.com/watch?v=MRoEPt81UtQ&t=0s",
+      "suggested_windows": [
+        {
+          "start": 0.0,
+          "end": 12.0
+        }
+      ],
+      "approximate": true,
+      "requires_stop": false,
+      "alternative_instructions": "",
+      "alternative_permitted": false,
+      "alternative_visual_allowed": false,
+      "alternatives": []
+    },
+    {
+      "id": "C36",
+      "number": 36,
+      "chapter": "chapter-10",
+      "chapter_label": "CHAPTER 10",
+      "anchor": "At trial, Assistant State Attorney Chinwe Fossett argued",
+      "show": "If separately authorized, use the original FOX trial report’s case courtroom images as context while the narrator attributes the prosecution’s argument.",
+      "label": "Courtroom coverage | September 2026.",
+      "care": "Scrub to the time in the FOX player. Do not name a pictured attorney or trial judge without frame-specific confirmation, or imply the images show these exact words being spoken. FOX restricts copying; both sources need their own clearance.",
+      "source_ids": [
+        "S18",
+        "S17"
+      ],
+      "source_id": "S18",
+      "reference_url": "https://www.fox13news.com/video/fmc-ukh21350am79mno0",
+      "suggested_windows": [
+        {
+          "start": 50.0,
+          "end": 52.0
+        },
+        {
+          "start": 57.0,
+          "end": 63.0
+        }
+      ],
+      "approximate": true,
+      "requires_stop": false,
+      "alternative_instructions": "S17",
+      "alternative_permitted": true,
+      "alternative_visual_allowed": true,
+      "alternatives": [
+        {
+          "source_id": "S17",
+          "media_kind": null,
+          "manual_only": false,
+          "label": "",
+          "care": "",
+          "instructions": "S17",
+          "suggested_windows": [
+            {
+              "start": 5.0,
+              "end": 9.0
+            }
+          ],
+          "window_ambiguous": false,
+          "reference_url": "https://www.youtube.com/watch?v=ViL-3fyD5iA&t=5s"
+        }
+      ]
+    },
+    {
+      "id": "C37",
+      "number": 37,
+      "chapter": "chapter-10",
+      "chapter_label": "CHAPTER 10",
+      "anchor": "Defense attorney Sinardi offered another explanation",
+      "show": "If separately authorized, use the original FOX report’s shot of the defense attorney at the lectern.",
+      "label": "Defense attorney Sinardi | trial coverage.",
+      "care": "FOX’s on-screen caption identifies Sinardi; mute the report under narration, and do not identify the trial judge. Do not show or identify the young witness; omit nearby witness shots whose identity is unconfirmed. FOX restricts copying; request rights or a separately authorized pool source.",
+      "source_ids": [
+        "S18",
+        "S17"
+      ],
+      "source_id": "S18",
+      "reference_url": "https://www.fox13news.com/video/fmc-ukh21350am79mno0",
+      "suggested_windows": [
+        {
+          "start": 95.0,
+          "end": 112.0
+        },
+        {
+          "start": 20.0,
+          "end": 24.0
+        }
+      ],
+      "approximate": true,
+      "requires_stop": false,
+      "alternative_instructions": "S17",
+      "alternative_permitted": true,
+      "alternative_visual_allowed": true,
+      "alternatives": [
+        {
+          "source_id": "S17",
+          "media_kind": null,
+          "manual_only": false,
+          "label": "",
+          "care": "",
+          "instructions": "S17",
+          "suggested_windows": [],
+          "window_ambiguous": false,
+          "reference_url": null
+        }
+      ]
+    },
+    {
+      "id": "C40",
+      "number": 40,
+      "chapter": "chapter-11",
+      "chapter_label": "CHAPTER 11",
+      "anchor": "On October 16, 2026, Jahmir Moore returned to a Hillsborough County courtroom for sentencing",
+      "show": "Use the real 10 Tampa Bay sentencing report. If separately authorized, the original FOX report offers a longer courtroom-wide view.",
+      "label": "Sentencing | October 16, 2026.",
+      "care": "Review the moving clips, use composed views only and avoid distressed family imagery. FOX restricts copying; ask for a license or authorized pool source. Do not use FOX’s inaccurate age/denial statements in the edit.",
+      "source_ids": [
+        "S19",
+        "S20"
+      ],
+      "source_id": "S19",
+      "reference_url": "https://www.youtube.com/watch?v=YIDP32FMSho&t=10s",
+      "suggested_windows": [
+        {
+          "start": 10.0,
+          "end": 22.0
+        },
+        {
+          "start": 40.0,
+          "end": 62.0
+        }
+      ],
+      "approximate": true,
+      "requires_stop": false,
+      "alternative_instructions": "",
+      "alternative_permitted": false,
+      "alternative_visual_allowed": false,
+      "alternatives": []
+    }
+  ]
+}

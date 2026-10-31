@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Actual 2.7 MB draft and .srt.md import successfully through browser file pickers",
+    "UI distinguishes provided units, grouped precision, exact SRT blocks, missing audio and eight candidate starts",
+    "111 comparison spans are accessible as review differences, not silently corrected",
+    "Downloaded SRT byte-for-text matches all original 390 caption blocks",
+    "Captions OFF retains the exact same imported word clock and 15:03.533 export duration",
+    "Timing and transcript approvals remain disabled without the actual recording",
+    "Rebuild creates a 56-scene timed, all-gap plan without pretending an audio reference is an upload",
+    "390 px mobile layout has no horizontal overflow after the full timing pack import"
+  ],
+  "count": 8,
+  "browser_errors": [],
+  "temporary_project_removed": "205202a92962463a"
+}

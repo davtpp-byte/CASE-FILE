@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "Narration/media projects open Episode Setup without a confusing generic import modal",
+    "Both supplied Markdown documents import in separate cards; 43 chapter-scoped matches and 15 required source files are visible",
+    "The source catalog distinguishes all 24 references from the 15 used sources; chapter filters preserve the guide structure",
+    "A full script-only guide plan can be inspected, but the UI and API both block video rendering without the actual narration",
+    "Putting the editing guide in the script card gives a clear error and never overwrites the narration",
+    "The supplied-input Setup screen has no horizontal overflow at 1440px desktop or 390px mobile",
+    "Finished narration and background music upload into separate explicit roles without an AI connection or regenerated voice",
+    "Exact source IDs autolink unique filenames but never auto-approve permissions; each actual file retains its own reuse notes and attestation",
+    "Producer-reviewed exact clip windows and Care context are separate from rights; a short clip leaves a marked gap instead of looping",
+    "Timeline preview carries the source/date label, mutes source audio, and disables looping; music-level instructions work while destructive timing commands are rejected",
+    "With explicit marked-gap consent, the browser renders a real 480p MP4 with the full uploaded voice, mixed music, and a frozen episode-plan companion; range playback works"
+  ],
+  "browser_errors": [],
+  "provider_calls": 0,
+  "source_downloads": 0,
+  "render_fixture": "Separate synthetic technical episode only; never the user's actual case."
+}

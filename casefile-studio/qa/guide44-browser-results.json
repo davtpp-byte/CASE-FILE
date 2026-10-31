@@ -1,0 +1,17 @@
+{
+  "version": "0.3.5",
+  "checks": [
+    "Updated 44-placement guide and preserved 390-block timing pack open in v0.3.5",
+    "C17 offers the explicitly linked portrait S01 and does not retain the funeral-footage label",
+    "C36 and C37 select S17 with separate 5\u20139s and 20\u201324s windows; neither identifies the alternative as Sinardi speaking",
+    "C34 preserves the explicit ban on substituting 2026 footage for the December 2024 hearing",
+    "C16 retains S26 as a separate follow-up, not an S25 timestamp or an automatic substitute",
+    "C40 exposes S20 as an optional manual choice rather than a required primary upload",
+    "The 44-cue document and source selectors remain usable at 390 px with no horizontal overflow"
+  ],
+  "count": 7,
+  "browser_errors": [],
+  "prepared_project_id": "cb6bdd6c3ff5465f",
+  "actual_case_rendered": false,
+  "actual_media_received": 0
+}

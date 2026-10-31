@@ -1,0 +1,4411 @@
+{
+  "network": [
+    {
+      "url": "http://127.0.0.1:8000/api/browser-session",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/bootstrap",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/jobs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/browser-session",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/upload",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/options",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/upload",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/autolink",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/jobs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/media-status",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/first-draft",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/browser-session",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/browser-session",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/bootstrap",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/cb6bdd6c3ff5465f",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30",
+      "status": 404
+    },
+    {
+      "console": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/recover-empty",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/media-status",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/recovery-checkpoint",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/import",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/media-status",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/upload",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/media-status",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/upload",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/media-status",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/upload",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/source/S03",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/source/S01",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode/options",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/media-status",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/episode",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/jobs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/browser-session",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/jobs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/projects/3a18f8d506e54e30/jobs",
+      "status": 200
+    }
+  ],
+  "body": "CS\nCASEFILE\nSTUDIO\nWorkspace\nDocumentaries\nRender engine ready\nConnect AI\nDOCUMENTARY WORKSPACE\nTemporary browser-file recovery QA \u2014 synthetic\nAll changes saved\n\u00b7\n25 min target\n\u00b7\n00:00 planned\nSave backup\nNew project\nEpisode setup\nMake video\n01\nEpisode setup\n02\nResearch\n2\n03\nScript\n04\nEdit\n05\nReview & export\nWORKING PROTOTYPE \u00b7 v0.4.2\n16:9 \u00b7 YouTube\nRecovering S03-SYNTHETIC-video.mp4\nComplete\n\nUpload and media processing complete.\n\nYOUR MATERIAL \u2192 A GUIDE-LED EDIT\nYour voice. Your guide. One draft.\n\nUpload the audio you already made. Tell CASEFILE what to show with your editing guide\u2014not a random footage search.\n\nNo AI key needed to preview your files\n01\nAdd files\n02\nPreview your draft\n03\nDownload when ready\nADD FILES \u2192 PREVIEW \u2192 DOWNLOAD\nYour first draft, without the checklist.\nSetup auto-saved in this browser\n\nChoose your files. We match source IDs, rebuild the inspection timeline and open the first real visual. No final-publication sign-offs are needed to preview.\n\nNarration\nSYNTHETIC-voice.wav\nReplace recording\n512 MB per file\nFootage & photos\n2 visual file(s) in this saved session.\nChoose source files\n512 MB per file \u00b7 up to 30 files per batch\n24 script words \u00b7 2 guide placements \u00b7 2 timed caption blocks\nTiming attached \u00b7 add or replace matching SRT / JSON\nPreview my draft\nMake downloadable video\n480p \u00b7 quick check\n720p \u00b7 HD draft\n1080p \u00b7 full HD\n\nReady to preview. You do not need to rebuild separately or tick review acknowledgements.\n\nShow captions\nInspection videos are marked UNREVIEWED and include visible cards for any missing coverage. Originals on your computer are not changed.\nMore settings: documents, source choices and final checks",
+  "server_project": {
+    "id": "3a18f8d506e54e30",
+    "title": "Temporary browser-file recovery QA \u2014 synthetic",
+    "topic": "Temporary browser-file recovery QA \u2014 synthetic",
+    "mode": "narration",
+    "target_minutes": 25,
+    "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+    "script_dirty": true,
+    "script_origin": "user",
+    "script_approved_hash": null,
+    "production": null,
+    "research_report": "",
+    "sources": [
+      {
+        "id": "S03",
+        "title": "Synthetic video",
+        "url": "https://example.org/synthetic-video",
+        "notes": "Imported from your editing guide; not independently verified by CASEFILE.\nTest video file; no actual evidence. **Rights:** Test-created pattern only.",
+        "reviewed": false,
+        "origin": "editing-guide"
+      },
+      {
+        "id": "S01",
+        "title": "Synthetic image",
+        "url": "https://example.org/synthetic-image",
+        "notes": "Imported from your editing guide; not independently verified by CASEFILE.\nTest image file; no real person. **Rights:** Test-created image only.",
+        "reviewed": false,
+        "origin": "editing-guide"
+      }
+    ],
+    "scenes": [],
+    "assets": [
+      {
+        "id": "5197ecd48ebb4866",
+        "name": "SYNTHETIC-voice.wav",
+        "path": "data/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+        "url": "/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+        "size": 193324,
+        "generated": false,
+        "license": "",
+        "thumbnail": null,
+        "video_duration": null,
+        "audio_duration": 6.04,
+        "duration": 6.04,
+        "width": null,
+        "height": null,
+        "has_audio": true,
+        "has_video": false,
+        "kind": "audio",
+        "waveform": [
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          1.0,
+          1.0,
+          0.997,
+          1.0,
+          0.999
+        ]
+      },
+      {
+        "id": "325fb8b85bef418a",
+        "name": "S01-SYNTHETIC-image.jpg",
+        "path": "data/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+        "url": "/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+        "size": 7108,
+        "generated": false,
+        "license": "",
+        "thumbnail": "/media/3a18f8d506e54e30/f4748b85816643f5-thumb.jpg",
+        "kind": "image",
+        "width": 854,
+        "height": 480,
+        "duration": 0,
+        "has_audio": false
+      },
+      {
+        "id": "e998c211eca24df0",
+        "name": "S03-SYNTHETIC-video.mp4",
+        "path": "data/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+        "url": "/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+        "size": 551556,
+        "generated": false,
+        "license": "",
+        "thumbnail": "/media/3a18f8d506e54e30/77a66fb479d947f2-thumb.jpg",
+        "video_duration": 4.0,
+        "audio_duration": null,
+        "duration": 4.0,
+        "width": 854,
+        "height": 480,
+        "has_audio": false,
+        "has_video": true,
+        "kind": "video"
+      }
+    ],
+    "exports": [],
+    "messages": [],
+    "narration_id": "5197ecd48ebb4866",
+    "music_id": null,
+    "music_volume": 0.12,
+    "look": "noir",
+    "captions": true,
+    "review": {
+      "facts": false,
+      "rights": false,
+      "disclosure": false,
+      "picture": false
+    },
+    "is_demo": false,
+    "created_at": "2026-10-31T02:13:52.522596+00:00",
+    "updated_at": "2026-10-31T02:13:52.996634+00:00",
+    "undo": [
+      {
+        "script": "",
+        "script_dirty": false,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": null
+      },
+      {
+        "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "script_dirty": true,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": {
+          "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+          "bindings": {},
+          "reviews": {},
+          "script": {
+            "filename": "synthetic-script.md",
+            "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "sections": [
+              {
+                "key": "hook",
+                "title": "HOOK",
+                "text": "First synthetic sentence describes only a technical test and no real person.",
+                "char_start": 0,
+                "word_start": 0,
+                "word_end": 12
+              },
+              {
+                "key": "chapter-1",
+                "title": "CHAPTER 1",
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+                "char_start": 78,
+                "word_start": 12,
+                "word_end": 24
+              }
+            ],
+            "word_count": 24,
+            "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+          }
+        }
+      },
+      {
+        "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "script_dirty": true,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": {
+          "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+          "bindings": {},
+          "reviews": {},
+          "script": {
+            "filename": "synthetic-script.md",
+            "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "sections": [
+              {
+                "key": "hook",
+                "title": "HOOK",
+                "text": "First synthetic sentence describes only a technical test and no real person.",
+                "char_start": 0,
+                "word_start": 0,
+                "word_end": 12
+              },
+              {
+                "key": "chapter-1",
+                "title": "CHAPTER 1",
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+                "char_start": 78,
+                "word_start": 12,
+                "word_end": 24
+              }
+            ],
+            "word_count": 24,
+            "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+          },
+          "choices": {},
+          "guide": {
+            "filename": "synthetic-guide.md",
+            "raw": "# Synthetic QA production guide\n\n**Standing boundaries:** No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.\n\n## Script-by-script placement\n\n### HOOK\n\n1. **At:** \u201cFirst synthetic sentence\u201d **Show:** Synthetic test pattern. **Preview:** `S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02. **Label:** SYNTHETIC TEST PATTERN | 2026 **Care:** Technical fixture, not actual footage.\n\n### CHAPTER 1\n\n2. **At:** \u201cSecond synthetic sentence\u201d **Show:** Synthetic image. **Preview:** `S01` [Preview](https://example.org/synthetic-image). **Label:** SYNTHETIC QA IMAGE | 2026 **Care:** Not a photograph of a real person or event.\n\n## Source library\n\n- **S03 \u2014 [Synthetic video](https://example.org/synthetic-video)**  \n  Test video file; no actual evidence. **Rights:** Test-created pattern only.\n\n- **S01 \u2014 [Synthetic image](https://example.org/synthetic-image)**  \n  Test image file; no real person. **Rights:** Test-created image only.\n\n## Acquisition notes\n\nThese notes must not become part of S01's rights description.\n",
+            "parser_version": 3,
+            "sources": [
+              {
+                "id": "S03",
+                "title": "Synthetic video",
+                "url": "https://example.org/synthetic-video",
+                "notes": "Test video file; no actual evidence. **Rights:** Test-created pattern only.",
+                "rights_note": "Test-created pattern only."
+              },
+              {
+                "id": "S01",
+                "title": "Synthetic image",
+                "url": "https://example.org/synthetic-image",
+                "notes": "Test image file; no real person. **Rights:** Test-created image only.",
+                "rights_note": "Test-created image only."
+              }
+            ],
+            "cues": [
+              {
+                "id": "C01",
+                "number": 1,
+                "chapter": "hook",
+                "chapter_label": "HOOK",
+                "anchor": "First synthetic sentence",
+                "show": "Synthetic test pattern.",
+                "preview_raw": "`S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02.",
+                "label": "SYNTHETIC TEST PATTERN | 2026",
+                "care": "Technical fixture, not actual footage.",
+                "source_ids": [
+                  "S03"
+                ],
+                "source_id": "S03",
+                "reference_url": "https://example.org/synthetic-video",
+                "suggested_windows": [
+                  {
+                    "start": 1.0,
+                    "end": 2.0
+                  }
+                ],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              },
+              {
+                "id": "C02",
+                "number": 2,
+                "chapter": "chapter-1",
+                "chapter_label": "CHAPTER 1",
+                "anchor": "Second synthetic sentence",
+                "show": "Synthetic image.",
+                "preview_raw": "`S01` [Preview](https://example.org/synthetic-image).",
+                "label": "SYNTHETIC QA IMAGE | 2026",
+                "care": "Not a photograph of a real person or event.",
+                "source_ids": [
+                  "S01"
+                ],
+                "source_id": "S01",
+                "reference_url": "https://example.org/synthetic-image",
+                "suggested_windows": [],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              }
+            ],
+            "boundaries": "No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.",
+            "hash": "e9baa32fe0b6e0c0d97484ad17c2d77f6aa8b996a1f0591ae3f013f51006bd24"
+          }
+        }
+      },
+      {
+        "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "script_dirty": true,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": {
+          "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+          "bindings": {},
+          "reviews": {},
+          "script": {
+            "filename": "synthetic-script.md",
+            "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "sections": [
+              {
+                "key": "hook",
+                "title": "HOOK",
+                "text": "First synthetic sentence describes only a technical test and no real person.",
+                "char_start": 0,
+                "word_start": 0,
+                "word_end": 12
+              },
+              {
+                "key": "chapter-1",
+                "title": "CHAPTER 1",
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+                "char_start": 78,
+                "word_start": 12,
+                "word_end": 24
+              }
+            ],
+            "word_count": 24,
+            "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+          },
+          "choices": {},
+          "guide": {
+            "filename": "synthetic-guide.md",
+            "raw": "# Synthetic QA production guide\n\n**Standing boundaries:** No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.\n\n## Script-by-script placement\n\n### HOOK\n\n1. **At:** \u201cFirst synthetic sentence\u201d **Show:** Synthetic test pattern. **Preview:** `S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02. **Label:** SYNTHETIC TEST PATTERN | 2026 **Care:** Technical fixture, not actual footage.\n\n### CHAPTER 1\n\n2. **At:** \u201cSecond synthetic sentence\u201d **Show:** Synthetic image. **Preview:** `S01` [Preview](https://example.org/synthetic-image). **Label:** SYNTHETIC QA IMAGE | 2026 **Care:** Not a photograph of a real person or event.\n\n## Source library\n\n- **S03 \u2014 [Synthetic video](https://example.org/synthetic-video)**  \n  Test video file; no actual evidence. **Rights:** Test-created pattern only.\n\n- **S01 \u2014 [Synthetic image](https://example.org/synthetic-image)**  \n  Test image file; no real person. **Rights:** Test-created image only.\n\n## Acquisition notes\n\nThese notes must not become part of S01's rights description.\n",
+            "parser_version": 3,
+            "sources": [
+              {
+                "id": "S03",
+                "title": "Synthetic video",
+                "url": "https://example.org/synthetic-video",
+                "notes": "Test video file; no actual evidence. **Rights:** Test-created pattern only.",
+                "rights_note": "Test-created pattern only."
+              },
+              {
+                "id": "S01",
+                "title": "Synthetic image",
+                "url": "https://example.org/synthetic-image",
+                "notes": "Test image file; no real person. **Rights:** Test-created image only.",
+                "rights_note": "Test-created image only."
+              }
+            ],
+            "cues": [
+              {
+                "id": "C01",
+                "number": 1,
+                "chapter": "hook",
+                "chapter_label": "HOOK",
+                "anchor": "First synthetic sentence",
+                "show": "Synthetic test pattern.",
+                "preview_raw": "`S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02.",
+                "label": "SYNTHETIC TEST PATTERN | 2026",
+                "care": "Technical fixture, not actual footage.",
+                "source_ids": [
+                  "S03"
+                ],
+                "source_id": "S03",
+                "reference_url": "https://example.org/synthetic-video",
+                "suggested_windows": [
+                  {
+                    "start": 1.0,
+                    "end": 2.0
+                  }
+                ],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              },
+              {
+                "id": "C02",
+                "number": 2,
+                "chapter": "chapter-1",
+                "chapter_label": "CHAPTER 1",
+                "anchor": "Second synthetic sentence",
+                "show": "Synthetic image.",
+                "preview_raw": "`S01` [Preview](https://example.org/synthetic-image).",
+                "label": "SYNTHETIC QA IMAGE | 2026",
+                "care": "Not a photograph of a real person or event.",
+                "source_ids": [
+                  "S01"
+                ],
+                "source_id": "S01",
+                "reference_url": "https://example.org/synthetic-image",
+                "suggested_windows": [],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              }
+            ],
+            "boundaries": "No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.",
+            "hash": "e9baa32fe0b6e0c0d97484ad17c2d77f6aa8b996a1f0591ae3f013f51006bd24"
+          },
+          "timings": {
+            "filename": "draft_info.json",
+            "words": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "units": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "captions": [
+              {
+                "start": 0.166666,
+                "end": 2.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 5.4,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "native_captions": [
+              {
+                "start": 0.166666,
+                "end": 2.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 5.4,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "captions_source": "capcut",
+            "source_kind": "capcut",
+            "precision": "provided-timed-units",
+            "duration": 6.04,
+            "fps": 30.0,
+            "hash": "27124a2e07c90a77472b16d55adbbd770151ee63471fdac2a2342d63b9681022",
+            "sources": [
+              {
+                "kind": "capcut",
+                "filename": "draft_info.json",
+                "hash": "27124a2e07c90a77472b16d55adbbd770151ee63471fdac2a2342d63b9681022"
+              }
+            ],
+            "audio_reference_filename": "synthetic-narration.mp3",
+            "audio_verified": false,
+            "ignored_untimed_text_segments": 0,
+            "grouped_units": 0,
+            "word_end_frame_rounding_count": 0,
+            "maximum_word_end_overrun_ms": 0.0
+          }
+        }
+      },
+      {
+        "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "script_dirty": true,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [
+          {
+            "id": "5197ecd48ebb4866",
+            "name": "SYNTHETIC-voice.wav",
+            "path": "data/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+            "url": "/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+            "size": 193324,
+            "generated": false,
+            "license": "",
+            "thumbnail": null,
+            "video_duration": null,
+            "audio_duration": 6.04,
+            "duration": 6.04,
+            "width": null,
+            "height": null,
+            "has_audio": true,
+            "has_video": false,
+            "kind": "audio",
+            "waveform": [
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              0.999
+            ]
+          },
+          {
+            "id": "325fb8b85bef418a",
+            "name": "S01-SYNTHETIC-image.jpg",
+            "path": "data/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+            "url": "/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+            "size": 7108,
+            "generated": false,
+            "license": "",
+            "thumbnail": "/media/3a18f8d506e54e30/f4748b85816643f5-thumb.jpg",
+            "kind": "image",
+            "width": 854,
+            "height": 480,
+            "duration": 0,
+            "has_audio": false
+          },
+          {
+            "id": "e998c211eca24df0",
+            "name": "S03-SYNTHETIC-video.mp4",
+            "path": "data/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+            "url": "/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+            "size": 551556,
+            "generated": false,
+            "license": "",
+            "thumbnail": "/media/3a18f8d506e54e30/77a66fb479d947f2-thumb.jpg",
+            "video_duration": 4.0,
+            "audio_duration": null,
+            "duration": 4.0,
+            "width": 854,
+            "height": 480,
+            "has_audio": false,
+            "has_video": true,
+            "kind": "video"
+          }
+        ],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": {
+          "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+          "bindings": {},
+          "reviews": {},
+          "script": {
+            "filename": "synthetic-script.md",
+            "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "sections": [
+              {
+                "key": "hook",
+                "title": "HOOK",
+                "text": "First synthetic sentence describes only a technical test and no real person.",
+                "char_start": 0,
+                "word_start": 0,
+                "word_end": 12
+              },
+              {
+                "key": "chapter-1",
+                "title": "CHAPTER 1",
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+                "char_start": 78,
+                "word_start": 12,
+                "word_end": 24
+              }
+            ],
+            "word_count": 24,
+            "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+          },
+          "choices": {},
+          "guide": {
+            "filename": "synthetic-guide.md",
+            "raw": "# Synthetic QA production guide\n\n**Standing boundaries:** No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.\n\n## Script-by-script placement\n\n### HOOK\n\n1. **At:** \u201cFirst synthetic sentence\u201d **Show:** Synthetic test pattern. **Preview:** `S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02. **Label:** SYNTHETIC TEST PATTERN | 2026 **Care:** Technical fixture, not actual footage.\n\n### CHAPTER 1\n\n2. **At:** \u201cSecond synthetic sentence\u201d **Show:** Synthetic image. **Preview:** `S01` [Preview](https://example.org/synthetic-image). **Label:** SYNTHETIC QA IMAGE | 2026 **Care:** Not a photograph of a real person or event.\n\n## Source library\n\n- **S03 \u2014 [Synthetic video](https://example.org/synthetic-video)**  \n  Test video file; no actual evidence. **Rights:** Test-created pattern only.\n\n- **S01 \u2014 [Synthetic image](https://example.org/synthetic-image)**  \n  Test image file; no real person. **Rights:** Test-created image only.\n\n## Acquisition notes\n\nThese notes must not become part of S01's rights description.\n",
+            "parser_version": 3,
+            "sources": [
+              {
+                "id": "S03",
+                "title": "Synthetic video",
+                "url": "https://example.org/synthetic-video",
+                "notes": "Test video file; no actual evidence. **Rights:** Test-created pattern only.",
+                "rights_note": "Test-created pattern only."
+              },
+              {
+                "id": "S01",
+                "title": "Synthetic image",
+                "url": "https://example.org/synthetic-image",
+                "notes": "Test image file; no real person. **Rights:** Test-created image only.",
+                "rights_note": "Test-created image only."
+              }
+            ],
+            "cues": [
+              {
+                "id": "C01",
+                "number": 1,
+                "chapter": "hook",
+                "chapter_label": "HOOK",
+                "anchor": "First synthetic sentence",
+                "show": "Synthetic test pattern.",
+                "preview_raw": "`S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02.",
+                "label": "SYNTHETIC TEST PATTERN | 2026",
+                "care": "Technical fixture, not actual footage.",
+                "source_ids": [
+                  "S03"
+                ],
+                "source_id": "S03",
+                "reference_url": "https://example.org/synthetic-video",
+                "suggested_windows": [
+                  {
+                    "start": 1.0,
+                    "end": 2.0
+                  }
+                ],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              },
+              {
+                "id": "C02",
+                "number": 2,
+                "chapter": "chapter-1",
+                "chapter_label": "CHAPTER 1",
+                "anchor": "Second synthetic sentence",
+                "show": "Synthetic image.",
+                "preview_raw": "`S01` [Preview](https://example.org/synthetic-image).",
+                "label": "SYNTHETIC QA IMAGE | 2026",
+                "care": "Not a photograph of a real person or event.",
+                "source_ids": [
+                  "S01"
+                ],
+                "source_id": "S01",
+                "reference_url": "https://example.org/synthetic-image",
+                "suggested_windows": [],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              }
+            ],
+            "boundaries": "No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.",
+            "hash": "e9baa32fe0b6e0c0d97484ad17c2d77f6aa8b996a1f0591ae3f013f51006bd24"
+          },
+          "timings": {
+            "filename": "draft_info.json + captions.srt",
+            "words": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "units": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "captions": [
+              {
+                "start": 0.167,
+                "end": 3.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 6.0,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "native_captions": [
+              {
+                "start": 0.166666,
+                "end": 2.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 5.4,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "captions_source": "srt",
+            "source_kind": "capcut",
+            "precision": "provided-timed-units",
+            "duration": 6.04,
+            "fps": 30.0,
+            "hash": "3ab73441981dc5c6a9aac68cf18aabaf8d4767d9495d30571f9193a2c0e4c337",
+            "sources": [
+              {
+                "kind": "capcut",
+                "filename": "draft_info.json",
+                "hash": "27124a2e07c90a77472b16d55adbbd770151ee63471fdac2a2342d63b9681022"
+              },
+              {
+                "kind": "srt",
+                "filename": "captions.srt",
+                "hash": "d8dbafd90ef854acb1ff32bb6d77b9391e6c2f9a816820663d128abab491b00e"
+              }
+            ],
+            "audio_reference_filename": "synthetic-narration.mp3",
+            "audio_verified": false,
+            "ignored_untimed_text_segments": 0,
+            "grouped_units": 0,
+            "word_end_frame_rounding_count": 0,
+            "maximum_word_end_overrun_ms": 0.0,
+            "caption_text_difference_count": 0,
+            "caption_end_hold_difference_count": 2,
+            "maximum_caption_end_hold_difference_seconds": 1.0
+          }
+        }
+      },
+      {
+        "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "script_dirty": true,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [
+          {
+            "id": "5197ecd48ebb4866",
+            "name": "SYNTHETIC-voice.wav",
+            "path": "data/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+            "url": "/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+            "size": 193324,
+            "generated": false,
+            "license": "",
+            "thumbnail": null,
+            "video_duration": null,
+            "audio_duration": 6.04,
+            "duration": 6.04,
+            "width": null,
+            "height": null,
+            "has_audio": true,
+            "has_video": false,
+            "kind": "audio",
+            "waveform": [
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              0.999
+            ]
+          },
+          {
+            "id": "325fb8b85bef418a",
+            "name": "S01-SYNTHETIC-image.jpg",
+            "path": "data/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+            "url": "/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+            "size": 7108,
+            "generated": false,
+            "license": "",
+            "thumbnail": "/media/3a18f8d506e54e30/f4748b85816643f5-thumb.jpg",
+            "kind": "image",
+            "width": 854,
+            "height": 480,
+            "duration": 0,
+            "has_audio": false
+          },
+          {
+            "id": "e998c211eca24df0",
+            "name": "S03-SYNTHETIC-video.mp4",
+            "path": "data/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+            "url": "/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+            "size": 551556,
+            "generated": false,
+            "license": "",
+            "thumbnail": "/media/3a18f8d506e54e30/77a66fb479d947f2-thumb.jpg",
+            "video_duration": 4.0,
+            "audio_duration": null,
+            "duration": 4.0,
+            "width": 854,
+            "height": 480,
+            "has_audio": false,
+            "has_video": true,
+            "kind": "video"
+          }
+        ],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": {
+          "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+          "bindings": {
+            "S03": {
+              "asset_id": "e998c211eca24df0",
+              "rights_confirmed": false,
+              "contains_residence": false
+            },
+            "S01": {
+              "asset_id": "325fb8b85bef418a",
+              "rights_confirmed": false
+            }
+          },
+          "reviews": {},
+          "script": {
+            "filename": "synthetic-script.md",
+            "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "sections": [
+              {
+                "key": "hook",
+                "title": "HOOK",
+                "text": "First synthetic sentence describes only a technical test and no real person.",
+                "char_start": 0,
+                "word_start": 0,
+                "word_end": 12
+              },
+              {
+                "key": "chapter-1",
+                "title": "CHAPTER 1",
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+                "char_start": 78,
+                "word_start": 12,
+                "word_end": 24
+              }
+            ],
+            "word_count": 24,
+            "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+          },
+          "choices": {},
+          "guide": {
+            "filename": "synthetic-guide.md",
+            "raw": "# Synthetic QA production guide\n\n**Standing boundaries:** No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.\n\n## Script-by-script placement\n\n### HOOK\n\n1. **At:** \u201cFirst synthetic sentence\u201d **Show:** Synthetic test pattern. **Preview:** `S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02. **Label:** SYNTHETIC TEST PATTERN | 2026 **Care:** Technical fixture, not actual footage.\n\n### CHAPTER 1\n\n2. **At:** \u201cSecond synthetic sentence\u201d **Show:** Synthetic image. **Preview:** `S01` [Preview](https://example.org/synthetic-image). **Label:** SYNTHETIC QA IMAGE | 2026 **Care:** Not a photograph of a real person or event.\n\n## Source library\n\n- **S03 \u2014 [Synthetic video](https://example.org/synthetic-video)**  \n  Test video file; no actual evidence. **Rights:** Test-created pattern only.\n\n- **S01 \u2014 [Synthetic image](https://example.org/synthetic-image)**  \n  Test image file; no real person. **Rights:** Test-created image only.\n\n## Acquisition notes\n\nThese notes must not become part of S01's rights description.\n",
+            "parser_version": 3,
+            "sources": [
+              {
+                "id": "S03",
+                "title": "Synthetic video",
+                "url": "https://example.org/synthetic-video",
+                "notes": "Test video file; no actual evidence. **Rights:** Test-created pattern only.",
+                "rights_note": "Test-created pattern only."
+              },
+              {
+                "id": "S01",
+                "title": "Synthetic image",
+                "url": "https://example.org/synthetic-image",
+                "notes": "Test image file; no real person. **Rights:** Test-created image only.",
+                "rights_note": "Test-created image only."
+              }
+            ],
+            "cues": [
+              {
+                "id": "C01",
+                "number": 1,
+                "chapter": "hook",
+                "chapter_label": "HOOK",
+                "anchor": "First synthetic sentence",
+                "show": "Synthetic test pattern.",
+                "preview_raw": "`S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02.",
+                "label": "SYNTHETIC TEST PATTERN | 2026",
+                "care": "Technical fixture, not actual footage.",
+                "source_ids": [
+                  "S03"
+                ],
+                "source_id": "S03",
+                "reference_url": "https://example.org/synthetic-video",
+                "suggested_windows": [
+                  {
+                    "start": 1.0,
+                    "end": 2.0
+                  }
+                ],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              },
+              {
+                "id": "C02",
+                "number": 2,
+                "chapter": "chapter-1",
+                "chapter_label": "CHAPTER 1",
+                "anchor": "Second synthetic sentence",
+                "show": "Synthetic image.",
+                "preview_raw": "`S01` [Preview](https://example.org/synthetic-image).",
+                "label": "SYNTHETIC QA IMAGE | 2026",
+                "care": "Not a photograph of a real person or event.",
+                "source_ids": [
+                  "S01"
+                ],
+                "source_id": "S01",
+                "reference_url": "https://example.org/synthetic-image",
+                "suggested_windows": [],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              }
+            ],
+            "boundaries": "No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.",
+            "hash": "e9baa32fe0b6e0c0d97484ad17c2d77f6aa8b996a1f0591ae3f013f51006bd24"
+          },
+          "timings": {
+            "filename": "draft_info.json + captions.srt",
+            "words": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "units": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "captions": [
+              {
+                "start": 0.167,
+                "end": 3.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 6.0,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "native_captions": [
+              {
+                "start": 0.166666,
+                "end": 2.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 5.4,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "captions_source": "srt",
+            "source_kind": "capcut",
+            "precision": "provided-timed-units",
+            "duration": 6.04,
+            "fps": 30.0,
+            "hash": "3ab73441981dc5c6a9aac68cf18aabaf8d4767d9495d30571f9193a2c0e4c337",
+            "sources": [
+              {
+                "kind": "capcut",
+                "filename": "draft_info.json",
+                "hash": "27124a2e07c90a77472b16d55adbbd770151ee63471fdac2a2342d63b9681022"
+              },
+              {
+                "kind": "srt",
+                "filename": "captions.srt",
+                "hash": "d8dbafd90ef854acb1ff32bb6d77b9391e6c2f9a816820663d128abab491b00e"
+              }
+            ],
+            "audio_reference_filename": "synthetic-narration.mp3",
+            "audio_verified": false,
+            "ignored_untimed_text_segments": 0,
+            "grouped_units": 0,
+            "word_end_frame_rounding_count": 0,
+            "maximum_word_end_overrun_ms": 0.0,
+            "caption_text_difference_count": 0,
+            "caption_end_hold_difference_count": 2,
+            "maximum_caption_end_hold_difference_seconds": 1.0
+          }
+        }
+      },
+      {
+        "script": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "script_dirty": true,
+        "script_origin": "user",
+        "script_approved_hash": null,
+        "scenes": [],
+        "assets": [
+          {
+            "id": "5197ecd48ebb4866",
+            "name": "SYNTHETIC-voice.wav",
+            "path": "data/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+            "url": "/media/3a18f8d506e54e30/b8c7bc07286d4deb.wav",
+            "size": 193324,
+            "generated": false,
+            "license": "",
+            "thumbnail": null,
+            "video_duration": null,
+            "audio_duration": 6.04,
+            "duration": 6.04,
+            "width": null,
+            "height": null,
+            "has_audio": true,
+            "has_video": false,
+            "kind": "audio",
+            "waveform": [
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              1.0,
+              1.0,
+              0.997,
+              1.0,
+              0.999
+            ]
+          },
+          {
+            "id": "325fb8b85bef418a",
+            "name": "S01-SYNTHETIC-image.jpg",
+            "path": "data/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+            "url": "/media/3a18f8d506e54e30/f4748b85816643f5.jpg",
+            "size": 7108,
+            "generated": false,
+            "license": "",
+            "thumbnail": "/media/3a18f8d506e54e30/f4748b85816643f5-thumb.jpg",
+            "kind": "image",
+            "width": 854,
+            "height": 480,
+            "duration": 0,
+            "has_audio": false
+          },
+          {
+            "id": "e998c211eca24df0",
+            "name": "S03-SYNTHETIC-video.mp4",
+            "path": "data/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+            "url": "/media/3a18f8d506e54e30/77a66fb479d947f2.mp4",
+            "size": 551556,
+            "generated": false,
+            "license": "",
+            "thumbnail": "/media/3a18f8d506e54e30/77a66fb479d947f2-thumb.jpg",
+            "video_duration": 4.0,
+            "audio_duration": null,
+            "duration": 4.0,
+            "width": 854,
+            "height": 480,
+            "has_audio": false,
+            "has_video": true,
+            "kind": "video"
+          }
+        ],
+        "look": "noir",
+        "captions": true,
+        "narration_id": null,
+        "music_id": null,
+        "music_volume": 0.12,
+        "review": {
+          "facts": false,
+          "rights": false,
+          "disclosure": false,
+          "picture": false
+        },
+        "episode": {
+          "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+          "bindings": {
+            "S03": {
+              "asset_id": "e998c211eca24df0",
+              "rights_confirmed": false,
+              "contains_residence": false
+            },
+            "S01": {
+              "asset_id": "325fb8b85bef418a",
+              "rights_confirmed": false,
+              "contains_residence": false
+            }
+          },
+          "reviews": {},
+          "script": {
+            "filename": "synthetic-script.md",
+            "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+            "sections": [
+              {
+                "key": "hook",
+                "title": "HOOK",
+                "text": "First synthetic sentence describes only a technical test and no real person.",
+                "char_start": 0,
+                "word_start": 0,
+                "word_end": 12
+              },
+              {
+                "key": "chapter-1",
+                "title": "CHAPTER 1",
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+                "char_start": 78,
+                "word_start": 12,
+                "word_end": 24
+              }
+            ],
+            "word_count": 24,
+            "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+          },
+          "choices": {},
+          "guide": {
+            "filename": "synthetic-guide.md",
+            "raw": "# Synthetic QA production guide\n\n**Standing boundaries:** No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.\n\n## Script-by-script placement\n\n### HOOK\n\n1. **At:** \u201cFirst synthetic sentence\u201d **Show:** Synthetic test pattern. **Preview:** `S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02. **Label:** SYNTHETIC TEST PATTERN | 2026 **Care:** Technical fixture, not actual footage.\n\n### CHAPTER 1\n\n2. **At:** \u201cSecond synthetic sentence\u201d **Show:** Synthetic image. **Preview:** `S01` [Preview](https://example.org/synthetic-image). **Label:** SYNTHETIC QA IMAGE | 2026 **Care:** Not a photograph of a real person or event.\n\n## Source library\n\n- **S03 \u2014 [Synthetic video](https://example.org/synthetic-video)**  \n  Test video file; no actual evidence. **Rights:** Test-created pattern only.\n\n- **S01 \u2014 [Synthetic image](https://example.org/synthetic-image)**  \n  Test image file; no real person. **Rights:** Test-created image only.\n\n## Acquisition notes\n\nThese notes must not become part of S01's rights description.\n",
+            "parser_version": 3,
+            "sources": [
+              {
+                "id": "S03",
+                "title": "Synthetic video",
+                "url": "https://example.org/synthetic-video",
+                "notes": "Test video file; no actual evidence. **Rights:** Test-created pattern only.",
+                "rights_note": "Test-created pattern only."
+              },
+              {
+                "id": "S01",
+                "title": "Synthetic image",
+                "url": "https://example.org/synthetic-image",
+                "notes": "Test image file; no real person. **Rights:** Test-created image only.",
+                "rights_note": "Test-created image only."
+              }
+            ],
+            "cues": [
+              {
+                "id": "C01",
+                "number": 1,
+                "chapter": "hook",
+                "chapter_label": "HOOK",
+                "anchor": "First synthetic sentence",
+                "show": "Synthetic test pattern.",
+                "preview_raw": "`S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02.",
+                "label": "SYNTHETIC TEST PATTERN | 2026",
+                "care": "Technical fixture, not actual footage.",
+                "source_ids": [
+                  "S03"
+                ],
+                "source_id": "S03",
+                "reference_url": "https://example.org/synthetic-video",
+                "suggested_windows": [
+                  {
+                    "start": 1.0,
+                    "end": 2.0
+                  }
+                ],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              },
+              {
+                "id": "C02",
+                "number": 2,
+                "chapter": "chapter-1",
+                "chapter_label": "CHAPTER 1",
+                "anchor": "Second synthetic sentence",
+                "show": "Synthetic image.",
+                "preview_raw": "`S01` [Preview](https://example.org/synthetic-image).",
+                "label": "SYNTHETIC QA IMAGE | 2026",
+                "care": "Not a photograph of a real person or event.",
+                "source_ids": [
+                  "S01"
+                ],
+                "source_id": "S01",
+                "reference_url": "https://example.org/synthetic-image",
+                "suggested_windows": [],
+                "approximate": true,
+                "requires_stop": false,
+                "alternative_instructions": "",
+                "alternative_permitted": false,
+                "alternative_visual_allowed": false,
+                "alternatives": []
+              }
+            ],
+            "boundaries": "No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.",
+            "hash": "e9baa32fe0b6e0c0d97484ad17c2d77f6aa8b996a1f0591ae3f013f51006bd24"
+          },
+          "timings": {
+            "filename": "draft_info.json + captions.srt",
+            "words": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "units": [
+              {
+                "word": "First",
+                "text": "First",
+                "normalized": "first",
+                "start": 0.166666,
+                "end": 0.316666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 0.316666,
+                "end": 0.466666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 0.466666,
+                "end": 0.616666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "describes",
+                "text": "describes",
+                "normalized": "describes",
+                "start": 0.616666,
+                "end": 0.766666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "only",
+                "text": "only",
+                "normalized": "only",
+                "start": 0.766666,
+                "end": 0.916666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "a",
+                "text": "a",
+                "normalized": "a",
+                "start": 0.916666,
+                "end": 1.0666660000000001,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "technical",
+                "text": "technical",
+                "normalized": "technical",
+                "start": 1.0666660000000001,
+                "end": 1.216666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 1.216666,
+                "end": 1.366666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "and",
+                "text": "and",
+                "normalized": "and",
+                "start": 1.366666,
+                "end": 1.516666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "no",
+                "text": "no",
+                "normalized": "no",
+                "start": 1.516666,
+                "end": 1.666666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "real",
+                "text": "real",
+                "normalized": "real",
+                "start": 1.666666,
+                "end": 1.816666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "person",
+                "text": "person",
+                "normalized": "person",
+                "start": 1.816666,
+                "end": 1.966666,
+                "caption": 1,
+                "start_exact": true
+              },
+              {
+                "word": "Second",
+                "text": "Second",
+                "normalized": "second",
+                "start": 3.2,
+                "end": 3.35,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "synthetic",
+                "text": "synthetic",
+                "normalized": "synthetic",
+                "start": 3.35,
+                "end": 3.5,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "sentence",
+                "text": "sentence",
+                "normalized": "sentence",
+                "start": 3.5,
+                "end": 3.6500000000000004,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "continues",
+                "text": "continues",
+                "normalized": "continues",
+                "start": 3.6500000000000004,
+                "end": 3.8000000000000003,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "this",
+                "text": "this",
+                "normalized": "this",
+                "start": 3.8000000000000003,
+                "end": 3.95,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "fictional",
+                "text": "fictional",
+                "normalized": "fictional",
+                "start": 3.95,
+                "end": 4.1000000000000005,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "test",
+                "text": "test",
+                "normalized": "test",
+                "start": 4.1000000000000005,
+                "end": 4.25,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "without",
+                "text": "without",
+                "normalized": "without",
+                "start": 4.25,
+                "end": 4.4,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "asserting",
+                "text": "asserting",
+                "normalized": "asserting",
+                "start": 4.4,
+                "end": 4.550000000000001,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "any",
+                "text": "any",
+                "normalized": "any",
+                "start": 4.550000000000001,
+                "end": 4.7,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "case",
+                "text": "case",
+                "normalized": "case",
+                "start": 4.7,
+                "end": 4.85,
+                "caption": 2,
+                "start_exact": true
+              },
+              {
+                "word": "facts",
+                "text": "facts",
+                "normalized": "facts",
+                "start": 4.85,
+                "end": 5.0,
+                "caption": 2,
+                "start_exact": true
+              }
+            ],
+            "captions": [
+              {
+                "start": 0.167,
+                "end": 3.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 6.0,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "native_captions": [
+              {
+                "start": 0.166666,
+                "end": 2.2,
+                "text": "First synthetic sentence describes only a technical test and no real person."
+              },
+              {
+                "start": 3.2,
+                "end": 5.4,
+                "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+              }
+            ],
+            "captions_source": "srt",
+            "source_kind": "capcut",
+            "precision": "provided-timed-units",
+            "duration": 6.04,
+            "fps": 30.0,
+            "hash": "3ab73441981dc5c6a9aac68cf18aabaf8d4767d9495d30571f9193a2c0e4c337",
+            "sources": [
+              {
+                "kind": "capcut",
+                "filename": "draft_info.json",
+                "hash": "27124a2e07c90a77472b16d55adbbd770151ee63471fdac2a2342d63b9681022"
+              },
+              {
+                "kind": "srt",
+                "filename": "captions.srt",
+                "hash": "d8dbafd90ef854acb1ff32bb6d77b9391e6c2f9a816820663d128abab491b00e"
+              }
+            ],
+            "audio_reference_filename": "synthetic-narration.mp3",
+            "audio_verified": false,
+            "ignored_untimed_text_segments": 0,
+            "grouped_units": 0,
+            "word_end_frame_rounding_count": 0,
+            "maximum_word_end_overrun_ms": 0.0,
+            "caption_text_difference_count": 0,
+            "caption_end_hold_difference_count": 2,
+            "maximum_caption_end_hold_difference_seconds": 1.0
+          }
+        }
+      }
+    ],
+    "episode": {
+      "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
+      "bindings": {
+        "S03": {
+          "asset_id": "e998c211eca24df0",
+          "rights_confirmed": false,
+          "contains_residence": false
+        },
+        "S01": {
+          "asset_id": "325fb8b85bef418a",
+          "rights_confirmed": false,
+          "contains_residence": false
+        }
+      },
+      "reviews": {},
+      "script": {
+        "filename": "synthetic-script.md",
+        "raw": "HOOK\n\nFirst synthetic sentence describes only a technical test and no real person.\n\nCHAPTER 1\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "text": "First synthetic sentence describes only a technical test and no real person.\n\nSecond synthetic sentence continues this fictional test without asserting any case facts.",
+        "sections": [
+          {
+            "key": "hook",
+            "title": "HOOK",
+            "text": "First synthetic sentence describes only a technical test and no real person.",
+            "char_start": 0,
+            "word_start": 0,
+            "word_end": 12
+          },
+          {
+            "key": "chapter-1",
+            "title": "CHAPTER 1",
+            "text": "Second synthetic sentence continues this fictional test without asserting any case facts.",
+            "char_start": 78,
+            "word_start": 12,
+            "word_end": 24
+          }
+        ],
+        "word_count": 24,
+        "hash": "ea0b5913b825dae29028d68f76ee747f4102eda0cb69f8c13548dc5a6060ec77"
+      },
+      "choices": {},
+      "guide": {
+        "filename": "synthetic-guide.md",
+        "raw": "# Synthetic QA production guide\n\n**Standing boundaries:** No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.\n\n## Script-by-script placement\n\n### HOOK\n\n1. **At:** \u201cFirst synthetic sentence\u201d **Show:** Synthetic test pattern. **Preview:** `S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02. **Label:** SYNTHETIC TEST PATTERN | 2026 **Care:** Technical fixture, not actual footage.\n\n### CHAPTER 1\n\n2. **At:** \u201cSecond synthetic sentence\u201d **Show:** Synthetic image. **Preview:** `S01` [Preview](https://example.org/synthetic-image). **Label:** SYNTHETIC QA IMAGE | 2026 **Care:** Not a photograph of a real person or event.\n\n## Source library\n\n- **S03 \u2014 [Synthetic video](https://example.org/synthetic-video)**  \n  Test video file; no actual evidence. **Rights:** Test-created pattern only.\n\n- **S01 \u2014 [Synthetic image](https://example.org/synthetic-image)**  \n  Test image file; no real person. **Rights:** Test-created image only.\n\n## Acquisition notes\n\nThese notes must not become part of S01's rights description.\n",
+        "parser_version": 3,
+        "sources": [
+          {
+            "id": "S03",
+            "title": "Synthetic video",
+            "url": "https://example.org/synthetic-video",
+            "notes": "Test video file; no actual evidence. **Rights:** Test-created pattern only.",
+            "rights_note": "Test-created pattern only."
+          },
+          {
+            "id": "S01",
+            "title": "Synthetic image",
+            "url": "https://example.org/synthetic-image",
+            "notes": "Test image file; no real person. **Rights:** Test-created image only.",
+            "rights_note": "Test-created image only."
+          }
+        ],
+        "cues": [
+          {
+            "id": "C01",
+            "number": 1,
+            "chapter": "hook",
+            "chapter_label": "HOOK",
+            "anchor": "First synthetic sentence",
+            "show": "Synthetic test pattern.",
+            "preview_raw": "`S03` [Preview](https://example.org/synthetic-video), around 0:01\u20130:02.",
+            "label": "SYNTHETIC TEST PATTERN | 2026",
+            "care": "Technical fixture, not actual footage.",
+            "source_ids": [
+              "S03"
+            ],
+            "source_id": "S03",
+            "reference_url": "https://example.org/synthetic-video",
+            "suggested_windows": [
+              {
+                "start": 1.0,
+                "end": 2.0
+              }
+            ],
+            "approximate": true,
+            "requires_stop": false,
+            "alternative_instructions": "",
+            "alternative_permitted": false,
+            "alternative_visual_allowed": false,
+            "alternatives": []
+          },
+          {
+            "id": "C02",
+            "number": 2,
+            "chapter": "chapter-1",
+            "chapter_label": "CHAPTER 1",
+            "anchor": "Second synthetic sentence",
+            "show": "Synthetic image.",
+            "preview_raw": "`S01` [Preview](https://example.org/synthetic-image).",
+            "label": "SYNTHETIC QA IMAGE | 2026",
+            "care": "Not a photograph of a real person or event.",
+            "source_ids": [
+              "S01"
+            ],
+            "source_id": "S01",
+            "reference_url": "https://example.org/synthetic-image",
+            "suggested_windows": [],
+            "approximate": true,
+            "requires_stop": false,
+            "alternative_instructions": "",
+            "alternative_permitted": false,
+            "alternative_visual_allowed": false,
+            "alternatives": []
+          }
+        ],
+        "boundaries": "No real evidence. Keep narration unchanged; mute source audio. No residential imagery in chapter 3.",
+        "hash": "e9baa32fe0b6e0c0d97484ad17c2d77f6aa8b996a1f0591ae3f013f51006bd24"
+      },
+      "timings": {
+        "filename": "draft_info.json + captions.srt",
+        "words": [
+          {
+            "word": "First",
+            "text": "First",
+            "normalized": "first",
+            "start": 0.166666,
+            "end": 0.316666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "synthetic",
+            "text": "synthetic",
+            "normalized": "synthetic",
+            "start": 0.316666,
+            "end": 0.466666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "sentence",
+            "text": "sentence",
+            "normalized": "sentence",
+            "start": 0.466666,
+            "end": 0.616666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "describes",
+            "text": "describes",
+            "normalized": "describes",
+            "start": 0.616666,
+            "end": 0.766666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "only",
+            "text": "only",
+            "normalized": "only",
+            "start": 0.766666,
+            "end": 0.916666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "a",
+            "text": "a",
+            "normalized": "a",
+            "start": 0.916666,
+            "end": 1.0666660000000001,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "technical",
+            "text": "technical",
+            "normalized": "technical",
+            "start": 1.0666660000000001,
+            "end": 1.216666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "test",
+            "text": "test",
+            "normalized": "test",
+            "start": 1.216666,
+            "end": 1.366666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "and",
+            "text": "and",
+            "normalized": "and",
+            "start": 1.366666,
+            "end": 1.516666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "no",
+            "text": "no",
+            "normalized": "no",
+            "start": 1.516666,
+            "end": 1.666666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "real",
+            "text": "real",
+            "normalized": "real",
+            "start": 1.666666,
+            "end": 1.816666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "person",
+            "text": "person",
+            "normalized": "person",
+            "start": 1.816666,
+            "end": 1.966666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "Second",
+            "text": "Second",
+            "normalized": "second",
+            "start": 3.2,
+            "end": 3.35,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "synthetic",
+            "text": "synthetic",
+            "normalized": "synthetic",
+            "start": 3.35,
+            "end": 3.5,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "sentence",
+            "text": "sentence",
+            "normalized": "sentence",
+            "start": 3.5,
+            "end": 3.6500000000000004,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "continues",
+            "text": "continues",
+            "normalized": "continues",
+            "start": 3.6500000000000004,
+            "end": 3.8000000000000003,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "this",
+            "text": "this",
+            "normalized": "this",
+            "start": 3.8000000000000003,
+            "end": 3.95,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "fictional",
+            "text": "fictional",
+            "normalized": "fictional",
+            "start": 3.95,
+            "end": 4.1000000000000005,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "test",
+            "text": "test",
+            "normalized": "test",
+            "start": 4.1000000000000005,
+            "end": 4.25,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "without",
+            "text": "without",
+            "normalized": "without",
+            "start": 4.25,
+            "end": 4.4,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "asserting",
+            "text": "asserting",
+            "normalized": "asserting",
+            "start": 4.4,
+            "end": 4.550000000000001,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "any",
+            "text": "any",
+            "normalized": "any",
+            "start": 4.550000000000001,
+            "end": 4.7,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "case",
+            "text": "case",
+            "normalized": "case",
+            "start": 4.7,
+            "end": 4.85,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "facts",
+            "text": "facts",
+            "normalized": "facts",
+            "start": 4.85,
+            "end": 5.0,
+            "caption": 2,
+            "start_exact": true
+          }
+        ],
+        "units": [
+          {
+            "word": "First",
+            "text": "First",
+            "normalized": "first",
+            "start": 0.166666,
+            "end": 0.316666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "synthetic",
+            "text": "synthetic",
+            "normalized": "synthetic",
+            "start": 0.316666,
+            "end": 0.466666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "sentence",
+            "text": "sentence",
+            "normalized": "sentence",
+            "start": 0.466666,
+            "end": 0.616666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "describes",
+            "text": "describes",
+            "normalized": "describes",
+            "start": 0.616666,
+            "end": 0.766666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "only",
+            "text": "only",
+            "normalized": "only",
+            "start": 0.766666,
+            "end": 0.916666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "a",
+            "text": "a",
+            "normalized": "a",
+            "start": 0.916666,
+            "end": 1.0666660000000001,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "technical",
+            "text": "technical",
+            "normalized": "technical",
+            "start": 1.0666660000000001,
+            "end": 1.216666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "test",
+            "text": "test",
+            "normalized": "test",
+            "start": 1.216666,
+            "end": 1.366666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "and",
+            "text": "and",
+            "normalized": "and",
+            "start": 1.366666,
+            "end": 1.516666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "no",
+            "text": "no",
+            "normalized": "no",
+            "start": 1.516666,
+            "end": 1.666666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "real",
+            "text": "real",
+            "normalized": "real",
+            "start": 1.666666,
+            "end": 1.816666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "person",
+            "text": "person",
+            "normalized": "person",
+            "start": 1.816666,
+            "end": 1.966666,
+            "caption": 1,
+            "start_exact": true
+          },
+          {
+            "word": "Second",
+            "text": "Second",
+            "normalized": "second",
+            "start": 3.2,
+            "end": 3.35,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "synthetic",
+            "text": "synthetic",
+            "normalized": "synthetic",
+            "start": 3.35,
+            "end": 3.5,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "sentence",
+            "text": "sentence",
+            "normalized": "sentence",
+            "start": 3.5,
+            "end": 3.6500000000000004,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "continues",
+            "text": "continues",
+            "normalized": "continues",
+            "start": 3.6500000000000004,
+            "end": 3.8000000000000003,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "this",
+            "text": "this",
+            "normalized": "this",
+            "start": 3.8000000000000003,
+            "end": 3.95,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "fictional",
+            "text": "fictional",
+            "normalized": "fictional",
+            "start": 3.95,
+            "end": 4.1000000000000005,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "test",
+            "text": "test",
+            "normalized": "test",
+            "start": 4.1000000000000005,
+            "end": 4.25,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "without",
+            "text": "without",
+            "normalized": "without",
+            "start": 4.25,
+            "end": 4.4,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "asserting",
+            "text": "asserting",
+            "normalized": "asserting",
+            "start": 4.4,
+            "end": 4.550000000000001,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "any",
+            "text": "any",
+            "normalized": "any",
+            "start": 4.550000000000001,
+            "end": 4.7,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "case",
+            "text": "case",
+            "normalized": "case",
+            "start": 4.7,
+            "end": 4.85,
+            "caption": 2,
+            "start_exact": true
+          },
+          {
+            "word": "facts",
+            "text": "facts",
+            "normalized": "facts",
+            "start": 4.85,
+            "end": 5.0,
+            "caption": 2,
+            "start_exact": true
+          }
+        ],
+        "captions": [
+          {
+            "start": 0.167,
+            "end": 3.2,
+            "text": "First synthetic sentence describes only a technical test and no real person."
+          },
+          {
+            "start": 3.2,
+            "end": 6.0,
+            "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+          }
+        ],
+        "native_captions": [
+          {
+            "start": 0.166666,
+            "end": 2.2,
+            "text": "First synthetic sentence describes only a technical test and no real person."
+          },
+          {
+            "start": 3.2,
+            "end": 5.4,
+            "text": "Second synthetic sentence continues this fictional test without asserting any case facts."
+          }
+        ],
+        "captions_source": "srt",
+        "source_kind": "capcut",
+        "precision": "provided-timed-units",
+        "duration": 6.04,
+        "fps": 30.0,
+        "hash": "3ab73441981dc5c6a9aac68cf18aabaf8d4767d9495d30571f9193a2c0e4c337",
+        "sources": [
+          {
+            "kind": "capcut",
+            "filename": "draft_info.json",
+            "hash": "27124a2e07c90a77472b16d55adbbd770151ee63471fdac2a2342d63b9681022"
+          },
+          {
+            "kind": "srt",
+            "filename": "captions.srt",
+            "hash": "d8dbafd90ef854acb1ff32bb6d77b9391e6c2f9a816820663d128abab491b00e"
+          }
+        ],
+        "audio_reference_filename": "synthetic-narration.mp3",
+        "audio_verified": false,
+        "ignored_untimed_text_segments": 0,
+        "grouped_units": 0,
+        "word_end_frame_rounding_count": 0,
+        "maximum_word_end_overrun_ms": 0.0,
+        "caption_text_difference_count": 0,
+        "caption_end_hold_difference_count": 2,
+        "maximum_caption_end_hold_difference_seconds": 1.0
+      }
+    }
+  }
+}

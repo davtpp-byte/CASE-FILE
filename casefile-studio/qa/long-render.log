@@ -1,0 +1,28 @@
+Starting a real 20-minute, 60-scene 480p validation render.
+  5% Rendering scene 1 of 60 · Synthetic validation scene 01
+ 10% Rendering scene 5 of 60 · Synthetic validation scene 05
+ 20% Rendering scene 13 of 60 · Synthetic validation scene 13
+ 30% Rendering scene 20 of 60 · Synthetic validation scene 20
+ 40% Rendering scene 28 of 60 · Synthetic validation scene 28
+ 51% Rendering scene 36 of 60 · Synthetic validation scene 36
+ 60% Rendering scene 43 of 60 · Synthetic validation scene 43
+ 70% Rendering scene 51 of 60 · Synthetic validation scene 51
+ 80% Rendering scene 58 of 60 · Synthetic validation scene 58
+ 92% Mixing audio and preparing the MP4
+{
+  "passed": true,
+  "test": "Synthetic long-form media pipeline",
+  "video_seconds": 1200.0,
+  "scene_count": 60,
+  "video_frames": 28800,
+  "frame_rate": "24/1",
+  "resolution": "854x480",
+  "has_audio": true,
+  "output_bytes": 74011075,
+  "elapsed_seconds": 207.94,
+  "scenes_with_video": 12,
+  "scenes_with_zoom": 8,
+  "audio_tail_verified": true,
+  "caption_end_verified": true,
+  "scope": "Synthetic 20-minute technical render, not paid-provider validation, production load testing, or a professionally edited case documentary. Performance depends on media complexity and hardware."
+}

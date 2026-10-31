@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "test": "Synthetic long-form media pipeline",
+  "video_seconds": 1200.0,
+  "scene_count": 60,
+  "video_frames": 28800,
+  "frame_rate": "24/1",
+  "resolution": "854x480",
+  "has_audio": true,
+  "output_bytes": 74011075,
+  "elapsed_seconds": 207.94,
+  "scenes_with_video": 12,
+  "scenes_with_zoom": 8,
+  "audio_tail_verified": true,
+  "caption_end_verified": true,
+  "scope": "Synthetic 20-minute technical render, not paid-provider validation, production load testing, or a professionally edited case documentary. Performance depends on media complexity and hardware."
+}

@@ -1,0 +1,27 @@
+{
+  "prepared_shared_engine_fix": true,
+  "live_user_runtime_modified": false,
+  "existing_project_files_unchanged": true,
+  "screenshot_misassignment_reproduced_and_corrected": [
+    "S10 -> S01",
+    "S18 -> S17"
+  ],
+  "alternative_crop_windows_verified": {
+    "C36": [
+      5,
+      9
+    ],
+    "C37": [
+      20,
+      24
+    ]
+  },
+  "portrait_not_funeral_label_verified": true,
+  "narration_word_clock_unchanged": true,
+  "approval_flags_inferred": false,
+  "unnamed_unique_image_alternative_resolved": true,
+  "actual_media_rendered": false,
+  "standalone_regression_tests_passed": 6,
+  "deployed_to_user_live_project": false,
+  "runtime_started_or_restarted": false
+}

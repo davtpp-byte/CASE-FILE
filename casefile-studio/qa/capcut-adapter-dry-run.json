@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "duration": 903.533333,
+  "candidates": [
+    "C02",
+    "C06",
+    "C08",
+    "C27",
+    "C31",
+    "C41",
+    "C42",
+    "C43"
+  ],
+  "plan": {
+    "input_digest": "0ee8cd6ea3c722e74d92c2807dc91596471ad2980471d681fa34af3943f0e80e",
+    "timeline_digest": "36e6fb71b4956ace3600649ca468bec71c0d8aecc09f78806ceb4aa8be3ea56a",
+    "built_at": "2026-10-30T09:17:34.652093+00:00",
+    "duration": 903.5416666666666,
+    "scene_count": 56,
+    "gap_seconds": 903.5416666666666,
+    "visual_seconds": 0.0,
+    "preserves_narration": true,
+    "source_audio": "muted",
+    "timing": "provided caption timestamps; guide cue review required",
+    "has_voice": false
+  },
+  "sources": [
+    {
+      "kind": "capcut",
+      "filename": "draft_info.json",
+      "hash": "d9bdfdd92e535832cf5aad9858c5ea5d839e37c456c83791e3d62c0068d37de3"
+    },
+    {
+      "kind": "srt",
+      "filename": "captions_continuous.srt.md",
+      "hash": "9a3cc6bb81f1f911b534031b7836022c18e391d978904a28c111133bb5767e86"
+    }
+  ],
+  "scene_count": 56
+}

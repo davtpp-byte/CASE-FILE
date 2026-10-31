@@ -1,0 +1,9 @@
+{
+  "proof_sha256": "170ab15857a73a6a2e96a841918373a0d213fa9190cc20f2b313e9b9d889672f",
+  "bytes": 683228,
+  "narration_310hz_peak": 303.0587463378906,
+  "source_990hz_peak": 0.14734399318695068,
+  "source_over_narration_peak": 0.00048618954234923084,
+  "source_audio_muted_verified": true,
+  "original_project_hashes_unchanged": true
+}
