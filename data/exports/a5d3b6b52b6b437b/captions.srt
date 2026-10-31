@@ -1,7 +1,0 @@
-1
-00:00:00,167 --> 00:00:03,200
-First synthetic sentence describes only a technical test and no real person.
-
-2
-00:00:03,200 --> 00:00:06,000
-Second synthetic sentence continues this fictional test without asserting any case facts.
