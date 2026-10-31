@@ -1,0 +1,10 @@
+# Local runtime / tooling (not part of the app)
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.pytest_cache/
+
+# Local scratch output
+*.log.tmp
+.DS_Store

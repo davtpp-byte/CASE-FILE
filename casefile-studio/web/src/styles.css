@@ -4481,3 +4481,124 @@ b {
   font-size: 9px;
   line-height: 1.7;
 }
+
+/* Per-track editor (Edit section: Visuals / Narration / Music) */
+.track-row {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #1c1e22;
+  margin: 8px 0;
+  overflow: hidden;
+}
+.track-row-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-bottom: 1px solid #2a2c30;
+  background: #17191c;
+}
+.track-row-head span {
+  flex: 1;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+}
+.track-pill {
+  font-size: 9px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.track-active {
+  font-size: 9px;
+  color: var(--gold);
+  font-weight: 700;
+}
+.track-row-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px 12px;
+}
+.track-row-fields > label {
+  font-size: 11px;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.track-row-fields input,
+.track-row-fields select,
+.track-row-fields textarea {
+  font-size: 11px;
+  padding: 6px 8px;
+}
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 11px;
+  padding: 4px 8px;
+  border: 1px solid #3b3d40;
+  border-radius: 4px;
+  background: #242629;
+  color: var(--text);
+  cursor: pointer;
+  margin-left: 6px;
+}
+.icon-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Track edit toolbar (visible beside Split in timeline toolbar) */
+.track-tools {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  border-left: 1px solid #3b3d40;
+  margin-left: 4px;
+  padding-left: 4px;
+}
+.track-tools .timeline-tool {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 9px;
+  padding: 2px 6px;
+  border: 1px solid #3b3d40;
+  border-radius: 2px;
+  background: #242629;
+  color: var(--text);
+  cursor: pointer;
+  line-height: 1;
+}
+.track-tools .timeline-tool svg {
+  width: 11px;
+  height: 11px;
+}
+.track-tools .timeline-tool span {
+  font-size: 9px;
+  line-height: 1;
+}
+.track-tools .timeline-tool:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.track-tools .timeline-tool.selected {
+  border-color: var(--gold);
+  background: #332e26;
+  color: var(--gold);
+}
+.track-tools .timeline-tool.danger {
+  background: #302222;
+  border-color: #5a3c3c;
+  color: #d9a2a0;
+}
+.track-tools .timeline-tool.danger:not(:disabled):hover {
+  background: #4a2a2a;
+  border-color: #d9a2a0;
+}
