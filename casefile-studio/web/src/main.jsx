@@ -635,14 +635,18 @@ function App() {
       else m.pause();
     }
     if (v) {
-      const target = (activeScene?.trim_start || 0) + local;
-      // Loop the selected crop within the scene: when the crop is shorter than
-      // the scene duration, repeat it by wrapping playback position within the
-      // asset duration. Applies to all scenes (cue and gap alike) so footage
-      // fills the scene instead of stopping at the crop end.
-      const expected = v.duration ? target % v.duration : target;
-      if (Number.isFinite(expected) && Math.abs(v.currentTime - expected) > 0.3)
-        v.currentTime = expected;
+      const trimStart = activeScene?.trim_start || 0;
+      const sceneDur = activeScene?.duration || 0;
+      const cropOut = Math.min(trimStart + sceneDur, v.duration || Infinity);
+      const cropDur = cropOut - trimStart;
+      if (cropDur > 0) {
+        // Loop the selected crop within the scene: wrap playback position
+        // within the crop boundaries (trim_start to crop_out), not the whole
+        // source file duration. Trim the last repetition at the scene end.
+        const expected = trimStart + (local % cropDur);
+        if (Number.isFinite(expected) && Math.abs(v.currentTime - expected) > 0.3)
+          v.currentTime = expected;
+      }
       if (playing) v.play().catch(() => {});
       else v.pause();
     }
@@ -2474,7 +2478,7 @@ function App() {
                       src={visual.url}
                       muted
                       playsInline
-                      loop={!!v}
+                      loop={false}
                       onLoadedMetadata={() => setTime((t) => t)}
                     />
                   ) : visual ? (
