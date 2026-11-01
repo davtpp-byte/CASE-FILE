@@ -794,6 +794,16 @@ async def upload(
             p["script_origin"] = "user"
             p["script_approved_hash"] = None
             p["review"]["facts"] = False
+        # Auto-rebuild the inspection timeline when media lands, so uploaded
+        # source files are matched to gap scenes and cue crops are inherited.
+        # No manual "First draft" click required.
+        if p.get("episode") and p["episode"].get("guide"):
+            try:
+                episode.build(p, allow_placeholders=True, inspection=True)
+            except (ValueError, TypeError, KeyError):
+                # A failed rebuild must not block the upload itself. Assets are
+                # already saved; the user can run First draft manually.
+                pass
         return save_project(p)
 
 
