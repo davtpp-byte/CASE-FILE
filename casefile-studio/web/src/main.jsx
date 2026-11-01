@@ -2718,7 +2718,7 @@ function App() {
                         title="Edit Visuals track"
                         aria-label="Edit Visuals track"
                         onClick={() => setSelectedTrack({ kind: "visual", sceneId: selected.id })}
-                        disabled={locked || !selected.asset_id}
+                        disabled={locked || !selected?.asset_id}
                       >
                         <Film size={12} />
                         <span>V1</span>
@@ -2728,7 +2728,7 @@ function App() {
                         title="Edit Narration track"
                         aria-label="Edit Narration track"
                         onClick={() => setSelectedTrack({ kind: "narration", sceneId: selected.id })}
-                        disabled={locked}
+                        disabled={locked || !selected}
                       >
                         <Mic size={12} />
                         <span>A1</span>
@@ -2738,7 +2738,7 @@ function App() {
                         title="Edit Music track"
                         aria-label="Edit Music track"
                         onClick={() => setSelectedTrack({ kind: "music", sceneId: selected.id })}
-                        disabled={locked}
+                        disabled={locked || !selected}
                       >
                         <Music2 size={12} />
                         <span>A2</span>
@@ -2748,11 +2748,11 @@ function App() {
                         title="Remove selected track from scene"
                         aria-label="Remove track from scene"
                         onClick={() => {
-                          if (!selectedTrack || selectedTrack.sceneId !== selected.id) return;
+                          if (!selectedTrack || !selected || selectedTrack.sceneId !== selected.id) return;
                           deleteTrack(selectedTrack.kind);
                           setSelectedTrack(null);
                         }}
-                        disabled={locked || !selectedTrack || selectedTrack.sceneId !== selected.id}
+                        disabled={locked || !selectedTrack || !selected || selectedTrack.sceneId !== selected.id}
                       >
                         <Trash2 size={12} />
                         <span>Delete</span>
