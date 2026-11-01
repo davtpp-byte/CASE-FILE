@@ -636,8 +636,11 @@ function App() {
     }
     if (v) {
       const target = (activeScene?.trim_start || 0) + local;
-      const expected =
-        v.duration && !activeScene?.guide_cue_id ? target % v.duration : target;
+      // Loop the selected crop within the scene: when the crop is shorter than
+      // the scene duration, repeat it by wrapping playback position within the
+      // asset duration. Applies to all scenes (cue and gap alike) so footage
+      // fills the scene instead of stopping at the crop end.
+      const expected = v.duration ? target % v.duration : target;
       if (Number.isFinite(expected) && Math.abs(v.currentTime - expected) > 0.3)
         v.currentTime = expected;
       if (playing) v.play().catch(() => {});
@@ -2471,7 +2474,7 @@ function App() {
                       src={visual.url}
                       muted
                       playsInline
-                      loop={!activeScene?.guide_cue_id}
+                      loop={!!v}
                       onLoadedMetadata={() => setTime((t) => t)}
                     />
                   ) : visual ? (
