@@ -414,22 +414,32 @@ def render(
             is_image = asset and asset.get("kind") == "image"
             trim_start = max(0.0, float(scene.get("trim_start", 0)))
             asset_dur = float(asset.get("duration", 0) or 0) if asset else 0.0
+            # Use the cue's original selected crop end (trim_start + cue duration)
+            # when stored on the scene; otherwise fall back to scene duration.
+            source_crop_end = scene.get("source_crop_end")
+            crop_end = (
+                max(trim_start, float(source_crop_end))
+                if source_crop_end is not None
+                else trim_start + duration
+            )
+            crop_end = min(crop_end, asset_dur)
+            crop_len = max(0.0, crop_end - trim_start)
             video_input = str(src)
             video_extra: list[str] = []
             if is_video:
-                if trim_start >= asset_dur:
+                if crop_len <= 0 or trim_start >= asset_dur:
                     # The selected source crop has no valid footage to play; warn and
                     # render the placeholder instead of a short/empty clip.
                     warnings.append(
-                        f"Scene '{scene.get('title','')}': source crop starts at or beyond the "
-                        f"asset end ({asset_dur:.3f}s); rendering placeholder."
+                        f"Scene '{scene.get('title','')}': source crop has no footage "
+                        f"(trim={trim_start:.3f}s, crop_end={crop_end:.3f}s, asset_end={asset_dur:.3f}s); "
+                        f"rendering placeholder."
                     )
                     video_input = str(placeholder)
-                elif trim_start + duration > asset_dur + 1e-6:
-                    # Loop rule (video only): the selected source crop is too short for the
-                    # scene. Repeat that exact crop within the scene and trim the final
+                elif trim_start + duration > crop_end + 1e-6:
+                    # Loop rule (video only): repeat the exact selected crop
+                    # [trim_start, crop_end] within the scene and trim the final
                     # repetition so the clip runs exactly `duration`.
-                    crop_len = asset_dur - trim_start
                     reps = max(1, math.ceil(duration / crop_len))
                     crop = work / f"crop{i}.mp4"
                     run(

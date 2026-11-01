@@ -637,7 +637,13 @@ function App() {
     if (v) {
       const trimStart = activeScene?.trim_start || 0;
       const sceneDur = activeScene?.duration || 0;
-      const cropOut = Math.min(trimStart + sceneDur, v.duration || Infinity);
+      // Use the cue's original selected crop end when stored on the scene
+      // (gap scenes inherit it from their matched cue), so preview loops
+      // within the exact crop, not the gap duration or full source file.
+      const sourceCropEnd = activeScene?.source_crop_end;
+      const cropOut = sourceCropEnd
+        ? Math.min(sourceCropEnd, v.duration || Infinity)
+        : Math.min(trimStart + sceneDur, v.duration || Infinity);
       const cropDur = cropOut - trimStart;
       if (cropDur > 0) {
         // Loop the selected crop within the scene: wrap playback position

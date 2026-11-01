@@ -253,6 +253,11 @@ def sanitize_scene(scene, asset_ids):
         out["guide_primary_source_id"] = str(scene["guide_primary_source_id"])[:30]
     if "source_window_basis" in scene:
         out["source_window_basis"] = str(scene["source_window_basis"])[:240]
+    if "source_crop_end" in scene:
+        try:
+            out["source_crop_end"] = max(0.0, float(scene["source_crop_end"]))
+        except (ValueError, TypeError):
+            out["source_crop_end"] = None
     out["captions_exact"] = scene.get("captions_exact") is True
     out["captions"] = []
     for c in scene.get("captions", [])[:500]:
