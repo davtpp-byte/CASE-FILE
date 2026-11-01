@@ -1631,26 +1631,26 @@ def build(project, allow_placeholders=False, inspection=False):
         if visual_end - start < 12:
             push(start, end, chapter, cue)
             continue
-    source_crop_end = window["out"] if asset and asset["kind"] == "video" else None
-    push(
-        start,
-        visual_end,
-        chapter,
-        cue,
-        asset,
-        trim,
-        cue["label"],
-        unreviewed=not cue["ready"],
-        window_basis=candidate["basis"] if inspection else "",
-        source_crop_end=source_crop_end,
-    )
-    push(
-        visual_end,
-        end,
-        chapter,
-        cue,
-        source_crop_end=source_crop_end,
-    )
+        source_crop_end = window["out"] if asset and asset["kind"] == "video" else None
+        push(
+            start,
+            visual_end,
+            chapter,
+            cue,
+            asset,
+            trim,
+            cue["label"],
+            unreviewed=not cue["ready"],
+            window_basis=candidate["basis"] if inspection else "",
+            source_crop_end=source_crop_end,
+        )
+        push(
+            visual_end,
+            end,
+            chapter,
+            cue,
+            source_crop_end=source_crop_end,
+        )
     if len(scenes) > 400:
         raise ValueError(
             "This plan exceeds 400 scenes. Shorten the material or revise the guide."
