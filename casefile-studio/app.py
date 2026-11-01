@@ -233,8 +233,11 @@ def sanitize_scene(scene, asset_ids):
     )
     out["transition"] = (
         scene.get("transition")
-        if scene.get("transition") in ["cut", "fade"]
-        else "fade"
+        if scene.get("transition") in ["none", "cut", "fade", "cross-dissolve"]
+        else "none"
+    )
+    out["transition_duration"] = max(
+        0.0, min(600.0, float(scene.get("transition_duration", 0) or 0))
     )
     out["show_title"] = bool(scene.get("show_title", True))
     out["timing"] = scene.get("timing", "estimated")[:30]

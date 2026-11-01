@@ -1,7 +1,7 @@
 """Deterministic FFmpeg renderer. No AI calls, shell interpolation, or remote media."""
 
 from __future__ import annotations
-import json, shutil, subprocess, tempfile, textwrap
+import json, math, shutil, subprocess, tempfile, textwrap
 from pathlib import Path
 from typing import Callable
 from editorial import strip_references
@@ -356,7 +356,11 @@ def render(
     ]
     assets = {a["id"]: a for a in project.get("assets", [])}
     draft = options.get("draft", True)
+    # Keep scene timings at millisecond precision (HH:MM:SS,mmm); do not round
+    # them to whole seconds. Rendered frames are still snapped to the 24 fps
+    # frame boundary so adjoining scenes share an exact frame boundary.
     total = sum(round(float(s["duration"]) * FPS) / FPS for s in scenes)
+    warnings: list[str] = []
     with tempfile.TemporaryDirectory(prefix="casefile-render-") as folder:
         work = Path(folder)
         placeholder = work / "placeholder.png"
@@ -379,8 +383,10 @@ def render(
         for i, scene in enumerate(scenes):
             if cancelled():
                 raise RuntimeError("Cancelled by you. No output was published.")
-            duration = round(float(scene["duration"]) * FPS) / FPS
-            frames = round(duration * FPS)
+            # Retain the scene's millisecond-precision timing (HH:MM:SS,mmm);
+            # snap only the encoded frame count to the 24 fps frame boundary.
+            duration = float(scene["duration"])
+            frames = max(1, round(duration * FPS))
             progress(
                 5 + int(79 * i / len(scenes)),
                 f"Rendering scene {i + 1} of {len(scenes)} · {scene.get('title', '')}",
@@ -404,18 +410,84 @@ def render(
                 "1",
             ]
             motion = scene.get("motion", "slow-zoom")
-            if asset and asset.get("kind") == "video":
-                if not scene.get("guide_cue_id"):
-                    command += ["-stream_loop", "-1"]
-                command += [
-                    "-ss",
-                    str(max(0, scene.get("trim_start", 0))),
-                    "-i",
-                    str(src),
-                ]
-                vf = f"scale={width}:{height}:force_original_aspect_ratio=increase,crop={width}:{height},fps={FPS},setpts=PTS-STARTPTS,setsar=1"
+            is_video = asset and asset.get("kind") == "video"
+            is_image = asset and asset.get("kind") == "image"
+            trim_start = max(0.0, float(scene.get("trim_start", 0)))
+            asset_dur = float(asset.get("duration", 0) or 0) if asset else 0.0
+            video_input = str(src)
+            video_extra: list[str] = []
+            if is_video:
+                if trim_start >= asset_dur:
+                    # The selected source crop has no valid footage to play; warn and
+                    # render the placeholder instead of a short/empty clip.
+                    warnings.append(
+                        f"Scene '{scene.get('title','')}': source crop starts at or beyond the "
+                        f"asset end ({asset_dur:.3f}s); rendering placeholder."
+                    )
+                    video_input = str(placeholder)
+                elif trim_start + duration > asset_dur + 1e-6:
+                    # Loop rule (video only): the selected source crop is too short for the
+                    # scene. Repeat that exact crop within the scene and trim the final
+                    # repetition so the clip runs exactly `duration`.
+                    crop_len = asset_dur - trim_start
+                    reps = max(1, math.ceil(duration / crop_len))
+                    crop = work / f"crop{i}.mp4"
+                    run(
+                        [
+                            "ffmpeg",
+                            "-hide_banner",
+                            "-loglevel",
+                            "error",
+                            "-y",
+                            "-i",
+                            str(src),
+                            "-ss",
+                            str(trim_start),
+                            "-t",
+                            str(crop_len),
+                            "-c:v",
+                            "libx264",
+                            "-preset",
+                            "veryfast",
+                            "-crf",
+                            "20",
+                            "-an",
+                            str(crop),
+                        ],
+                        cancelled,
+                    )
+                    listing = work / f"croploop{i}.txt"
+                    listing.write_text("\n".join(f"file '{crop.as_posix()}'" for _ in range(reps)))
+                    looped = work / f"croploop{i}.mp4"
+                    run(
+                        [
+                            "ffmpeg",
+                            "-hide_banner",
+                            "-loglevel",
+                            "error",
+                            "-y",
+                            "-f",
+                            "concat",
+                            "-safe",
+                            "0",
+                            "-i",
+                            str(listing),
+                            "-c",
+                            "copy",
+                            str(looped),
+                        ],
+                        cancelled,
+                    )
+                    video_input = str(looped)
+                else:
+                    video_extra = ["-ss", str(trim_start)]
+            elif is_image and motion == "none":
+                video_extra = ["-loop", "1", "-framerate", str(FPS)]
+            command += video_extra + ["-i", video_input]
+            vf = f"scale={width}:{height}:force_original_aspect_ratio=increase,crop={width}:{height}"
+            if is_video:
+                vf += f",fps={FPS},setpts=PTS-STARTPTS,setsar=1"
             elif motion != "none":
-                command += ["-i", str(src)]
                 z = (
                     f"1+0.075*on/{max(1, frames - 1)}"
                     if motion == "slow-zoom"
@@ -426,10 +498,9 @@ def render(
                     if motion == "slow-zoom"
                     else f"(iw-iw/zoom)*(1-on/{max(1, frames - 1)})"
                 )
-                vf = f"scale={width * 2}:{height * 2}:force_original_aspect_ratio=increase,crop={width * 2}:{height * 2},zoompan=z='{z}':x='{xp}':y='ih/2-ih/zoom/2':d={frames}:s={width}x{height}:fps={FPS},setsar=1"
+                vf += f",zoompan=z='{z}':x='{xp}':y='ih/2-ih/zoom/2':d={frames}:s={width}x{height}:fps={FPS},setsar=1"
             else:
-                command += ["-loop", "1", "-framerate", str(FPS), "-i", str(src)]
-                vf = f"scale={width}:{height}:force_original_aspect_ratio=increase,crop={width}:{height},setsar=1"
+                vf += ",setsar=1"
             look = project.get("look", "noir")
             if look == "noir":
                 vf += ",eq=saturation=0.72:contrast=1.05:brightness=-0.015"
@@ -443,8 +514,21 @@ def render(
                 ass = work / f"{i}.ass"
                 write_ass(scene, ass, width, height)
                 filters += f",subtitles='{ass.as_posix()}'"
-            if scene.get("transition", "fade") == "fade" and duration >= 1:
-                filters += f",fade=t=in:st=0:d=0.25,fade=t=out:st={max(0, duration - 0.25):.3f}:d=0.25"
+            # Optional transitions (off by default). A transition fades this scene in at
+            # its start and out at its end over `transition_duration` seconds. It never
+            # moves the scene boundary, narration, captions, or the project duration.
+            has_footage = is_video or is_image
+            trans = scene.get("transition", "none")
+            trans_dur = max(0.0, min(float(scene.get("transition_duration", 0) or 0), duration))
+            if trans in ("fade", "cross-dissolve") and trans_dur > 0 and has_footage:
+                filters += f",fade=t=in:st=0:d={trans_dur:.3f}"
+                fade_out_start = max(0.0, duration - trans_dur)
+                filters += f",fade=t=out:st={fade_out_start:.3f}:d={trans_dur:.3f}"
+            elif trans in ("fade", "cross-dissolve"):
+                warnings.append(
+                    f"Scene '{scene.get('title','')}': '{trans}' cannot fade a placeholder "
+                    f"or gap; no footage to apply it to."
+                )
             filters += ",format=yuv420p[v]"
             command += [
                 "-filter_complex",
@@ -597,4 +681,5 @@ def render(
         "resolution": options["resolution"],
         "audio": bool(audio),
         "size": out.stat().st_size,
+        "warnings": warnings,
     }

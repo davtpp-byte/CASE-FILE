@@ -955,7 +955,8 @@ function App() {
       duration: 8,
       asset_id: null,
       motion: "slow-zoom",
-      transition: "fade",
+      transition: "none",
+      transition_duration: 0,
       show_title: true,
       trim_start: 0,
       audio_start: sum(scenes),
@@ -1456,10 +1457,36 @@ function App() {
                         updateScene({ transition: e.target.value })
                       }
                     >
+                      <option value="none">None</option>
+                      <option value="cross-dissolve">Cross-dissolve</option>
                       <option value="fade">Fade to black</option>
                       <option value="cut">Cut</option>
                     </select>
                   </label>
+                  {selected.transition !== "none" && selected.transition !== "cut" && (
+                    <label className="field">
+                      Transition duration
+                      <div className="input-unit">
+                        <input
+                          aria-label="Transition duration"
+                          type="number"
+                          min="0"
+                          max="600"
+                          step="0.25"
+                          value={selected.transition_duration ?? 0}
+                          onChange={(e) =>
+                            updateScene({
+                              transition_duration: Math.max(
+                                0,
+                                Math.min(600, Number(e.target.value) || 0),
+                              ),
+                            })
+                          }
+                        />
+                        <span>sec</span>
+                      </div>
+                    </label>
+                  )}
                 </div>
                 <label className="field">
                   Visual source
