@@ -8,3 +8,7 @@ node_modules/
 # Local scratch output
 *.log.tmp
 .DS_Store
+
+# Local runtime for the sandbox dev server (not part of the app)
+.casefile-studio-local/
+.tools/
