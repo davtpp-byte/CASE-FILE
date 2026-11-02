@@ -1728,6 +1728,14 @@ async def episode_source(id: str, source_id: str, request: Request):
         try:
             episode.bind_source(p, source_id, body)
             episode.resolve_automatic_source_links(p)
+            # Auto-rebuild the inspection timeline after a source binding
+            # changes, so assigned media is reflected in the plan and the
+            # source_label stays aligned with the cue.
+            if p.get("episode") and p["episode"].get("guide"):
+                try:
+                    episode.build(p, allow_placeholders=True, inspection=True)
+                except (ValueError, TypeError, KeyError):
+                    pass
         except (ValueError, TypeError, KeyError) as e:
             raise HTTPException(422, str(e))
         return episode_result(p)
@@ -1754,6 +1762,14 @@ async def episode_choice(id: str, cue_id: str, request: Request):
         checkpoint(p)
         try:
             episode.choose_source(p, cue_id, body)
+            # Auto-rebuild the inspection timeline after a source choice
+            # changes, so the selected media is reflected in the plan and the
+            # source_label stays aligned with the cue.
+            if p.get("episode") and p["episode"].get("guide"):
+                try:
+                    episode.build(p, allow_placeholders=True, inspection=True)
+                except (ValueError, TypeError, KeyError):
+                    pass
         except (ValueError, TypeError, KeyError) as e:
             raise HTTPException(422, str(e))
         return episode_result(p)
