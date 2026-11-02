@@ -202,7 +202,7 @@ def test_plan_is_allowed_without_audio_but_rendering_is_not(isolated):
     assert "Source audio is muted" in c.get(url + "/episode/plan.md").text
 
 
-def test_short_approved_clips_play_once_and_leave_marked_gaps():
+def test_short_approved_crops_loop_to_fill_their_cue_span():
     p = prepared()
     plan = episode.build(p, True)
     source = [
@@ -210,15 +210,25 @@ def test_short_approved_clips_play_once_and_leave_marked_gaps():
         for s in p["scenes"]
         if s.get("guide_source_id") == "S03" and s.get("asset_id")
     ]
-    assert (
-        len(source) == 1 and source[0]["duration"] == 1 and source[0]["trim_start"] == 1
+    # Guide rule: the reviewed 1s crop [1, 2] plays once, then repeats to fill
+    # the placement's whole narration span — no substitution, no other source.
+    assert len(source) == 2 and source[0]["duration"] == 1
+    assert sum(s["duration"] for s in source) == pytest.approx(3.0)
+    assert all(
+        s["trim_start"] == 1
+        and s.get("source_crop_end") == 2
+        and s["source_label"] == "SYNTHETIC TEST PATTERN | 2026"
+        for s in source
     )
-    assert source[0]["source_label"] == "SYNTHETIC TEST PATTERN | 2026"
-    assert plan["gap_seconds"] > 0 and plan["preserves_narration"]
-    assert (
-        source[0]["source_ids"] == []
+    assert all(
+        s["source_ids"] == []
+        for s in source
     )  # a visual reference is not automatic factual proof
+    assert plan["gap_seconds"] == 0 and plan["preserves_narration"]
     assert all(s["duration"] >= 0.5 and s["duration"] <= 30 for s in p["scenes"])
+    assert not any(i["blocks_draft"] for i in episode.issues(p))
+    # A cue with no usable file still leaves marked gaps and requires consent.
+    p["episode"]["bindings"]["S03"]["asset_id"] = None
     with pytest.raises(ValueError, match="marked gaps"):
         episode.build(p, False)
 
@@ -607,6 +617,30 @@ def test_source_date_label_is_drawn_in_the_video_overlay():
     assert ImageChops.difference(a, b).crop((0, 350, 854, 415)).getbbox()
 
 
+def test_marked_gap_consent_is_still_required_for_true_gaps(isolated):
+    c, _ = isolated
+    p, url = api_project(c)
+    r = c.post(
+        url + "/upload",
+        data={"episode_role": "narration"},
+        files=[("files", ("synthetic-voice.wav", tone_bytes(), "audio/wav"))],
+    )
+    assert r.status_code == 200, r.text
+    v = r.json()["assets"][-1]
+    assert (
+        c.patch(url + "/episode/options", json={"narration_id": v["id"]}).status_code
+        == 200
+    )
+    assert (
+        c.post(url + "/episode/build", json={"allow_placeholders": True}).status_code
+        == 200
+    )
+    # No source files at all: every span stays a true marked gap, so an
+    # explicit allow-guided-gaps consent is still required to render.
+    denied = c.post(url + "/render", json={"draft": True})
+    assert denied.status_code == 400 and "Explicitly allow" in denied.text
+
+
 def test_real_guided_renderer_mutes_source_audio_preserves_tail_and_freezes_plan(
     isolated, monkeypatch
 ):
@@ -683,11 +717,9 @@ def test_real_guided_renderer_mutes_source_audio_preserves_tail_and_freezes_plan
     assert r.status_code == 200, r.text
     p = r.json()["project"]
     assert editorial.inspect(p)["ready_for_draft"]
-    missing_consent = c.post(url + "/render", json={"draft": True})
-    assert (
-        missing_consent.status_code == 400
-        and "Explicitly allow" in missing_consent.text
-    )
+    # Guide rule: the selected crop loops to fill each scene, so this plan has
+    # no marked gaps and rendering needs no gap consent.
+    assert all(s.get("asset_id") for s in p["scenes"])
     calls = []
     run = renderer.run
 
