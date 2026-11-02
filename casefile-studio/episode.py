@@ -1651,27 +1651,11 @@ def build(project, allow_placeholders=False, inspection=False):
             cue,
             source_crop_end=source_crop_end,
         )
-    # Assign cue crops to gap scenes so the loop rule repeats the exact
-    # selected crop during preview and export. Gap scenes inherit the
-    # matched cue's asset_id, trim_start, and source_crop_end.
-    cue_crop_map = {}
-    for s in scenes:
-        if not s.get("guide_gap") and s.get("guide_cue_id"):
-            gcid = s["guide_cue_id"]
-            if gcid not in cue_crop_map:
-                cue_crop_map[gcid] = {
-                    "asset_id": s.get("asset_id"),
-                    "trim_start": s.get("trim_start", 0),
-                    "source_crop_end": s.get("source_crop_end"),
-                }
-    for s in scenes:
-        if s.get("guide_gap") and s.get("guide_cue_id"):
-            gcid = s["guide_cue_id"]
-            if gcid in cue_crop_map:
-                crop = cue_crop_map[gcid]
-                s["asset_id"] = crop["asset_id"]
-                s["trim_start"] = crop["trim_start"]
-                s["source_crop_end"] = crop["source_crop_end"]
+    # Gap scenes keep no asset: a short source window plays once and the
+    # remaining narration span stays a visibly marked gap card. Repeating a
+    # crop across later scenes would loop approved footage (and, without the
+    # cue's source_label, strip its on-screen citation), which the editorial
+    # preflight rightly blocks.
     if len(scenes) > 400:
         raise ValueError(
             "This plan exceeds 400 scenes. Shorten the material or revise the guide."

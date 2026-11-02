@@ -491,7 +491,12 @@ def render(
                     video_input = str(looped)
                 else:
                     video_extra = ["-ss", str(trim_start)]
-            elif is_image and motion == "none":
+            if motion == "none" and (is_image or video_input == str(placeholder)):
+                # Every still input — a bound image, a VISUAL NEEDED gap card,
+                # or the empty-crop placeholder fallback — must loop for the
+                # full scene. Reading one PNG is a single frame, which would
+                # silently shorten the exported video and fail the final
+                # narration-coverage check.
                 video_extra = ["-loop", "1", "-framerate", str(FPS)]
             command += video_extra + ["-i", video_input]
             vf = f"scale={width}:{height}:force_original_aspect_ratio=increase,crop={width}:{height}"
