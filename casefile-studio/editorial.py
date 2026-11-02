@@ -284,6 +284,44 @@ def inspect(project, check_files=True):
             missing_visuals.append(str(index + 1))
         else:
             used.add(media_id)
+            asset_rec = assets[media_id]
+            if asset_rec.get("kind") == "video":
+                a_dur = float(asset_rec.get("duration", 0) or 0)
+                s_start = max(0.0, float(scene.get("trim_start", 0)))
+                s_dur = float(scene.get("duration", 0))
+                if s_start >= a_dur:
+                    add(
+                        "invalid_source_crop",
+                        "Source crop has no footage",
+                        f"Scene {index + 1} '{scene.get('title','')}' in-point {s_start:.3f}s is at or beyond the asset end ({a_dur:.3f}s); no footage is available for this scene.",
+                        "edit",
+                        "warning",
+                        scene_id=scene.get("id"),
+                        asset_id=media_id,
+                    )
+                elif s_start + s_dur > a_dur + 1e-6:
+                    add(
+                        "source_crop_loops",
+                        "Source crop too short; will loop within scene",
+                        f"Scene {index + 1} '{scene.get('title','')}' needs {s_dur:.3f}s but only {a_dur - s_start:.3f}s remain after the in-point; the exact crop will repeat and the final repetition will be trimmed to the scene end.",
+                        "edit",
+                        "warning",
+                        scene_id=scene.get("id"),
+                        asset_id=media_id,
+                    )
+            if scene.get("transition") in ("fade", "cross-dissolve") and float(
+                scene.get("transition_duration", 0) or 0
+            ) > 0:
+                if asset_rec.get("kind") not in ("image", "video"):
+                    add(
+                        "transition_no_footage",
+                        "Transition cannot fade a placeholder",
+                        f"Scene {index + 1} '{scene.get('title','')}' requests a '{scene['transition']}' transition but has no image or video footage; effect is skipped.",
+                        "edit",
+                        "warning",
+                        scene_id=scene.get("id"),
+                        asset_id=media_id,
+                    )
         # Match renderer.scene_captions: explicit supplied captions (including
         # deliberately empty imported intervals) do not use word-count fallback.
         # A legacy timing label alone is NOT evidence of a supplied caption track.

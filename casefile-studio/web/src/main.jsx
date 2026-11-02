@@ -635,11 +635,24 @@ function App() {
       else m.pause();
     }
     if (v) {
-      const target = (activeScene?.trim_start || 0) + local;
-      const expected =
-        v.duration && !activeScene?.guide_cue_id ? target % v.duration : target;
-      if (Number.isFinite(expected) && Math.abs(v.currentTime - expected) > 0.3)
-        v.currentTime = expected;
+      const trimStart = activeScene?.trim_start || 0;
+      const sceneDur = activeScene?.duration || 0;
+      // Use the cue's original selected crop end when stored on the scene
+      // (gap scenes inherit it from their matched cue), so preview loops
+      // within the exact crop, not the gap duration or full source file.
+      const sourceCropEnd = activeScene?.source_crop_end;
+      const cropOut = sourceCropEnd
+        ? Math.min(sourceCropEnd, v.duration || Infinity)
+        : Math.min(trimStart + sceneDur, v.duration || Infinity);
+      const cropDur = cropOut - trimStart;
+      if (cropDur > 0) {
+        // Loop the selected crop within the scene: wrap playback position
+        // within the crop boundaries (trim_start to crop_out), not the whole
+        // source file duration. Trim the last repetition at the scene end.
+        const expected = trimStart + (local % cropDur);
+        if (Number.isFinite(expected) && Math.abs(v.currentTime - expected) > 0.3)
+          v.currentTime = expected;
+      }
       if (playing) v.play().catch(() => {});
       else v.pause();
     }
@@ -955,7 +968,8 @@ function App() {
       duration: 8,
       asset_id: null,
       motion: "slow-zoom",
-      transition: "fade",
+      transition: "none",
+      transition_duration: 0,
       show_title: true,
       trim_start: 0,
       audio_start: sum(scenes),
@@ -1456,10 +1470,36 @@ function App() {
                         updateScene({ transition: e.target.value })
                       }
                     >
+                      <option value="none">None</option>
+                      <option value="cross-dissolve">Cross-dissolve</option>
                       <option value="fade">Fade to black</option>
                       <option value="cut">Cut</option>
                     </select>
                   </label>
+                  {selected.transition !== "none" && selected.transition !== "cut" && (
+                    <label className="field">
+                      Transition duration
+                      <div className="input-unit">
+                        <input
+                          aria-label="Transition duration"
+                          type="number"
+                          min="0"
+                          max="600"
+                          step="0.25"
+                          value={selected.transition_duration ?? 0}
+                          onChange={(e) =>
+                            updateScene({
+                              transition_duration: Math.max(
+                                0,
+                                Math.min(600, Number(e.target.value) || 0),
+                              ),
+                            })
+                          }
+                        />
+                        <span>sec</span>
+                      </div>
+                    </label>
+                  )}
                 </div>
                 <label className="field">
                   Visual source
@@ -2444,7 +2484,7 @@ function App() {
                       src={visual.url}
                       muted
                       playsInline
-                      loop={!activeScene?.guide_cue_id}
+                      loop={false}
                       onLoadedMetadata={() => setTime((t) => t)}
                     />
                   ) : visual ? (
@@ -2678,7 +2718,7 @@ function App() {
                         title="Edit Visuals track"
                         aria-label="Edit Visuals track"
                         onClick={() => setSelectedTrack({ kind: "visual", sceneId: selected.id })}
-                        disabled={locked || !selected.asset_id}
+                        disabled={locked || !selected?.asset_id}
                       >
                         <Film size={12} />
                         <span>V1</span>
@@ -2688,7 +2728,7 @@ function App() {
                         title="Edit Narration track"
                         aria-label="Edit Narration track"
                         onClick={() => setSelectedTrack({ kind: "narration", sceneId: selected.id })}
-                        disabled={locked}
+                        disabled={locked || !selected}
                       >
                         <Mic size={12} />
                         <span>A1</span>
@@ -2698,7 +2738,7 @@ function App() {
                         title="Edit Music track"
                         aria-label="Edit Music track"
                         onClick={() => setSelectedTrack({ kind: "music", sceneId: selected.id })}
-                        disabled={locked}
+                        disabled={locked || !selected}
                       >
                         <Music2 size={12} />
                         <span>A2</span>
@@ -2708,11 +2748,11 @@ function App() {
                         title="Remove selected track from scene"
                         aria-label="Remove track from scene"
                         onClick={() => {
-                          if (!selectedTrack || selectedTrack.sceneId !== selected.id) return;
+                          if (!selectedTrack || !selected || selectedTrack.sceneId !== selected.id) return;
                           deleteTrack(selectedTrack.kind);
                           setSelectedTrack(null);
                         }}
-                        disabled={locked || !selectedTrack || selectedTrack.sceneId !== selected.id}
+                        disabled={locked || !selectedTrack || !selected || selectedTrack.sceneId !== selected.id}
                       >
                         <Trash2 size={12} />
                         <span>Delete</span>
