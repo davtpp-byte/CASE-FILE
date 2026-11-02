@@ -1533,6 +1533,7 @@ def build(project, allow_placeholders=False, inspection=False):
         source_label="",
         unreviewed=False,
         window_basis="",
+        source_crop_end=None,
     ):
         nonlocal gap_frames
         if end <= start:
@@ -1564,9 +1565,11 @@ def build(project, allow_placeholders=False, inspection=False):
                 "audio_start": cursor / FPS,
                 "audio_duration": (stop - cursor) / FPS,
                 "asset_id": asset["id"] if asset else None,
-                "trim_start": trim + (cursor - start) / FPS
-                if asset and asset["kind"] == "video"
-                else 0,
+                "trim_start": (
+                    trim + (cursor - start) / FPS
+                    if asset and asset["kind"] == "video"
+                    else (trim if cue else 0)
+                ),
                 "motion": "slow-zoom" if asset and asset["kind"] == "image" else "none",
                 "transition": "cut",
                 "show_title": False,
@@ -1587,6 +1590,7 @@ def build(project, allow_placeholders=False, inspection=False):
                 "guide_source_id": cue["source_id"] if cue else None,
                 "guide_gap": not bool(asset),
                 "source_label": source_label if asset else "",
+                "source_crop_end": source_crop_end,
             }
             if cue and cue.get("using_alternative"):
                 scene.update(
@@ -1627,6 +1631,7 @@ def build(project, allow_placeholders=False, inspection=False):
         if visual_end - start < 12:
             push(start, end, chapter, cue)
             continue
+        source_crop_end = window["out"] if asset and asset["kind"] == "video" else None
         push(
             start,
             visual_end,
@@ -1637,8 +1642,36 @@ def build(project, allow_placeholders=False, inspection=False):
             cue["label"],
             unreviewed=not cue["ready"],
             window_basis=candidate["basis"] if inspection else "",
+            source_crop_end=source_crop_end,
         )
-        push(visual_end, end, chapter, cue)
+        push(
+            visual_end,
+            end,
+            chapter,
+            cue,
+            source_crop_end=source_crop_end,
+        )
+    # Assign cue crops to gap scenes so the loop rule repeats the exact
+    # selected crop during preview and export. Gap scenes inherit the
+    # matched cue's asset_id, trim_start, and source_crop_end.
+    cue_crop_map = {}
+    for s in scenes:
+        if not s.get("guide_gap") and s.get("guide_cue_id"):
+            gcid = s["guide_cue_id"]
+            if gcid not in cue_crop_map:
+                cue_crop_map[gcid] = {
+                    "asset_id": s.get("asset_id"),
+                    "trim_start": s.get("trim_start", 0),
+                    "source_crop_end": s.get("source_crop_end"),
+                }
+    for s in scenes:
+        if s.get("guide_gap") and s.get("guide_cue_id"):
+            gcid = s["guide_cue_id"]
+            if gcid in cue_crop_map:
+                crop = cue_crop_map[gcid]
+                s["asset_id"] = crop["asset_id"]
+                s["trim_start"] = crop["trim_start"]
+                s["source_crop_end"] = crop["source_crop_end"]
     if len(scenes) > 400:
         raise ValueError(
             "This plan exceeds 400 scenes. Shorten the material or revise the guide."

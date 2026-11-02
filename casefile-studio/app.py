@@ -233,8 +233,11 @@ def sanitize_scene(scene, asset_ids):
     )
     out["transition"] = (
         scene.get("transition")
-        if scene.get("transition") in ["cut", "fade"]
-        else "fade"
+        if scene.get("transition") in ["none", "cut", "fade", "cross-dissolve"]
+        else "none"
+    )
+    out["transition_duration"] = max(
+        0.0, min(600.0, float(scene.get("transition_duration", 0) or 0))
     )
     out["show_title"] = bool(scene.get("show_title", True))
     out["timing"] = scene.get("timing", "estimated")[:30]
@@ -250,6 +253,11 @@ def sanitize_scene(scene, asset_ids):
         out["guide_primary_source_id"] = str(scene["guide_primary_source_id"])[:30]
     if "source_window_basis" in scene:
         out["source_window_basis"] = str(scene["source_window_basis"])[:240]
+    if "source_crop_end" in scene:
+        try:
+            out["source_crop_end"] = max(0.0, float(scene["source_crop_end"]))
+        except (ValueError, TypeError):
+            out["source_crop_end"] = None
     out["captions_exact"] = scene.get("captions_exact") is True
     out["captions"] = []
     for c in scene.get("captions", [])[:500]:
@@ -592,6 +600,14 @@ async def update_project(id: str, request: Request):
                 k: bool(changes["review"].get(k, False))
                 for k in ["facts", "rights", "disclosure", "picture"]
             }
+        # Auto-rebuild the inspection timeline when scenes change on a
+        # guide-driven project, so manual source assignments via the dropdown
+        # are picked up without requiring a separate "Build" click.
+        if "scenes" in changes and p.get("episode") and p["episode"].get("guide"):
+            try:
+                episode.build(p, allow_placeholders=True, inspection=True)
+            except (ValueError, TypeError, KeyError):
+                pass
         return save_project(p)
 
 
@@ -786,6 +802,16 @@ async def upload(
             p["script_origin"] = "user"
             p["script_approved_hash"] = None
             p["review"]["facts"] = False
+        # Auto-rebuild the inspection timeline when media lands, so uploaded
+        # source files are matched to gap scenes and cue crops are inherited.
+        # No manual "First draft" click required.
+        if p.get("episode") and p["episode"].get("guide"):
+            try:
+                episode.build(p, allow_placeholders=True, inspection=True)
+            except (ValueError, TypeError, KeyError):
+                # A failed rebuild must not block the upload itself. Assets are
+                # already saved; the user can run First draft manually.
+                pass
         return save_project(p)
 
 
@@ -1702,6 +1728,14 @@ async def episode_source(id: str, source_id: str, request: Request):
         try:
             episode.bind_source(p, source_id, body)
             episode.resolve_automatic_source_links(p)
+            # Auto-rebuild the inspection timeline after a source binding
+            # changes, so assigned media is reflected in the plan and the
+            # source_label stays aligned with the cue.
+            if p.get("episode") and p["episode"].get("guide"):
+                try:
+                    episode.build(p, allow_placeholders=True, inspection=True)
+                except (ValueError, TypeError, KeyError):
+                    pass
         except (ValueError, TypeError, KeyError) as e:
             raise HTTPException(422, str(e))
         return episode_result(p)
@@ -1728,6 +1762,14 @@ async def episode_choice(id: str, cue_id: str, request: Request):
         checkpoint(p)
         try:
             episode.choose_source(p, cue_id, body)
+            # Auto-rebuild the inspection timeline after a source choice
+            # changes, so the selected media is reflected in the plan and the
+            # source_label stays aligned with the cue.
+            if p.get("episode") and p["episode"].get("guide"):
+                try:
+                    episode.build(p, allow_placeholders=True, inspection=True)
+                except (ValueError, TypeError, KeyError):
+                    pass
         except (ValueError, TypeError, KeyError) as e:
             raise HTTPException(422, str(e))
         return episode_result(p)
