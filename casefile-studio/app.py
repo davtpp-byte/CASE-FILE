@@ -29,7 +29,7 @@ from storage import (
 )
 
 seed()
-app = FastAPI(title="Casefile Studio", version="0.4.12", docs_url="/api/docs")
+app = FastAPI(title="Casefile Studio", version="0.4.13", docs_url="/api/docs")
 POOL = ThreadPoolExecutor(max_workers=4)
 RENDER_LOCK = threading.Semaphore(1)
 SESSIONS = {}

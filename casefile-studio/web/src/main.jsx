@@ -335,6 +335,7 @@ function App() {
     [recoveredSetup, setRecoveredSetup] = useState(null),
     [downloadGate, setDownloadGate] = useState(null),
     [signoffOpen, setSignoffOpen] = useState(false),
+    [exportFinal, setExportFinal] = useState(false),
     [saving, setSaving] = useState("saved"),
     [toast, setToast] = useState(null),
   [command, setCommand] = useState("");
@@ -3336,21 +3337,52 @@ function App() {
                   Preflight checks
                 </Button>
                 <Button
-                  kind="primary"
+                  kind={project.episode?.guide ? "" : "primary"}
                   icon={Download}
                   disabled={locked || !scenes.length}
-                  onClick={() =>
-                    project.episode?.guide
-                      ? makeFirstDraft({ render: true })
-                      : openTool("export")
-                  }
+                  onClick={() => {
+                    if (project.episode?.guide)
+                      makeFirstDraft({ render: true });
+                    else {
+                      setExportFinal(false);
+                      openTool("export");
+                    }
+                  }}
                 >
                   {project.episode?.guide
                     ? "Make updated draft video"
                     : "Render video"}
                 </Button>
+                {project.episode?.guide && (
+                  <Button
+                    kind="primary"
+                    icon={Download}
+                    disabled={
+                      locked ||
+                      !scenes.length ||
+                      project.episode?.plan?.mode === "inspection" ||
+                      !Object.values(project.review).every(Boolean)
+                    }
+                    title="Render the clean, publication-ready video"
+                    onClick={() => {
+                      setExportFinal(true);
+                      openTool("export");
+                    }}
+                  >
+                    Make final video
+                  </Button>
+                )}
               </div>
             </div>
+            {project.episode?.guide &&
+              (project.episode?.plan?.mode === "inspection" ||
+                !Object.values(project.review).every(Boolean)) && (
+                <p className="micro-note block">
+                  “Make final video” unlocks with the producer sign-off in the
+                  editorial review card below. Until then, only inspection
+                  drafts (with the banner) can render.
+                </p>
+              )}
             <details
               className="advanced-publication"
               open={!project.episode?.guide}
@@ -4341,7 +4373,7 @@ function App() {
                         ? `; ${result.placements_skipped.length} skipped (no usable file)`
                         : "") +
                       (result.ready_for_final
-                        ? ". The reviewed plan is built — export when ready."
+                        ? ". The reviewed plan is built — click “Make final video” when ready."
                         : `. Reviewed plan built; final export still needs: ${result.remaining_blockers?.join("; ")}. A review draft renders now without the inspection banner.`),
                     "info",
                   );
@@ -4399,6 +4431,7 @@ function App() {
           onPreflight={() => setModal("preflight")}
           onClose={() => setModal(null)}
           onExport={startRender}
+          initialDraft={!exportFinal}
         />
       )}
       {modal === "inspector" && (
@@ -4846,9 +4879,10 @@ function ExportModal({
   onExport,
   locked,
   onPreflight,
+  initialDraft = true,
 }) {
   const [resolution, setResolution] = useState("720p"),
-    [draft, setDraft] = useState(true),
+    [draft, setDraft] = useState(initialDraft),
     [captions, setCaptions] = useState(project.captions);
   const allReviewed = Object.values(project.review).every(Boolean);
   const inspectionPlan = project.episode?.plan?.mode === "inspection";
