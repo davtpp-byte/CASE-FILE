@@ -5,6 +5,7 @@
   "description": "A source-led documentary editing workspace with a real FFmpeg renderer",
   "scripts": {
     "build": "esbuild web/src/main.jsx --bundle --minify --sourcemap --outfile=web/assets/app.js --loader:.woff2=file --asset-names=[name] --external:/assets/*",
+    "build:netlify": "node scripts/build-netlify.mjs",
     "start": "python -m uvicorn app:app --host 0.0.0.0 --port 8000"
   },
   "dependencies": {

@@ -1,0 +1,24 @@
+# Keep the image (and the Render build context) small. The app reads/writes
+# case data at /app/data, which is a persistent disk in production and is
+# created by docker-entrypoint.sh — never baked into the image.
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+node_modules
+dist
+.casefile-studio-local
+.tools
+
+data/
+qa/
+tests/
+examples/
+uploads/
+web/src/
+
+*.log
+*.log.tmp
+.DS_Store

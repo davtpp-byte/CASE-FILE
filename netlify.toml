@@ -1,0 +1,17 @@
+# Netlify is a STATIC front door for this app. It serves the prebuilt React
+# bundle from casefile-studio/web and proxies /api, /media and /exports to the
+# Render service that actually runs Python + FFmpeg. See DEPLOY.md.
+#
+# Build-time environment variables (set in Netlify > Site configuration):
+#   CASEFILE_API_ORIGIN   https://<your-render-service>.onrender.com  (required)
+#   CASEFILE_USER         username for Netlify Basic-Auth              (optional)
+#   CASEFILE_PASSWORD     password for Netlify Basic-Auth              (optional)
+# Use the SAME user/password on Render so proxied API calls pass its gate too.
+
+[build]
+  base = "casefile-studio"
+  publish = "dist"
+  command = "npm run build:netlify"
+
+[build.environment]
+  NODE_VERSION = "20"

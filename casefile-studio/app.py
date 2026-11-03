@@ -1,5 +1,5 @@
 from __future__ import annotations
-import copy, json, re, shutil, threading, uuid
+import base64, binascii, copy, hmac, json, os, re, shutil, threading, uuid
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Literal
@@ -90,6 +90,40 @@ async def session(request: Request, call_next):
         )
     response.headers["X-Content-Type-Options"] = "nosniff"
     return response
+
+
+# Optional deployment-only access gate. The app has no user accounts, so a
+# public URL must be gated. Set BOTH CASEFILE_USER and CASEFILE_PASSWORD in the
+# host's environment; when either is unset (local development) the gate is off.
+# Registered after the session middleware, so it runs first on every request.
+@app.middleware("http")
+async def deployment_password(request: Request, call_next):
+    user = os.environ.get("CASEFILE_USER", "")
+    password = os.environ.get("CASEFILE_PASSWORD", "")
+    # Hosting-platform health probes do not carry credentials.
+    if not (user and password) or request.url.path == "/api/health":
+        return await call_next(request)
+    supplied_user = supplied_password = ""
+    header = request.headers.get("authorization", "")
+    if header.lower().startswith("basic "):
+        try:
+            decoded = base64.b64decode(header[6:].strip(), validate=True).decode(
+                "utf-8"
+            )
+            supplied_user, supplied_password = decoded.split(":", 1)
+        except (binascii.Error, UnicodeDecodeError, ValueError):
+            pass
+    if hmac.compare_digest(supplied_user, user) and hmac.compare_digest(
+        supplied_password, password
+    ):
+        return await call_next(request)
+    return JSONResponse(
+        {"detail": "This Casefile Studio deployment requires a password."},
+        status_code=401,
+        headers={
+            "WWW-Authenticate": 'Basic realm="Casefile Studio", charset="UTF-8"'
+        },
+    )
 
 
 def project_or_404(id):
@@ -272,6 +306,12 @@ def sanitize_scene(scene, asset_ids):
         except (ValueError, TypeError, KeyError):
             raise HTTPException(422, "Invalid caption timing.")
     return out
+
+
+@app.get("/api/health")
+def health():
+    """Liveness probe for hosting platforms (never gated by the password)."""
+    return {"status": "ok", "version": app.version}
 
 
 @app.get("/api/bootstrap")

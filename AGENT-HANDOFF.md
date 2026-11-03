@@ -78,6 +78,29 @@ media copies. Do not resurrect the old id.
   project, its media, and its exports from the server. It is destructive;
   the producer has been burned by it once.
 
+## Hosting (added 2026-11-03)
+
+`DEPLOY.md` (repo root) is the plain-language deployment guide. `render.yaml` at the
+repo root is the Render Blueprint: Docker service built from
+`casefile-studio/Dockerfile` with `dockerContext: ./casefile-studio`, paid
+`1c-2g` plan, 20 GB persistent disk at `/app/data`, `PORT=8000`,
+`healthCheckPath: /api/health`. `netlify.toml` + `scripts/build-netlify.mjs`
+provide an optional static front door that proxies /api, /media, /exports to
+the Render service; `scripts/build-netlify.mjs` generates `dist/` (gitignored).
+
+`app.py` gained an ungated `/api/health` and an optional Basic-auth middleware:
+set BOTH `CASEFILE_USER` and `CASEFILE_PASSWORD` in the host environment to
+gate the public URL. With either unset, local behavior is unchanged. It is a
+single shared password, not per-user auth — do not treat it as production
+access control. `Dockerfile` now honors `PORT`, and
+`docker-entrypoint.sh` fixes disk ownership before dropping to `studio`.
+`.dockerignore` keeps `data/`, `qa/`, `tests/` out of the image, so a fresh
+hosted install seeds only the fictional demo; committed case JSONs and their
+media are NOT deployed.
+
+Both Blueprint and Netlify build point at branch `arena/3eee7def-case-file`;
+update the branch in each dashboard (or merge) if deploying from `main`.
+
 ## Frontend anchors (web/src/main.jsx)
 
 `api()` ~line 172; `acceptProject()` ~line 394; Review & export tab:

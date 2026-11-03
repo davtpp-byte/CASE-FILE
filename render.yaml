@@ -1,0 +1,37 @@
+# Render Blueprint for Casefile Studio.
+#
+# One Docker web service runs everything: the React UI, the FastAPI backend,
+# FFmpeg rendering and the case data. Netlify cannot run the Python/FFmpeg
+# part; see DEPLOY.md for the optional Netlify static front door.
+#
+# Deploy from Render Dashboard -> New -> Blueprint -> this repo, branch
+# arena/3eee7def-case-file. A paid plan is required for the persistent disk.
+
+services:
+  - type: web
+    name: casefile-studio
+    runtime: docker
+    region: ohio
+    plan: 1c-2g                 # 1 CPU / 2 GB. The free plan has NO disk and
+                                # too little memory to render video.
+    branch: arena/3eee7def-case-file
+    dockerfilePath: ./casefile-studio/Dockerfile
+    dockerContext: ./casefile-studio
+    healthCheckPath: /api/health
+    numInstances: 1             # A persistent disk can attach to one instance only.
+    envVars:
+      - key: PORT
+        value: "8000"
+      # Optional but strongly recommended: gate the public URL with HTTP Basic
+      # auth. Render asks for these values in the dashboard (sync: false), so
+      # no password is stored in this repository.
+      - key: CASEFILE_USER
+        sync: false
+      - key: CASEFILE_PASSWORD
+        sync: false
+    disk:
+      name: casefile-data
+      mountPath: /app/data      # storage.py writes projects/, media/, exports/,
+                                # jobs/ here. Everything outside this path is
+                                # lost on every deploy or restart.
+      sizeGB: 20                # Can be increased later, never decreased.

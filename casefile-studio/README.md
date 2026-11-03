@@ -5,6 +5,15 @@ A working **single-workspace prototype** for a browser-based, AI-assisted true-c
 
 The app now has a dedicated **Episode setup** path for a finished voice + narration script + footage guide + music + actual source files. The original **Research → Script → Edit → Review & export** workspace remains available for the other starting modes.
 
+## Hosting
+
+See [../DEPLOY.md](../DEPLOY.md). In short: the React UI in `web/` is served by
+this same FastAPI process, so **Render** hosts the whole app (UI + API + FFmpeg
++ a persistent disk at `/app/data`). **Netlify** can only serve the static UI
+and proxy API calls to Render. Both configs are in the repo root, including an
+optional HTTP Basic-auth gate via `CASEFILE_USER` / `CASEFILE_PASSWORD` and an
+ungated `/api/health` probe.
+
 ## New in v0.4.1 — automatic guide fallback applied across projects
 
 - Shared inspection preview/build/source-linking paths now normalize a guide-permitted alternative that was mistakenly assigned under its missing main source. Unique source-ID filenames auto-link without a separate matching step; a single applicable image alternative can resolve an unnamed manually added still. Ambiguous alternatives and explicit contextual restrictions are not replaced with random footage.
