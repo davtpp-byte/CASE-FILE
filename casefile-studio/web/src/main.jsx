@@ -334,6 +334,7 @@ function App() {
     [backupStatus, setBackupStatus] = useState("pending"),
     [recoveredSetup, setRecoveredSetup] = useState(null),
     [downloadGate, setDownloadGate] = useState(null),
+    [signoffOpen, setSignoffOpen] = useState(false),
     [saving, setSaving] = useState("saved"),
     [toast, setToast] = useState(null),
   [command, setCommand] = useState("");
@@ -3428,6 +3429,13 @@ function App() {
                     <Info size={14} /> These are producer attestations, not
                     independent factual verification or legal clearance.
                   </div>
+                  <button
+                    className="btn full"
+                    onClick={() => setSignoffOpen(true)}
+                  >
+                    <ShieldCheck size={14} /> Producer sign-off — skip the
+                    itemized review
+                  </button>
                 </section>
                 <div className="review-summary">
                   <div
@@ -4284,6 +4292,70 @@ function App() {
           onNavigate={navigateTool}
           onError={report}
         />
+      )}
+      {signoffOpen && (
+        <Modal
+          title="Producer sign-off"
+          eyebrow="ONE ACTION — YOUR RESPONSIBILITY"
+          onClose={() => setSignoffOpen(false)}
+        >
+          <div className="modal-body">
+            <p>
+              One action replaces the itemized checklist: every research
+              source is marked reviewed, each linked file gets a
+              reuse-responsibility note, every placement is approved using the
+              windows currently in the plan, and the four attestations are
+              ticked.
+            </p>
+            <p>
+              <b>Nothing is independently verified.</b> You take
+              responsibility for facts, rights and permissions, Care
+              instructions, and the final picture. Placements with no usable
+              file stay marked gaps.
+            </p>
+            <p>
+              The reviewed plan is rebuilt automatically as part of the sign-off
+              — export whenever you’re ready and the video carries no
+              inspection banner. If you rebuild the plan later, re-confirm the
+              picture attestation (or sign off again).
+            </p>
+          </div>
+          <div className="modal-footer">
+            <Button onClick={() => setSignoffOpen(false)}>Cancel</Button>
+            <Button
+              kind="primary"
+              disabled={busy}
+              onClick={async () => {
+                setBusy(true);
+                try {
+                  const result = await api(
+                    `/api/projects/${project.id}/signoff`,
+                    "POST",
+                    { confirmed: true },
+                  );
+                  setSignoffOpen(false);
+                  acceptProject(await api(`/api/projects/${project.id}`));
+                  notify(
+                    `Sign-off recorded: ${result.placements_reviewed} placements approved` +
+                      (result.placements_skipped?.length
+                        ? `; ${result.placements_skipped.length} skipped (no usable file)`
+                        : "") +
+                      (result.ready_for_final
+                        ? ". The reviewed plan is built — export when ready."
+                        : `. Reviewed plan built; final export still needs: ${result.remaining_blockers?.join("; ")}. A review draft renders now without the inspection banner.`),
+                    "info",
+                  );
+                } catch (error) {
+                  report(error);
+                } finally {
+                  setBusy(false);
+                }
+              }}
+            >
+              Take responsibility & sign off
+            </Button>
+          </div>
+        </Modal>
       )}
       {downloadGate && (
         <Modal

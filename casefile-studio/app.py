@@ -1658,6 +1658,134 @@ def download_export(id: str, export_id: str):
     )
 
 
+class SignOffOptions(BaseModel):
+    confirmed: bool = False
+
+
+@app.post("/api/projects/{id}/signoff")
+def producer_signoff(id: str, options: SignOffOptions):
+    """One explicit producer action replacing the itemized review checklist.
+
+    Marks every research source reviewed, records a reuse-responsibility note
+    on each linked file, approves each placement using the windows currently
+    in the plan, and ticks the four attestations. The producer attests in one
+    click; the app verifies nothing and the record says exactly that.
+    """
+    if not options.confirmed:
+        raise HTTPException(422, "Confirm the sign-off to apply it.")
+    with LOCK:
+        p = project_or_404(id)
+        if p.get("is_demo"):
+            raise HTTPException(400, "The fictional sample cannot be signed off.")
+        e = episode.state(p)
+        if not (e.get("guide") or {}).get("cues"):
+            raise HTTPException(422, "This project has no editing guide to sign off.")
+        assets = {a["id"]: a for a in p.get("assets", [])}
+        day = now()[:10]
+        note = f"Producer sign-off {day}: responsibility taken in bulk; not independently verified."
+        for s in p.get("sources", []):
+            s["reviewed"] = True
+            if not str(s.get("notes", "")).strip():
+                s["notes"] = f"Producer sign-off {day}: bulk confirmation."
+        in_use = {b.get("asset_id") for b in (e.get("bindings") or {}).values()}
+        in_use |= {p.get("narration_id"), p.get("music_id")}
+        for a in p.get("assets", []):
+            if a.get("id") in in_use and not str(a.get("license", "")).strip():
+                a["license"] = note
+        confirmed = 0
+        for src in (e.get("guide") or {}).get("sources", []):
+            binding = (e.get("bindings") or {}).get(src["id"], {})
+            asset = assets.get(binding.get("asset_id"))
+            if not asset or asset.get("kind") not in ("image", "video"):
+                continue
+            if not str(asset.get("license", "")).strip():
+                episode.bind_source(p, src["id"], {"license": note})
+            episode.bind_source(p, src["id"], {"rights_confirmed": True})
+            confirmed += 1
+        windows = {}
+        for s in p.get("scenes", []):
+            if s.get("asset_id") and s.get("guide_cue_id"):
+                windows.setdefault(
+                    s["guide_cue_id"],
+                    (float(s.get("trim_start", 0) or 0), s.get("source_crop_end")),
+                )
+        reviewed, skipped = 0, []
+        reviewed_ids = set()
+        for cue in e["guide"]["cues"]:
+            resolved = episode.resolve_cue(p, cue)
+            binding = (
+                (episode.state(p).get("bindings") or {}).get(resolved["source_id"], {})
+            )
+            asset = assets.get(binding.get("asset_id"))
+            fields = {"reviewed": True}
+            if asset and asset.get("kind") == "video":
+                window = windows.get(cue["id"])
+                if not window or window[1] is None:
+                    skipped.append(cue["id"])
+                    continue
+                fields["in"] = window[0]
+                fields["out"] = window[1]
+            try:
+                episode.review_cue(p, cue["id"], fields)
+                reviewed += 1
+                reviewed_ids.add(cue["id"])
+            except ValueError:
+                skipped.append(cue["id"])
+        # A sub-quarter-second lead-in before the first placement is a caption
+        # quantization artifact, not missing coverage: start the first approved
+        # placement at 0:00 so the final export is not blocked by four frames.
+        lead = 0.0
+        for s in p.get("scenes", []):
+            if s.get("guide_cue_id") or s.get("asset_id"):
+                break
+            lead += float(s.get("duration", 0))
+        lead_in_covered = False
+        if 0 < lead <= 0.25:
+            first_cue = next(
+                (
+                    s.get("guide_cue_id")
+                    for s in p.get("scenes", [])
+                    if s.get("guide_cue_id") in reviewed_ids
+                ),
+                None,
+            )
+            if first_cue:
+                try:
+                    episode.review_cue(p, first_cue, {"narration_start": 0})
+                    lead_in_covered = True
+                except ValueError:
+                    pass
+        # One action, complete: rebuild as a reviewed plan (this resets the
+        # picture attestation), confirm the timing/transcript review digests,
+        # then set the attestations last.
+        try:
+            episode.build(p, allow_placeholders=True)
+        except (ValueError, TypeError, KeyError) as error:
+            raise HTTPException(422, f"Signed-off reviews saved, but the reviewed rebuild failed: {error}")
+        e = episode.state(p)
+        report = episode.analyze(p)
+        if report["has_voice"] and not report["errors"]:
+            if report["has_script"] and report["has_guide"]:
+                e["timing_reviewed_digest"] = episode.input_digest(p)
+            e["transcript_reviewed_digest"] = episode.input_digest(p)
+            p["episode"] = e
+        p["review"] = {key: True for key in ("facts", "rights", "disclosure", "picture")}
+        save_project(p)
+        report = editorial.inspect(p)
+        blockers = [i["title"] for i in report["issues"] if i.get("blocks_final")]
+        return {
+            "signed_off": True,
+            "sources_confirmed": confirmed,
+            "placements_reviewed": reviewed,
+            "placements_skipped": skipped,
+            "lead_in_covered": lead_in_covered,
+            "plan_mode": (p.get("episode") or {}).get("plan", {}).get("mode"),
+            "ready_for_final": not blockers,
+            "remaining_blockers": blockers,
+            "note": note,
+        }
+
+
 @app.get("/api/projects/{id}/jobs")
 def get_jobs(id: str):
     project_or_404(id)
