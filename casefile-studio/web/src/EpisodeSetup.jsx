@@ -1627,9 +1627,9 @@ export default function EpisodeSetup({
             <div className="ep-cue-explainer">
               <VolumeX size={15} />
               <p>
-                Source audio is muted. Approved video ranges play once; short
-                ranges leave marked gaps instead of being silently looped.
-                Source/date labels travel into the render.
+                Source audio is muted. Each scene loops its own selected crop
+                to fill the narration span; the final repetition is trimmed at
+                the scene's end. Source/date labels travel into the render.
               </p>
             </div>
             <div
@@ -1823,7 +1823,7 @@ export default function EpisodeSetup({
             </label>
             <p className="ep-mode-explanation">
               {inspection
-                ? "Internal inspection only. Candidate footage is visibly marked UNREVIEWED and cannot be exported as a final video. Source sound stays muted; short windows do not loop."
+                ? "Internal inspection only. Candidate footage is visibly marked UNREVIEWED and cannot be exported as a final video. Source sound stays muted; a short crop loops within its own scene, never into other footage."
                 : "Only genuinely reviewed source windows appear. Anything missing approval remains a marked gap; final release still requires all real editorial checks."}
             </p>
             <label className="ep-checkbox">
