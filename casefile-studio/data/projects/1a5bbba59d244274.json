@@ -134,7 +134,7 @@
   ],
   "scenes": [
     {
-      "id": "01524f64ab19447d",
+      "id": "e29859f95b2541a9",
       "title": "Just after 3:30 p.m. on April 17, 2024, Tampa police",
       "chapter": "OPENING HOOK",
       "narration": "Just after 3:30 p.m. on April 17, 2024,",
@@ -160,13 +160,10 @@
       "guide_source_id": "S03",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
-      "source_crop_end": 46.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 46.0
     },
     {
-      "id": "097f059e42b0404c",
+      "id": "240cebc2de154832",
       "title": "Just after 3:30 p.m. on April 17, 2024, Tampa police",
       "chapter": "OPENING HOOK",
       "narration": "Tampa police responded to reports of gunfire near railroad tracks between Busch Boulevard and Rome Avenue.",
@@ -208,12 +205,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
       "source_crop_end": 46.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "046a6f6c6b494229",
+      "id": "97041e593537463c",
       "title": "There they found fourteen-year-old Jevario Buie. He died from his",
       "chapter": "OPENING HOOK",
       "narration": "There they found fourteen-year-old Jevario Buie. He died from his injuries.",
@@ -244,13 +240,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "db43b6e3ca544ef4",
+      "id": "e79152280f9d430e",
       "title": "There they found fourteen-year-old Jevario Buie. He died from his",
       "chapter": "OPENING HOOK",
       "narration": "Jevario’s",
@@ -282,12 +275,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "7ac18a6cfad74531",
+      "id": "26181081fbef4b74",
       "title": "Jevario’s family had been looking forward to his eighth-grade graduation",
       "chapter": "OPENING HOOK",
       "narration": "family had been looking forward to his eighth-grade graduation.",
@@ -318,13 +310,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "ae0259fbe4be475a",
+      "id": "4cab6c1a3cbe44aa",
       "title": "Jevario’s family had been looking forward to his eighth-grade graduation",
       "chapter": "OPENING HOOK",
       "narration": "In",
@@ -351,12 +340,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "86c0b85372d542d2",
+      "id": "9c8e2b0c7b3e4435",
       "title": "In the days after his death, they asked the community",
       "chapter": "OPENING HOOK",
       "narration": "the days after his death, they asked the community for information and created a place for people to share tips.\n\nPolice",
@@ -397,13 +385,10 @@
       "guide_source_id": "S26",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: family appeal after the vigil | Apr 28, 2024 upload.",
-      "source_crop_end": 56.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 56.0
     },
     {
-      "id": "163c14693102429e",
+      "id": "20f356e843f74810",
       "title": "Police released video of Jevario walking with two other people",
       "chapter": "OPENING HOOK",
       "narration": "released video of Jevario walking with two other people before the shooting and asked for help identifying them. Later,",
@@ -444,13 +429,10 @@
       "guide_source_id": "S06",
       "guide_gap": false,
       "source_label": "Tampa Police: April surveillance released May 9 | Filmed Apr 17; released May 9, 2024.",
-      "source_crop_end": 17.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 17.0
     },
     {
-      "id": "0903d453df7f4bfb",
+      "id": "22726eeb38f2412e",
       "title": "Later, police said other footage showed him with one of",
       "chapter": "OPENING HOOK",
       "narration": "police said other footage showed him with one of those people near the tracks. Moments afterward, that person was seen walking away without Jevario.",
@@ -491,13 +473,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "67bc50e0f66d4c3c",
+      "id": "3b09618d4b584e62",
       "title": "Later, police said other footage showed him with one of",
       "chapter": "OPENING HOOK",
       "narration": "",
@@ -524,12 +503,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "323c8f222c034da8",
+      "id": "1350529315004ba9",
       "title": "It took nearly eight months before an arrest was made",
       "chapter": "OPENING HOOK",
       "narration": "It took nearly eight months before an arrest was made. Four days after police arrested fifteen-year-old Jahmir Moore, he",
@@ -570,13 +548,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "964204d10c1d4581",
+      "id": "1b3aa19d753141ee",
       "title": "he escaped from the juvenile detention center where he was",
       "chapter": "OPENING HOOK",
       "narration": "escaped from the juvenile detention center",
@@ -602,13 +577,10 @@
       "guide_source_id": "S13",
       "guide_gap": false,
       "source_label": "Tampa Police: December escape business surveillance | Dec 8, 2024.",
-      "source_crop_end": 6.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 6.0
     },
     {
-      "id": "64ec557074ee46a5",
+      "id": "f46a72d9b9f8471b",
       "title": "where he was being held",
       "chapter": "OPENING HOOK",
       "narration": "where he was being held.\n\nAt",
@@ -639,13 +611,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "1a0dd13631ab43a5",
+      "id": "beef234d11ce4e4e",
       "title": "At trial, the accounts of what happened between the teenagers",
       "chapter": "OPENING HOOK",
       "narration": "trial, the accounts of what happened between the teenagers would differ.",
@@ -681,13 +650,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 9.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 9.0
     },
     {
-      "id": "acdd70ffc7e04ee2",
+      "id": "c3b6f05c4ca442c8",
       "title": "At trial, the accounts of what happened between the teenagers",
       "chapter": "OPENING HOOK",
       "narration": "Prosecutors",
@@ -714,12 +680,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 9.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "34a88de7aa724c57",
+      "id": "9c30514630654b27",
       "title": "Prosecutors argued that the killing was deliberate. The defense said",
       "chapter": "OPENING HOOK",
       "narration": "argued that the killing was deliberate. The defense said Moore acted",
@@ -750,13 +715,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "80afcd32e97a4a7f",
+      "id": "21d8952497564a10",
       "title": "Prosecutors argued that the killing was deliberate. The defense said",
       "chapter": "OPENING HOOK",
       "narration": "in self-defense.\n\nThis",
@@ -788,12 +750,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "bbac03f62eec4896",
+      "id": "92254f6dd68444be",
       "title": "This episode discusses the killing of a child and gun",
       "chapter": "OPENING HOOK",
       "narration": "episode discusses the killing of a child and gun violence, as well as the",
@@ -829,13 +790,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "df51cd294fa54d82",
+      "id": "8a5f70c7568243dc",
       "title": "This episode discusses the killing of a child and gun",
       "chapter": "OPENING HOOK",
       "narration": "investigation and court proceedings that followed. Please take care while watching.\n\nYou’re",
@@ -877,12 +835,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "a3e90213efe04273",
+      "id": "06855a111b234595",
       "title": "You’re watching The Last Timeline. If you value careful, respectful",
       "chapter": "OPENING HOOK",
       "narration": "watching The Last Timeline.",
@@ -908,13 +865,10 @@
       "guide_source_id": "S03",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
-      "source_crop_end": 46.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 46.0
     },
     {
-      "id": "860c0a9e152b4fb6",
+      "id": "9a1a112e73f24e28",
       "title": "If you value careful, respectful reporting, subscribe, and tell us",
       "chapter": "OPENING HOOK",
       "narration": "If you value careful, respectful reporting, subscribe, and tell us in the comments your city, country and local time.\n\nNow,",
@@ -955,13 +909,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 16.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 16.0
     },
     {
-      "id": "fb534be985c6477b",
+      "id": "4fe835827c254f60",
       "title": "Now, let’s start with Jevario, and the plans he and",
       "chapter": "OPENING HOOK",
       "narration": "let’s start with Jevario, and the",
@@ -992,13 +943,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "8e1e44429aee43bc",
+      "id": "cec2d7f802144025",
       "title": "the plans he and his family had for his future",
       "chapter": "OPENING HOOK",
       "narration": "plans he and his family had for his future.\n\nJevario",
@@ -1029,13 +977,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 39.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 39.0
     },
     {
-      "id": "e58179379b124586",
+      "id": "50cc7fe539734a4e",
       "title": "Jevario Buie was fourteen and in the eighth grade at",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "Buie was fourteen and in the eighth grade at Memorial Middle School in",
@@ -1071,13 +1016,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "e79e3a84da474abd",
+      "id": "23e7904e39ed47ab",
       "title": "Jevario Buie was fourteen and in the eighth grade at",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "Tampa. His family remembered a playful teenager who enjoyed football and video games. He",
@@ -1114,12 +1056,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "583dc97443594af7",
+      "id": "599bfaf0f0b747f2",
       "title": "He was looking ahead to high school and hoped to",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "was looking ahead to high school and hoped to attend Tampa Bay Technical High School. His",
@@ -1155,13 +1096,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 39.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 39.0
     },
     {
-      "id": "98f7caff30244535",
+      "id": "1a5064dde53f406f",
       "title": "He was looking ahead to high school and hoped to",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "grandmother, JoQuetta Winters, recalled him working on the application and asking his mother for help with an essay.",
@@ -1198,12 +1136,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 39.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "1c4fcf39ac9f4f73",
+      "id": "d9b7efbb6c4a4c35",
       "title": "His family said he hoped to study welding and ironwork",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "His family said he hoped to study welding and ironwork and possibly play football there. He was also looking forward to learning to drive.",
@@ -1239,13 +1176,10 @@
       "guide_source_id": "S26",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: family appeal after the vigil | Apr 28, 2024 upload.",
-      "source_crop_end": 56.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 56.0
     },
     {
-      "id": "4cfdf0ab96b04ac5",
+      "id": "e480b5513c4f4b77",
       "title": "His family had been preparing for his middle school graduation",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "His family had been preparing for his middle school graduation that spring. His mother, Jasmine Baldwin, said he loved his family and protected his sisters.",
@@ -1291,13 +1225,10 @@
       "guide_source_id": "S26",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: family appeal after the vigil | Apr 28, 2024 upload.",
-      "source_crop_end": 56.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 56.0
     },
     {
-      "id": "d71d468691704e9f",
+      "id": "64dfde2cb6e54859",
       "title": "His grandfather, Michael Baldwin Sr., described a family that included",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "His grandfather, Michael Baldwin Sr., described a family that included",
@@ -1328,13 +1259,10 @@
       "guide_source_id": "S03",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
-      "source_crop_end": 30.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 30.0
     },
     {
-      "id": "54406ab42e5f424d",
+      "id": "d51c6a0daa364aab",
       "title": "His grandfather, Michael Baldwin Sr., described a family that included",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "three sisters, an aunt and cousins. After Jevario’s death, his grandparents shared memories of him and urged the Tampa community to help investigators find out what had happened.\n\nJahmir",
@@ -1386,12 +1314,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
       "source_crop_end": 30.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "77386e7ca0504bc1",
+      "id": "35a240830886428a",
       "title": "Jahmir Moore was fifteen when Jevario was killed. Police would",
       "chapter": "CHAPTER 1 — JEVARIO AND THE PEOPLE AROUND HIM",
       "narration": "Moore was fifteen when Jevario was killed. Police would later identify Moore as one of the teenagers seen with him that afternoon.\n\nAfter",
@@ -1432,13 +1359,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "19b3f1e553b64cd9",
+      "id": "efbcbd20535b4544",
       "title": "After the shooting, police said investigators found records that Jahmir",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "the shooting, police said investigators found records that Jahmir Moore and Jevario Buie had communicated before Jevario’s death.",
@@ -1479,13 +1403,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "982c2b9856054ab8",
+      "id": "edfe0b7cba814903",
       "title": "At Moore’s trial, prosecutors argued that a dispute involving teenagers",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "At Moore’s trial, prosecutors",
@@ -1516,13 +1437,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 9.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 9.0
     },
     {
-      "id": "cace7cc5085949bf",
+      "id": "346dc8db6b81436b",
       "title": "prosecutors argued that a dispute involving teenagers preceded the shooting",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "argued that a dispute involving teenagers preceded the shooting",
@@ -1553,13 +1471,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "49c690402dda47df",
+      "id": "ad36315d75f646e0",
       "title": "prosecutors argued that a dispute involving teenagers preceded the shooting",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "and that Moore had acted deliberately. His defense argued that the shooting was not planned and that Moore had acted in self-defense. Those were the competing accounts presented in court.",
@@ -1606,12 +1521,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "9ecd6dc3ac4a4349",
+      "id": "f1b76d72761f4927",
       "title": "According to trial reporting, Moore had arranged to meet another",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "According to trial reporting, Moore had arranged to meet another teenager on April",
@@ -1647,13 +1561,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "267fa20b941441c4",
+      "id": "780703b1c4074550",
       "title": "According to trial reporting, Moore had arranged to meet another",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "17, and Jevario asked to join them.",
@@ -1685,12 +1596,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "6161dc92af234258",
+      "id": "ecc530c0ca744d64",
       "title": "The three spent time together that afternoon. Surveillance footage would",
       "chapter": "CHAPTER 2 — THE MEETING",
       "narration": "The three spent time together that afternoon. Surveillance footage would later show parts of their movements.\n\nOn",
@@ -1731,13 +1641,10 @@
       "guide_source_id": "S06",
       "guide_gap": false,
       "source_label": "Tampa Police: April surveillance released May 9 | Filmed Apr 17; released May 9, 2024.",
-      "source_crop_end": 17.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 17.0
     },
     {
-      "id": "657daada5c0f47c9",
+      "id": "417c857fbf874030",
       "title": "On Wednesday, April 17, 2024, the three teenagers traveled together",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "Wednesday, April 17, 2024, the three teenagers traveled together in Tampa’s Lowry Park neighborhood. Police obtained footage",
@@ -1778,13 +1685,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "8adc1cb2afcb4725",
+      "id": "6a6a017806c34cd0",
       "title": "On Wednesday, April 17, 2024, the three teenagers traveled together",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "from nearby residences. According to Tampa police, video showed Jevario, Moore and another person walking together between 2:41 and 3:27 p.m.\n\nTrial",
@@ -1836,12 +1740,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "a431663ff9b64202",
+      "id": "e845b127740c4e3e",
       "title": "Trial reporting said the three met at an abandoned building",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "reporting said the three met at an abandoned building. The third teenager later left, and Jevario continued with Moore.",
@@ -1882,13 +1785,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "84e29aa299ae45cc",
+      "id": "b9cdd61ab73f4ef9",
       "title": "At 3:33 p.m., police said, Jevario and Moore were filmed",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "At 3:33 p.m., police said, Jevario and Moore were filmed walking north on North Rome Avenue toward a dead end near the tracks.",
@@ -1924,13 +1824,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "bdb6068f306341c7",
+      "id": "f0939ae46bbd4fff",
       "title": "At 3:33 p.m., police said, Jevario and Moore were filmed",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "At 3:36, Moore was seen walking away without Jevario. Police said he was moving west and south from the area. The footage gave detectives separate views of the afternoon, not a continuous recording of every movement.",
@@ -1982,12 +1879,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "48e18ca8da9c481b",
+      "id": "bd3a774c7a07441f",
       "title": "Police reported that officers responded to calls about gunfire shortly",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "Police reported that officers responded to calls about gunfire shortly after",
@@ -2023,13 +1919,10 @@
       "guide_source_id": "S03",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
-      "source_crop_end": 46.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 46.0
     },
     {
-      "id": "0a1facad17ba4db0",
+      "id": "398af31e75c943d5",
       "title": "Police reported that officers responded to calls about gunfire shortly",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "3:30 p.m.",
@@ -2056,12 +1949,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
       "source_crop_end": 46.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "ad06ff9da2b54965",
+      "id": "17adb900780649ed",
       "title": "They found Jevario near the railroad tracks between Busch Boulevard",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "They found Jevario near the railroad tracks between Busch Boulevard and Rome Avenue. He died from his injuries.",
@@ -2097,13 +1989,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "517c23ff90aa47b5",
+      "id": "0a7db931811649bb",
       "title": "The surrounding area became the scene of a homicide investigation",
       "chapter": "CHAPTER 3 — APRIL 17",
       "narration": "The surrounding area became the scene of a homicide investigation.\n\nJasmine",
@@ -2139,13 +2028,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "dca12f5f8cc84f69",
+      "id": "dd38be90905a48e4",
       "title": "Jasmine Baldwin said police told her of her son’s death",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "Baldwin said police told her of her son’s death about six hours later.",
@@ -2176,13 +2062,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "8774d7e71a274c76",
+      "id": "c9816fe3766b43e6",
       "title": "Jasmine Baldwin said police told her of her son’s death",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "",
@@ -2209,12 +2092,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "39b2bdc7300b472e",
+      "id": "23601ee582f94ba0",
       "title": "On April 22, Tampa police publicly appealed for information. Jevario’s",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "On April 22, Tampa police publicly appealed for information. Jevario’s family authorized police to release photographs to help generate leads, while also requesting privacy. His",
@@ -2265,13 +2147,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 16.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 16.0
     },
     {
-      "id": "2c1b1a865f5a4ad6",
+      "id": "5d13b9cbb7774dfd",
       "title": "His grandparents, Michael Baldwin Sr. and JoQuetta Winters, spoke publicly",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "grandparents, Michael Baldwin Sr. and JoQuetta Winters, spoke",
@@ -2307,13 +2186,10 @@
       "guide_source_id": "S03",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
-      "source_crop_end": 30.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 30.0
     },
     {
-      "id": "aa74559e452b4e26",
+      "id": "1af0a762f9da43bc",
       "title": "His grandparents, Michael Baldwin Sr. and JoQuetta Winters, spoke publicly",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "publicly as the family sought answers. At that point, no arrest had been announced.\n\nHis",
@@ -2350,12 +2226,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
       "source_crop_end": 30.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "e2162e3e32ae4013",
+      "id": "6b47c31566fa4e77",
       "title": "His family launched a website sharing Jevario’s story and inviting",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "family launched a website sharing Jevario’s story and inviting people to submit information anonymously. After",
@@ -2396,13 +2271,10 @@
       "guide_source_id": "S26",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: family appeal after the vigil | Apr 28, 2024 upload.",
-      "source_crop_end": 56.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 56.0
     },
     {
-      "id": "7c7cc4c03b7343c2",
+      "id": "a191dd24892b40f8",
       "title": "After a community vigil, they gathered on May 4 for",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "a community vigil,",
@@ -2428,13 +2300,10 @@
       "guide_source_id": "S25",
       "guide_gap": false,
       "source_label": "WFLA: family’s appeal at a community vigil | Apr 28, 2024 upload; event reported Apr 27.",
-      "source_crop_end": 84.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 84.0
     },
     {
-      "id": "b73ec33717c6455c",
+      "id": "8ee38d7b43054f90",
       "title": "they gathered on May 4 for his funeral at Bible-Based",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "they gathered on May 4 for his funeral at Bible-Based Fellowship Church of Temple",
@@ -2470,13 +2339,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "f029f919588f4590",
+      "id": "23b8c5613dad4736",
       "title": "they gathered on May 4 for his funeral at Bible-Based",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "Terrace. State Attorney Suzy Lopez and members of Moms Demand Action and Everytown for Gun Safety attended. Relatives wore green, his favorite color.",
@@ -2523,12 +2389,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "e2ef74dd1e9442b7",
+      "id": "e988bc7705314782",
       "title": "On May 9, police released a short home surveillance video",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "On May 9, police released a short home surveillance video showing Jevario with two other people near West Busch Boulevard about ten minutes before the shooting.",
@@ -2574,13 +2439,10 @@
       "guide_source_id": "S06",
       "guide_gap": false,
       "source_label": "Tampa Police: April surveillance released May 9 | Filmed Apr 17; released May 9, 2024.",
-      "source_crop_end": 17.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 17.0
     },
     {
-      "id": "54498a0afe7748e4",
+      "id": "203eca79f32e49bf",
       "title": "Their faces were not visible. Chief Lee Bercaw called the",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "Their faces were not visible. Chief Lee Bercaw called the companions persons of interest.",
@@ -2616,13 +2478,10 @@
       "guide_source_id": "S07",
       "guide_gap": false,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "fce6e757bbf24b83",
+      "id": "2929feecead0449f",
       "title": "Their faces were not visible. Chief Lee Bercaw called the",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "Detectives asked the public to help identify them.\n\nAlongside",
@@ -2659,12 +2518,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "8a4d67db6ae94eda",
+      "id": "615f96cfa233460b",
       "title": "Alongside the video came a larger reward. The ATF’s Tampa",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "the video came a larger reward. The ATF’s Tampa Field Division,",
@@ -2695,13 +2553,10 @@
       "guide_source_id": "S07",
       "guide_gap": false,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "fdcbca6417be4f3a",
+      "id": "1f1e1710b96c4e2e",
       "title": "Alongside the video came a larger reward. The ATF’s Tampa",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "Crime Stoppers of Tampa Bay, the Florida Attorney General’s Office and community partners",
@@ -2738,12 +2593,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "d37278b034044c8b",
+      "id": "e0a7c5e720404300",
       "title": "offered up to twenty thousand dollars for information leading to",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "offered up to twenty thousand dollars for information leading to the identification and arrest of those responsible.",
@@ -2779,13 +2633,10 @@
       "guide_source_id": "S08",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: May 9 reward and video report | May 9, 2024.",
-      "source_crop_end": 40.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 40.0
     },
     {
-      "id": "02f835e6d71d4ec3",
+      "id": "41ca956844fa4275",
       "title": "The family had also contributed to an earlier reward",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "The family had also contributed to an earlier reward.\n\nAmong",
@@ -2816,13 +2667,10 @@
       "guide_source_id": "S07",
       "guide_gap": false,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "b4e136957583448a",
+      "id": "287b2e5e9e344b76",
       "title": "Among the community partners was Thaddeus M. Bullard, known as",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "the community partners was Thaddeus M. Bullard, known as WWE wrestler Titus O’Neil. Bullard",
@@ -2858,13 +2706,10 @@
       "guide_source_id": "S08",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: May 9 reward and video report | May 9, 2024.",
-      "source_crop_end": 70.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 70.0
     },
     {
-      "id": "fecd65fff1ab4eeb",
+      "id": "b24f156fe8724d51",
       "title": "Bullard said students at a school bearing his name knew",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "said students at a school bearing his name knew Jevario and his family, while staff had",
@@ -2900,13 +2745,10 @@
       "guide_source_id": "S07",
       "guide_gap": false,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "09590c5c8f0c4477",
+      "id": "1f9da91a03404bf1",
       "title": "Bullard said students at a school bearing his name knew",
       "chapter": "CHAPTER 4 — A FAMILY’S APPEAL",
       "narration": "worked with Jevario. He urged the community to help.\n\nTampa",
@@ -2943,12 +2785,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "441955350ba1462f",
+      "id": "7f62af9b80e44140",
       "title": "Tampa police gathered surveillance from the area around West Waters",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "police gathered surveillance from the area around West Waters Avenue, West Busch Boulevard",
@@ -2984,13 +2825,10 @@
       "guide_source_id": "S07",
       "guide_gap": false,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "68e1f75e09f346eb",
+      "id": "955504e744d7422b",
       "title": "Tampa police gathered surveillance from the area around West Waters",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "and North Rome Avenue. The",
@@ -3022,12 +2860,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "3054cc0583414867",
+      "id": "30ce48746d3d42e2",
       "title": "The recordings included video from nearby homes. Each camera captured",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "recordings included video from nearby homes.",
@@ -3053,13 +2890,10 @@
       "guide_source_id": "S06",
       "guide_gap": false,
       "source_label": "Tampa Police: April surveillance released May 9 | Filmed Apr 17; released May 9, 2024.",
-      "source_crop_end": 17.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 17.0
     },
     {
-      "id": "4c070b7a3a9a4c95",
+      "id": "dc15117fa7ab4903",
       "title": "Each camera captured a separate view, giving detectives sightings they",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "Each camera captured a separate view, giving detectives sightings they could place in order.",
@@ -3090,13 +2924,10 @@
       "guide_source_id": "S07",
       "guide_gap": false,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "3bbd79cc50dc405e",
+      "id": "b3b4f86c2b04402f",
       "title": "Each camera captured a separate view, giving detectives sightings they",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "Police",
@@ -3123,12 +2954,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: May 9 reward press conference | May 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "b39d85acb6e84011",
+      "id": "d9e8b6b707a24444",
       "title": "Police said the footage showed Jevario walking with two other",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "said the footage showed Jevario walking with two other people that afternoon. Another",
@@ -3164,13 +2994,10 @@
       "guide_source_id": "S06",
       "guide_gap": false,
       "source_label": "Tampa Police: April surveillance released May 9 | Filmed Apr 17; released May 9, 2024.",
-      "source_crop_end": 17.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 17.0
     },
     {
-      "id": "6c8aa702121b4fb5",
+      "id": "ff1308fbe76a4e64",
       "title": "Another view showed him with Moore near North Rome Avenue",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "view showed him with Moore near North Rome Avenue. A later view showed Moore leaving the area without Jevario.\n\nThe",
@@ -3211,13 +3038,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "c1d59dd254cf44f3",
+      "id": "522e035f8cc34189",
       "title": "The recordings gave investigators a timeline, but being seen with",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "recordings gave investigators a timeline, but being seen with someone shortly before a killing does not by itself establish who fired a gun.",
@@ -3258,13 +3082,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "d2a4ce388a5143af",
+      "id": "91459f8174c44f8a",
       "title": "The recordings gave investigators a timeline, but being seen with",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "The images had to be considered alongside other evidence.\n\nWhen",
@@ -3306,12 +3127,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "0b83fa8b43d14d70",
+      "id": "fceb72f679be404f",
       "title": "When police released the video in May, they asked the",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "police released the video in May, they asked the public to help identify the two people seen with Jevario.",
@@ -3347,13 +3167,10 @@
       "guide_source_id": "S06",
       "guide_gap": false,
       "source_label": "Tampa Police: April surveillance released May 9 | Filmed Apr 17; released May 9, 2024.",
-      "source_crop_end": 17.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 17.0
     },
     {
-      "id": "0be59d0273a343b4",
+      "id": "d66641e2d84d4777",
       "title": "In December, police identified Moore as one of them. Investigators",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "In December, police identified Moore as one of them. Investigators also found records of communications between Moore and Jevario before the shooting.",
@@ -3399,13 +3216,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "dd2bf85fcbfc45ff",
+      "id": "7a17ebad5f784e89",
       "title": "In December, police identified Moore as one of them. Investigators",
       "chapter": "CHAPTER 5 — WHAT SURVEILLANCE SHOWED",
       "narration": "Those records gave detectives another part of the investigation to examine.\n\nTampa",
@@ -3442,12 +3256,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "80c7b219e1134575",
+      "id": "84350458e17845bd",
       "title": "Tampa police said their investigation drew on more than surveillance",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "police said their investigation drew on more than surveillance video. Detectives reported finding records of Jahmir Moore communicating with Jevario,",
@@ -3488,13 +3301,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "6613dd9eb60e4c00",
+      "id": "f08ef381fe3e4eea",
       "title": "Tampa police said their investigation drew on more than surveillance",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "along with social media messages, notes and search history. Police said the material implicated Moore in Jevario’s death.\n\nPolice",
@@ -3541,12 +3351,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "02b238b441ce4348",
+      "id": "624bec04d38645ea",
       "title": "Police also said one social media message contained a detail",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "also said one social media message contained a detail about the killing that had not been publicly released. Their announcement did not disclose the detail.",
@@ -3587,13 +3396,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "7ea3db7972bf46ce",
+      "id": "98159221b3604eae",
       "title": "Police also said one social media message contained a detail",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "At",
@@ -3625,12 +3431,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "4f3cfdad00794421",
+      "id": "50bcfb35a548476d",
       "title": "At trial, prosecutors presented messages and social media posts alongside",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "trial, prosecutors presented messages and social media posts",
@@ -3661,13 +3466,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "3a9755b17f074f5c",
+      "id": "84d3e7caa5274003",
       "title": "At trial, prosecutors presented messages and social media posts alongside",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "alongside the surveillance footage. Moore’s defense disputed the prosecution’s interpretation of the digital material. The evidence was considered as part of the wider case, not just as a single message or recording.\n\nOn",
@@ -3724,12 +3526,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "4eaf9ec1b3dc4eb7",
+      "id": "5fd48c53a425436e",
       "title": "On December 4, police took Moore into custody in connection",
       "chapter": "CHAPTER 6 — THE DIGITAL EVIDENCE",
       "narration": "December 4, police took Moore into custody in connection with Jevario’s death.\n\nOn",
@@ -3765,13 +3566,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "24a531aedcd544b5",
+      "id": "2e3d48239fc047fb",
       "title": "On December 4, 2024, the Tampa Police Department, working with",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "December 4, 2024, the Tampa Police Department, working with the U.S. Marshals Task Force, arrested fifteen-year-old Jahmir",
@@ -3807,13 +3605,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "9ff1e2ae9083472a",
+      "id": "7c21368fb41d4888",
       "title": "On December 4, 2024, the Tampa Police Department, working with",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "Moore in connection with Jevario Buie’s shooting death. It had been 231 days since April 17. Police made the arrest public the following day and announced a first-degree murder charge.\n\nIn",
@@ -3865,12 +3660,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "31ed7079c0844188",
+      "id": "c69f0f253d644a88",
       "title": "In a police release, State Attorney Suzy Lopez said Moore",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "a police release, State Attorney Suzy Lopez said Moore would be prosecuted as an adult.",
@@ -3906,13 +3700,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "483b6d19a2de4cb1",
+      "id": "111d55536883424b",
       "title": "The announcement did not establish guilt; the case would proceed",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "The announcement did not establish guilt; the case would proceed to court.",
@@ -3943,13 +3734,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "9ea81c6b202042d4",
+      "id": "bb90d2d2cedb433a",
       "title": "Jevario’s mother, Jasmine Baldwin, and grandfather, Michael Baldwin Sr., th",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "Jevario’s mother, Jasmine Baldwin, and grandfather, Michael Baldwin Sr., thanked investigators.",
@@ -3980,13 +3768,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 140.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 140.0
     },
     {
-      "id": "61dc093cd9224e73",
+      "id": "dbbac4892afc424f",
       "title": "Jasmine said learning a suspect’s name brought some closure, but",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "Jasmine said learning a suspect’s name brought some closure, but she still wanted",
@@ -4022,13 +3807,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "fcf63b8165164349",
+      "id": "c51524a9c69b43c6",
       "title": "Jasmine said learning a suspect’s name brought some closure, but",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "to know why. Michael expressed sadness that another teenager stood accused.\n\nIf",
@@ -4070,12 +3852,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "fab4b517bfd94269",
+      "id": "382a1fa70e5e4afa",
       "title": "If you value careful reporting that follows cases beyond arrest",
       "chapter": "CHAPTER 7 — ARREST AND ADULT PROSECUTION",
       "narration": "you value careful reporting that follows cases beyond arrest, subscribe to The Last Timeline.\n\nFour",
@@ -4116,13 +3897,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "cfc60fc53eb542b7",
+      "id": "145dfe7098174bf7",
       "title": "Four days after his arrest, Jahmir Moore was being held",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "days after his arrest, Jahmir Moore was being held at the Hillsborough Regional Juvenile Detention",
@@ -4158,13 +3936,10 @@
       "guide_source_id": "S12",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: search after December escape | Dec 8, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "63418a9614d04f69",
+      "id": "c81116a780f94bea",
       "title": "Four days after his arrest, Jahmir Moore was being held",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "Center, in the custody of Florida’s Department of Juvenile Justice. Police said he was in a fenced outdoor recreation area on the morning of Sunday, December 8, 2024. A subsequent headcount showed he had not returned inside.",
@@ -4221,12 +3996,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: search after December escape | Dec 8, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "873a201f387b459c",
+      "id": "14eb427167ca4f17",
       "title": "A nearby business provided video showing Moore running away from",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "A nearby business provided video showing Moore running away from the facility at about 10:45 a.m.",
@@ -4262,13 +4036,10 @@
       "guide_source_id": "S13",
       "guide_gap": false,
       "source_label": "Tampa Police: December escape business surveillance | Dec 8, 2024.",
-      "source_crop_end": 6.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 6.0
     },
     {
-      "id": "3e6e982281814ce5",
+      "id": "714562be4ee547d6",
       "title": "Tampa police said they began searching as soon as they",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "Tampa police said they began searching as soon as they were notified. Deputy Chief Ruth Cate described",
@@ -4309,13 +4080,10 @@
       "guide_source_id": "S14",
       "guide_gap": false,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "2270b9b3dc2f4dc7",
+      "id": "a36eda9119854abe",
       "title": "Tampa police said they began searching as soon as they",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "a response that included canine teams, aviation, uniformed officers and plainclothes investigators. Officers reviewed video from nearby businesses and asked anyone who saw Moore to call 911 rather than approach him.\n\nThe",
@@ -4372,12 +4140,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "40871ee5597442dd",
+      "id": "02ac966f50414abf",
       "title": "The search unfolded near Raymond James Stadium, where the Buccaneers",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "search unfolded near Raymond James Stadium, where the Buccaneers were playing the Raiders.",
@@ -4408,13 +4175,10 @@
       "guide_source_id": "S14",
       "guide_gap": false,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "33b6777e5a154606",
+      "id": "fea459928ac4460b",
       "title": "The search unfolded near Raymond James Stadium, where the Buccaneers",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "Major",
@@ -4441,12 +4205,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "08cf8e1e41f242bf",
+      "id": "00d838e7b2c0436f",
       "title": "Major Patrick Messmer said Tampa police had a strong presence",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "Patrick Messmer said Tampa police had a strong presence at the stadium, supported by the",
@@ -4482,13 +4245,10 @@
       "guide_source_id": "S15",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: escape and recapture update | Dec 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "ab15a1266fb24d2b",
+      "id": "56c44c0fbfa74a8b",
       "title": "Major Patrick Messmer said Tampa police had a strong presence",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "Hillsborough County Sheriff’s Office and Florida Highway Patrol.\n\nMessmer",
@@ -4525,12 +4285,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: escape and recapture update | Dec 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "0cf45b5d75124ed0",
+      "id": "727495735f1a4af0",
       "title": "Messmer said detectives drew on information gathered while locating Moore",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "said detectives drew on information gathered while locating Moore before his first arrest. They watched several people who knew him, and that surveillance led them to a residence. Shortly after 9:15 p.m., Tampa police, assisted by the U.S. Marshals Task Force, arrested Moore without incident. Cate said he was in his parents’ company when he was found. Messmer said the residence was not his parents’ home, and police said his parents were cooperating.",
@@ -4616,13 +4375,10 @@
       "guide_source_id": "S14",
       "guide_gap": false,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
-      "source_crop_end": 570.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 570.0
     },
     {
-      "id": "1a40531944004467",
+      "id": "f064fb7d281a465f",
       "title": "Police announced an additional felony escape charge. Cate said Moore",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "Police announced an additional felony escape charge. Cate said Moore was transferred to a juvenile",
@@ -4653,13 +4409,10 @@
       "guide_source_id": "S14",
       "guide_gap": false,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "ecc1511337914741",
+      "id": "45118d56ac3c4dd0",
       "title": "Police announced an additional felony escape charge. Cate said Moore",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "facility in Pinellas County, where he was not in general population.\n\nJevario’s",
@@ -4701,12 +4454,11 @@
       "guide_gap": true,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
       "source_crop_end": 5.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "a0084e8a2ded4d99",
+      "id": "472a478e38f04484",
       "title": "Jevario’s grandfather, Michael Baldwin Sr., said he feared for his",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "grandfather, Michael Baldwin Sr., said he feared for his family’s",
@@ -4737,13 +4489,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "37a274d68d514004",
+      "id": "cdc36551e970472c",
       "title": "Jevario’s grandfather, Michael Baldwin Sr., said he feared for his",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "safety and questioned how Moore had escaped. His grandmother, JoQuetta Winters, said police kept the family informed and sent officers to relatives’ homes.",
@@ -4790,12 +4539,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "dacaacbdbd6a4ab0",
+      "id": "d5658f0bbe904866",
       "title": "The Department of Juvenile Justice announced an investigation into the",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "The Department of Juvenile Justice announced an investigation into the escape.",
@@ -4826,13 +4574,10 @@
       "guide_source_id": "S14",
       "guide_gap": false,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "0af3ab2392634540",
+      "id": "e22ff9b63ffd403f",
       "title": "With the search over, the murder case continued. Prosecutors would",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "With the search over, the murder case continued. Prosecutors",
@@ -4863,13 +4608,10 @@
       "guide_source_id": "S14",
       "guide_gap": false,
       "source_label": "Tampa Police: full recapture briefing | Dec 9, 2024.",
-      "source_crop_end": 5.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 5.0
     },
     {
-      "id": "e633470026754f3d",
+      "id": "36353a362c704b53",
       "title": "Prosecutors would soon ask a judge to keep Moore in",
       "chapter": "CHAPTER 8 — ESCAPE, SEARCH AND RECAPTURE",
       "narration": "would soon ask a judge to keep Moore in jail while he waited for trial.",
@@ -4900,13 +4642,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "f03c9d32dd63492c",
+      "id": "65ff0cb032734181",
       "title": "On December 16, 2024, Assistant State Attorney Chinwe Fossett filed",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "On December 16, 2024, Assistant State Attorney Chinwe Fossett filed a written request for pretrial detention, asking",
@@ -4947,13 +4686,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "7721ce5161114804",
+      "id": "62cffa1ae48d4110",
       "title": "On December 16, 2024, Assistant State Attorney Chinwe Fossett filed",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "that Jahmir Moore remain jailed while awaiting trial. The Tampa Bay Times reported that the request described an investigation using surveillance video, social media and cellphone records.",
@@ -5005,12 +4741,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "fa700135c7154225",
+      "id": "e06c8b8d69054ee0",
       "title": "The next morning, Moore appeared in Hillsborough County Circuit Court",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "The next morning, Moore appeared in Hillsborough County Circuit Court. His attorney did not contest the request. Judge J. Logan Murphy",
@@ -5051,13 +4786,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "b47e6e186fee4653",
+      "id": "8e9c47bc2e774bc4",
       "title": "The next morning, Moore appeared in Hillsborough County Circuit Court",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "ordered the fifteen-year-old held without bail in the murder case. The order concerned pretrial custody, not guilt. Moore was already being held in an adult jail. State Attorney Suzy Lopez said he would be housed at the Hillsborough County Jail to protect the community and prevent another escape.",
@@ -5119,12 +4851,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
       "source_crop_end": 88.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "e7329afb60e14658",
+      "id": "62a0dc43ab0f411d",
       "title": "On September 1, 2026, Moore was seventeen. Jury selection began",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "On September 1, 2026, Moore was seventeen.",
@@ -5155,13 +4886,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "dc02ec02785640ad",
+      "id": "b216d96ab0854377",
       "title": "On September 1, 2026, Moore was seventeen. Jury selection began",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "Jury",
@@ -5188,12 +4916,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "707ed31e44de42d0",
+      "id": "594cacb0ce374b1d",
       "title": "Jury selection began in Tampa, followed by opening statements. The",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "selection began in Tampa, followed by opening statements.",
@@ -5224,13 +4951,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 9.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 9.0
     },
     {
-      "id": "db63575ff6aa4671",
+      "id": "59e6be6d67eb4d36",
       "title": "Jury selection began in Tampa, followed by opening statements. The",
       "chapter": "CHAPTER 9 — PRETRIAL DETENTION",
       "narration": "The jury would hear competing accounts of Jevario’s death.",
@@ -5267,12 +4991,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 9.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "02d4d3c6bc1a478d",
+      "id": "2d7706a2822747c4",
       "title": "At trial, Assistant State Attorney Chinwe Fossett argued that Moore",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "At trial, Assistant State Attorney Chinwe Fossett argued that Moore",
@@ -5308,13 +5031,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "67e857d5dce64a38",
+      "id": "db802402059643b2",
       "title": "At trial, Assistant State Attorney Chinwe Fossett argued that Moore",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "had deliberately killed Jevario. She said the shooting was connected to a dispute involving other teenagers. Defense attorney Sinardi offered another explanation. He argued that Moore acted in self-defense and that the shooting was not planned in advance.",
@@ -5366,12 +5086,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "377a4d836125499c",
+      "id": "091ef3681b0e433d",
       "title": "Prosecutors showed jurors surveillance footage, messages and social media p",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "Prosecutors showed jurors surveillance footage,",
@@ -5397,13 +5116,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "404a7bd2f9704115",
+      "id": "abdc5c435411445b",
       "title": "messages and social media posts. They argued that the material",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "messages and social media posts. They argued that the material supported their case.",
@@ -5434,13 +5150,10 @@
       "guide_source_id": "S05",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: December arrest announcement | Dec 5, 2024.",
-      "source_crop_end": 88.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 88.0
     },
     {
-      "id": "d0976e9bc12e4a5f",
+      "id": "7e612a48a922489b",
       "title": "Sinardi disputed the prosecution’s interpretation of his client’s posts and",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "Sinardi disputed the prosecution’s interpretation of his client’s posts and messages",
@@ -5476,13 +5189,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "a25bc24321454570",
+      "id": "0da000e7fb8c4c52",
       "title": "Sinardi disputed the prosecution’s interpretation of his client’s posts and",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "while acknowledging that they were inappropriate.\n\nA",
@@ -5519,12 +5229,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "b4c3851f3b3a4c6b",
+      "id": "aadb673c24d245b1",
       "title": "A third teenager testified as a prosecution witness. An associate",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "third teenager testified as a prosecution witness. An associate",
@@ -5555,13 +5264,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "80caa8a53d7140ee",
+      "id": "f654a8c5426348bf",
       "title": "A third teenager testified as a prosecution witness. An associate",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "medical examiner also testified about Jevario’s injuries, according to the Tampa Bay Times.",
@@ -5598,12 +5304,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "d7a1b06ff7ce4128",
+      "id": "d2a457d0a89a4f4f",
       "title": "Moore took the witness stand. He admitted that he shot",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "Moore took the witness stand. He admitted that he shot Jevario, but said",
@@ -5639,13 +5344,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "5fcd152290ed4602",
+      "id": "8261310a99a44c53",
       "title": "Moore took the witness stand. He admitted that he shot",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "he acted in self-defense during a struggle over a gun. During cross-examination, Fossett questioned him about his account and his messages. Moore disputed the prosecution’s characterization of many of them.",
@@ -5702,12 +5404,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "a7ec52866bd441a9",
+      "id": "c6a68bb77b0b4f6b",
       "title": "On September 3, 2026, the jury found Moore guilty of",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "On September 3, 2026, the jury found Moore guilty of first-degree",
@@ -5738,13 +5439,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 9.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 9.0
     },
     {
-      "id": "cc80f1d9d9df44e1",
+      "id": "bca95b515caa4564",
       "title": "On September 3, 2026, the jury found Moore guilty of",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "murder.",
@@ -5771,12 +5469,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 9.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "d08b1534b41f4636",
+      "id": "c5c963e90bdb41fb",
       "title": "Jevario’s mother, Jasmine Baldwin, had watched nearly all of the",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "Jevario’s mother, Jasmine Baldwin, had watched nearly all of the trial.",
@@ -5807,13 +5504,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "dc317ceab13449dc",
+      "id": "a662c26c2e384350",
       "title": "Jevario’s mother, Jasmine Baldwin, had watched nearly all of the",
       "chapter": "CHAPTER 10 — THE TRIAL",
       "narration": "His grandfather, Michael Baldwin Sr., said the family believed the jury got it right while recognizing that no verdict could undo their loss. Sentencing followed the next month.\n\nOn",
@@ -5865,12 +5559,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "65f8a20305c049a6",
+      "id": "881ed004605b468c",
       "title": "On October 16, 2026, Jahmir Moore returned to a Hillsborough",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "October 16, 2026, Jahmir Moore returned to a Hillsborough County courtroom for sentencing. He was seventeen, and he had been fifteen when he killed Jevario. He faced a sentence of forty",
@@ -5916,13 +5609,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "5fb29c6a88c24780",
+      "id": "6be33460fe3c4286",
       "title": "On October 16, 2026, Jahmir Moore returned to a Hillsborough",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "years to life in prison.\n\nAssistant",
@@ -5949,12 +5639,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
       "source_crop_end": 22.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "10e42bd5d53044cb",
+      "id": "7e7ab35565f44e29",
       "title": "Assistant State Attorney Chinwe Fossett asked Judge Lyann Goudie for",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "State Attorney Chinwe Fossett asked Judge Lyann Goudie for life in prison.",
@@ -5990,13 +5679,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "6d4196369c3a4929",
+      "id": "3c8ff3247b3a40b8",
       "title": "She argued the killing was deliberate and that Moore had",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "She argued the killing was deliberate and that Moore had shown little remorse,",
@@ -6027,13 +5713,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "d116b54bd1a74902",
+      "id": "545311f5430d4783",
       "title": "She argued the killing was deliberate and that Moore had",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "pointing to his posts after Jevario’s death and his escape from detention. Jevario’s",
@@ -6070,12 +5753,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "fa1264a9a40b41f7",
+      "id": "3de7b3c403f943da",
       "title": "Jevario’s family also asked the court for life. His mother",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "family also asked the court for life. His mother, sister and grandparents spoke about the loss of future birthdays, holidays and family gatherings with him. His grandmother, JoQuetta Winters, held",
@@ -6126,13 +5808,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "647e64d457f341d6",
+      "id": "b00f3b76df2b4cc8",
       "title": "Jevario’s family also asked the court for life. His mother",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "up his photograph while addressing Moore. His grandfather, Michael Baldwin Sr., urged Moore to acknowledge the harm he had caused and change.",
@@ -6174,12 +5853,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
       "source_crop_end": 22.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "256d18ff0e5b4b10",
+      "id": "46dc37b9117e4a25",
       "title": "Defense attorney Sinardi argued that Moore’s life experiences suggested the",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "Defense attorney Sinardi argued that Moore’s life experiences suggested the possibility of future reform.",
@@ -6215,13 +5893,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "da3ce5bff57244c8",
+      "id": "452fa964f2434d6c",
       "title": "Moore’s mother, Tabia Aska, spoke of a funny, playful son",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "Moore’s mother, Tabia Aska, spoke of a funny, playful son who loved",
@@ -6257,13 +5932,10 @@
       "guide_source_id": "S17",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
-      "source_crop_end": 24.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 24.0
     },
     {
-      "id": "920aff3a62984337",
+      "id": "085efee7be6d4fde",
       "title": "Moore’s mother, Tabia Aska, spoke of a funny, playful son",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "his family and playing football. She asked the judge not to see him as a monster and expressed sympathy to Jevario’s relatives.",
@@ -6300,12 +5972,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: murder verdict update | Sep 4, 2026.",
       "source_crop_end": 24.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "9c4d164dfe824255",
+      "id": "28f6155dfeab4b61",
       "title": "According to the Tampa Bay Times, Moore offered condolences and",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "According to the Tampa Bay Times, Moore offered condolences and an apology.\n\nJudge",
@@ -6341,13 +6012,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "3e4839f478254e34",
+      "id": "527740ede6b34a3a",
       "title": "Judge Goudie recognized the seriousness of the killing and the",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "Goudie recognized the seriousness of the killing and the lasting harm to Jevario’s family. She also considered Moore’s age and immaturity when deciding not to impose a life sentence.\n\nGoudie",
@@ -6393,13 +6061,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "69f427be89344d84",
+      "id": "40b790649b8c4dd0",
       "title": "Goudie sentenced Moore to fifty-five years in prison for the",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "sentenced Moore to fifty-five years in prison for the murder.",
@@ -6430,13 +6095,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "75b45f6a4e474678",
+      "id": "16f3af6f07244874",
       "title": "WFLA reported that the State Attorney’s Office shared two memories",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "WFLA reported that the State Attorney’s Office shared two memories:",
@@ -6467,13 +6129,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "1df374c2d7784ad3",
+      "id": "dff6988de870475c",
       "title": "WFLA reported that the State Attorney’s Office shared two memories",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "Jevario asked his mother to watch his bicycle wheelies, and",
@@ -6505,12 +6164,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "848e53b44fa74a39",
+      "id": "e0d435e44d834e63",
       "title": "and his grandfather recalled their races. For a killing committed",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "his grandfather recalled their races. For a killing committed at fifteen, how should",
@@ -6546,13 +6204,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 39.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 39.0
     },
     {
-      "id": "a38c7205661946dd",
+      "id": "de671c5945724b10",
       "title": "and his grandfather recalled their races. For a killing committed",
       "chapter": "CHAPTER 11 — SENTENCING",
       "narration": "a sentence balance accountability and the possibility of rehabilitation?",
@@ -6584,12 +6239,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 39.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "831ac737de5944f6",
+      "id": "b84d72b037d24f6a",
       "title": "After sentencing, Jevario’s grandfather, Michael Baldwin Sr., said the proc",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "After sentencing, Jevario’s grandfather, Michael Baldwin Sr., said the proceeding had closed an important chapter, but",
@@ -6630,13 +6284,10 @@
       "guide_source_id": "S19",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: October sentencing update | Oct 16, 2026.",
-      "source_crop_end": 22.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 22.0
     },
     {
-      "id": "b714ffa41f3d46d6",
+      "id": "52dca0e159a049c5",
       "title": "but it did not bring closure to the family’s loss",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "it did not bring closure to the family’s loss.\n\nJevario’s",
@@ -6667,13 +6318,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "b83bc3fb1d404fba",
+      "id": "13df02c84321404b",
       "title": "Jevario’s family had looked forward to celebrating his eighth-grade graduat",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "family had looked forward to celebrating his eighth-grade graduation.",
@@ -6704,13 +6352,10 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     },
     {
-      "id": "1dc6b00bc7874010",
+      "id": "a6b8a979904e482a",
       "title": "Jevario’s family had looked forward to celebrating his eighth-grade graduat",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "He had hoped to attend Tampa Bay Tech and study welding. His",
@@ -6747,12 +6392,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
       "source_crop_end": 33.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "47b6ba4cd1db4e65",
+      "id": "9148dad2a2274b14",
       "title": "His mother, Jasmine Baldwin, and his relatives kept his name",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "mother, Jasmine Baldwin, and his relatives kept his name in public view as they sought answers and attended court hearings.\n\nSubscribe",
@@ -6793,13 +6437,10 @@
       "guide_source_id": "S26",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: family appeal after the vigil | Apr 28, 2024 upload.",
-      "source_crop_end": 56.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 56.0
     },
     {
-      "id": "91621731fc7549cc",
+      "id": "2c530c8b43214e09",
       "title": "Subscribe to The Last Timeline for cases followed beyond arrest",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "to The Last Timeline for cases followed beyond arrest through verdict and",
@@ -6830,13 +6471,10 @@
       "guide_source_id": "S03",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
-      "source_crop_end": 46.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 46.0
     },
     {
-      "id": "5694e9c74e5041b9",
+      "id": "963809da2116467b",
       "title": "Subscribe to The Last Timeline for cases followed beyond arrest",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "sentencing. Watch the next documentary and comment respectfully on the sentence. Jevario’s",
@@ -6878,12 +6516,11 @@
       "guide_gap": true,
       "source_label": "10 Tampa Bay: grandfather’s appeal and railroad-area reporting | Apr 24, 2024.",
       "source_crop_end": 46.0,
-      "inspection_only": true,
       "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_window_basis": ""
     },
     {
-      "id": "caed0873d2ca45d4",
+      "id": "ea24d57012f74e27",
       "title": "Jevario’s family now lives without him",
       "chapter": "CHAPTER 12 — REMEMBERING JEVARIO",
       "narration": "family now lives without him.",
@@ -6909,10 +6546,7 @@
       "guide_source_id": "S04",
       "guide_gap": false,
       "source_label": "10 Tampa Bay: April 22 police appeal | Apr 22, 2024.",
-      "source_crop_end": 33.0,
-      "inspection_only": true,
-      "guide_unreviewed": false,
-      "source_window_basis": "reviewed source window"
+      "source_crop_end": 33.0
     }
   ],
   "assets": [
@@ -13861,24 +13495,24 @@
   ],
   "exports": [
     {
-      "id": "fdb6a3dd19d846bd",
-      "title": "NyRA Backup",
-      "created_at": "2026-11-03T02:10:07.312928+00:00",
-      "draft": true,
-      "url": "/exports/fdb6a3dd19d846bd/documentary.mp4",
-      "captions_url": "/exports/fdb6a3dd19d846bd/captions.srt",
-      "sources_url": "/exports/fdb6a3dd19d846bd/sources.md",
-      "preflight_url": "/exports/fdb6a3dd19d846bd/preflight.md",
-      "chapters_url": "/exports/fdb6a3dd19d846bd/chapters.txt",
-      "publication_url": "/exports/fdb6a3dd19d846bd/publication-notes.md",
+      "id": "1a938f1e9bf64f99",
+      "title": "Bismilah",
+      "created_at": "2026-11-03T02:42:43.893141+00:00",
+      "draft": false,
+      "url": "/exports/1a938f1e9bf64f99/documentary.mp4",
+      "captions_url": "/exports/1a938f1e9bf64f99/captions.srt",
+      "sources_url": "/exports/1a938f1e9bf64f99/sources.md",
+      "preflight_url": "/exports/1a938f1e9bf64f99/preflight.md",
+      "chapters_url": "/exports/1a938f1e9bf64f99/chapters.txt",
+      "publication_url": "/exports/1a938f1e9bf64f99/publication-notes.md",
       "duration": 903.541666666667,
       "resolution": "480p",
       "audio": true,
-      "size": 90217449,
+      "size": 91609601,
       "warnings": [],
-      "episode_plan_url": "/exports/fdb6a3dd19d846bd/episode-plan.md",
-      "marked_gaps_allowed": true,
-      "inspection_only": true
+      "episode_plan_url": "/exports/1a938f1e9bf64f99/episode-plan.md",
+      "marked_gaps_allowed": false,
+      "inspection_only": false
     }
   ],
   "messages": [],
@@ -13891,11 +13525,11 @@
     "facts": true,
     "rights": true,
     "disclosure": true,
-    "picture": false
+    "picture": true
   },
   "is_demo": false,
   "created_at": "2026-11-02T21:47:08.775938+00:00",
-  "updated_at": "2026-11-03T02:31:42.537510+00:00",
+  "updated_at": "2026-11-03T02:50:06.482243+00:00",
   "episode": {
     "brief": "Keep my narration unchanged. Follow the editing guide, mute source audio, and put music underneath my voice. Use only linked, producer-reviewed source files. Keep missing visuals visibly marked.",
     "bindings": {
@@ -65563,8 +65197,8 @@
     },
     "plan": {
       "input_digest": "de0e1d09d48714481dd60d55f1742a1e061c8d6fa8bbb020596c086186a3b0f1",
-      "timeline_digest": "367acbb0aa24688e86e92fa0b4b19e63799b301c188495f4f836cb721cb23608",
-      "built_at": "2026-11-03T02:04:24.403412+00:00",
+      "timeline_digest": "f064dcbbc7447b94081869155456d3d427e47d5b32fcaab789810db7f555b775",
+      "built_at": "2026-11-03T02:36:19.283611+00:00",
       "duration": 903.5416666666666,
       "scene_count": 158,
       "gap_seconds": 0.0,
@@ -65573,7 +65207,7 @@
       "source_audio": "muted",
       "timing": "provided caption timestamps; guide cue review required",
       "has_voice": true,
-      "mode": "inspection",
+      "mode": "reviewed",
       "unreviewed_cues": 0
     },
     "transcript_reviewed_digest": "de0e1d09d48714481dd60d55f1742a1e061c8d6fa8bbb020596c086186a3b0f1",
