@@ -12,3 +12,12 @@ node_modules/
 # Local runtime for the sandbox dev server (not part of the app)
 .casefile-studio-local/
 .tools/
+
+# Server data that is deliberately not versioned:
+# - media/: uploaded source files (originals live with the producer; too large
+#   for git — rendered outputs are committed under data/exports/ instead)
+# - browser-sessions/: browser-side recovery snapshots, machine-local
+# - recovery-backups/: transient pre-repair safety copies
+casefile-studio/data/media/
+casefile-studio/data/browser-sessions/
+casefile-studio/data/recovery-backups/
