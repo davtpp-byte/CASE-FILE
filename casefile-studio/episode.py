@@ -1520,6 +1520,7 @@ def build(project, allow_placeholders=False, inspection=False):
             )
         events[frame] = {"chapter": section, "cue": cue}
     boundaries = sorted(set(events) | {target})
+    cue_stops = {}
     scenes = []
     gap_frames = 0
 
@@ -1620,7 +1621,8 @@ def build(project, allow_placeholders=False, inspection=False):
         review = cue["review"]
         window = candidate["window"] if inspection else review
         visual_end = end
-        if review.get("narration_end") is not None:
+        stopped = review.get("narration_end") is not None
+        if stopped:
             visual_end = min(end, round(review["narration_end"] * FPS))
         trim = 0
         if asset["kind"] == "video":
@@ -1632,6 +1634,7 @@ def build(project, allow_placeholders=False, inspection=False):
             push(start, end, chapter, cue)
             continue
         source_crop_end = window["out"] if asset and asset["kind"] == "video" else None
+        cue_stops[cue["id"]] = stopped
         push(
             start,
             visual_end,
@@ -1652,8 +1655,13 @@ def build(project, allow_placeholders=False, inspection=False):
             source_crop_end=source_crop_end,
         )
     # Assign cue crops to gap scenes so the loop rule repeats the exact
-    # selected crop during preview and export. Gap scenes inherit the
-    # matched cue's asset_id, trim_start, and source_crop_end.
+    # selected crop during preview and export. Gap scenes inherit the matched
+    # cue's asset_id, trim_start and source_crop_end so the renderer repeats
+    # the exact selected crop; they also inherit source_label (the on-screen
+    # citation the editorial preflight requires) and the inspection
+    # disclosure fields. A cue with an explicit narration stop does not
+    # inherit: the Care rule that demanded the stop wins over the loop fill,
+    # and the span after the stop stays a marked gap.
     cue_crop_map = {}
     for s in scenes:
         if not s.get("guide_gap") and s.get("guide_cue_id"):
@@ -1663,15 +1671,20 @@ def build(project, allow_placeholders=False, inspection=False):
                     "asset_id": s.get("asset_id"),
                     "trim_start": s.get("trim_start", 0),
                     "source_crop_end": s.get("source_crop_end"),
+                    "source_label": s.get("source_label", ""),
+                    "guide_unreviewed": bool(s.get("guide_unreviewed")),
+                    "source_window_basis": s.get("source_window_basis", ""),
                 }
     for s in scenes:
         if s.get("guide_gap") and s.get("guide_cue_id"):
-            gcid = s["guide_cue_id"]
-            if gcid in cue_crop_map:
-                crop = cue_crop_map[gcid]
-                s["asset_id"] = crop["asset_id"]
-                s["trim_start"] = crop["trim_start"]
-                s["source_crop_end"] = crop["source_crop_end"]
+            crop = cue_crop_map.get(s["guide_cue_id"])
+            if crop and crop["asset_id"] and not cue_stops.get(s["guide_cue_id"]):
+                s.update(crop)
+    # Loop-filled spans are not gaps: only spans with no usable crop at all
+    # count toward gap_seconds and require marked-gap consent.
+    gap_frames = sum(
+        round(s["duration"] * FPS) for s in scenes if not s.get("asset_id")
+    )
     if len(scenes) > 400:
         raise ValueError(
             "This plan exceeds 400 scenes. Shorten the material or revise the guide."
@@ -1955,7 +1968,15 @@ def issues(project):
         if asset["kind"] == "video":
             review = candidate["window"] if inspection else e["reviews"][cue["id"]]
             start = float(scene.get("trim_start", 0))
-            end = start + float(scene["duration"])
+            # Guide loop rule: a scene may repeat its selected crop to fill the
+            # narration span, so the reviewed window bounds the crop actually
+            # read — [trim_start, source_crop_end] — not trim_start + duration.
+            crop_end = scene.get("source_crop_end")
+            end = (
+                max(start, float(crop_end))
+                if crop_end is not None
+                else start + float(scene["duration"])
+            )
             if start < review["in"] - 0.025 or end > review["out"] + 0.025:
                 add(
                     "episode_source_bounds",

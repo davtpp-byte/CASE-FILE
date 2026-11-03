@@ -18,7 +18,7 @@ Select **Planning mode → Inspection draft**, then **Build / rebuild inspection
 - A guide window that does not fit the uploaded file is not silently offset or stretched. Enter the correct local in/out range instead. Partial or invalid manual ranges are not guessed away.
 - A source window can be saved with the approval checkbox **unticked**. This does not approve rights, identity or Care.
 - Known chapter-3 residential restrictions and guide-required narration stop times remain enforced, including in inspection. Other identity/privacy/cropping/context requirements still require actual human viewing; inspection is not automated semantic verification.
-- Source audio stays muted. Short source windows play once and leave visible gaps, not loops or invented replacement footage.
+- Source audio stays muted. Each scene's selected crop loops to fill that scene—never into other footage. Placements with no usable file stay marked gap cards; nothing is invented or substituted.
 - The uploaded narration is continuous and unchanged. Matching timing exports place cues; caption display remains optional without changing the clock.
 
 Click **View timeline** to open on the first available visual rather than an initial short gap. Playback from the beginning still preserves the complete narration.

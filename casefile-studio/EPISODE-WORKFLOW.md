@@ -63,7 +63,7 @@ Rights review, factual/source review, visual-context review, and timing review a
 
 Press **Preview episode plan** (or **Rebuild episode plan** after changes).
 
-CASEFILE places the source specified by each guide cue, applies its source/date label, and mutes source audio. A reviewed video range plays once. If it is too short for that narration span, the remaining time becomes a marked gap—it is not looped or filled with unrelated stock.
+CASEFILE places the source specified by each guide cue, applies its source/date label, and mutes source audio. The selected crop loops to fill its scene: it plays, then repeats from its own beginning as many times as needed, with the final repetition trimmed at the scene's end. It is never replaced with unrelated stock. A placement with no usable file becomes a marked gap.
 
 Approved stills may hold until the next cue/chapter boundary; use a narration stop to limit a hold. Coverage changes at chapter boundaries. The planner does not invent more footage or silently substitute another source.
 

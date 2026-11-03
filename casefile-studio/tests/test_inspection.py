@@ -127,16 +127,21 @@ def test_source_cannot_double_as_narration_or_music_in_inspection():
     assert not candidate(p)["usable"]
 
 
-def test_inspection_keeps_full_voice_exact_captions_and_nonlooping_short_source():
+def test_inspection_keeps_full_voice_exact_captions_and_looped_short_source():
     p = unreviewed()
     expected = renderer.project_srt(p)
     episode.build(p, True, inspection=True)
     assert renderer.project_srt(p) == expected
     assert sum(s["duration"] for s in p["scenes"]) == pytest.approx(145 / 24)
     used = [s for s in p["scenes"] if s["guide_source_id"] == "S03" and s["asset_id"]]
-    assert sum(s["duration"] for s in used) == pytest.approx(1.0)
+    # Guide rule: the disclosed 1s window [1, 2] fills the placement's whole
+    # narration span by repeating the exact selected crop.
+    assert sum(s["duration"] for s in used) == pytest.approx(73 / 24)
     assert all(
-        1 <= s["trim_start"] and s["trim_start"] + s["duration"] <= 2.001 for s in used
+        s["trim_start"] == 1
+        and s.get("source_crop_end") == 2
+        and s.get("guide_unreviewed")
+        for s in used
     )
     assert not [i for i in episode.issues(p) if i["blocks_draft"]]
     p["captions"] = False
